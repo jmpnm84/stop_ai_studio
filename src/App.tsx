@@ -12,13 +12,21 @@ import {
 import { DatabaseModal } from './components/DatabaseModal.tsx';
 import { PWAInstallButton } from './components/PWAInstallButton.tsx';
 import { StopLabelCard } from './components/StopLabelCard.tsx';
+import seedReferencesData from './data/referencias.json';
 import { useAppUpdate } from './hooks/useAppUpdate.ts';
 import {
   formatTodayPt,
   type ReferenceItem,
   type StopLabelData,
 } from './types.ts';
-import { getAllCachedRefs, replaceCachedRefs } from './utils/indexedDb.ts';
+import {
+  loadOrSeedStaticRefs,
+  replaceCachedRefs,
+} from './utils/indexedDb.ts';
+
+const SEED_REFERENCES: ReferenceItem[] = Array.isArray(seedReferencesData)
+  ? (seedReferencesData as ReferenceItem[])
+  : [];
 
 interface ToastMessage {
   id: number;
@@ -45,6 +53,7 @@ export default function App() {
 
   const [references, setReferences] = useState<ReferenceItem[]>([]);
   const [loadingRefs, setLoadingRefs] = useState<boolean>(true);
+  const [backendAvailable, setBackendAvailable] = useState<boolean>(false);
   const [dbOpen, setDbOpen] = useState<boolean>(false);
   const [isOnline, setIsOnline] = useState<boolean>(
     typeof navigator !== 'undefined' ? navigator.onLine : true
@@ -66,31 +75,25 @@ export default function App() {
   const loadReferences = useCallback(async () => {
     try {
       const res = await fetch('/api/references', { cache: 'no-store' });
-      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      const contentType = res.headers.get('content-type') || '';
+      if (!res.ok || !contentType.includes('application/json')) {
+        throw new Error(`HTTP ${res.status}`);
+      }
       const payload = await res.json();
       const items: ReferenceItem[] = Array.isArray(payload.items)
         ? payload.items
         : [];
+      setBackendAvailable(true);
       setReferences(items);
       await replaceCachedRefs(items);
     } catch {
-      const cached = await getAllCachedRefs();
-      setReferences(cached);
-      if (cached.length > 0) {
-        showToast(
-          'Modo offline: a utilizar referências guardadas localmente.',
-          'info'
-        );
-      } else {
-        showToast(
-          'Não foi possível carregar a base de dados de referências.',
-          'error'
-        );
-      }
+      setBackendAvailable(false);
+      const localItems = await loadOrSeedStaticRefs(SEED_REFERENCES);
+      setReferences(localItems);
     } finally {
       setLoadingRefs(false);
     }
-  }, [showToast]);
+  }, []);
 
   useEffect(() => {
     void loadReferences();
@@ -154,11 +157,35 @@ export default function App() {
   const handleAddReference = async (
     item: ReferenceItem
   ): Promise<{ ok: boolean; error?: string }> => {
+    const trimmedRef = item.ref.trim();
+    const trimmedPeca = item.peca.trim();
+    if (!trimmedRef) {
+      return { ok: false, error: 'O campo Referência é obrigatório.' };
+    }
+
+    if (!backendAvailable) {
+      const exists = references.some(
+        (entry) => entry.ref.toLowerCase() === trimmedRef.toLowerCase()
+      );
+      if (exists) {
+        return {
+          ok: false,
+          error: `A referência "${trimmedRef}" já existe na base de dados.`,
+        };
+      }
+      const created: ReferenceItem = { ref: trimmedRef, peca: trimmedPeca };
+      const next = [created, ...references];
+      setReferences(next);
+      await replaceCachedRefs(next);
+      showToast(`Referência ${created.ref} adicionada.`, 'success');
+      return { ok: true };
+    }
+
     try {
       const res = await fetch('/api/references', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(item),
+        body: JSON.stringify({ ref: trimmedRef, peca: trimmedPeca }),
       });
       const payload = await res.json();
       if (!res.ok) {
@@ -167,7 +194,7 @@ export default function App() {
       const next = [payload.item as ReferenceItem, ...references];
       setReferences(next);
       await replaceCachedRefs(next);
-      showToast(`Referência ${item.ref} adicionada.`, 'success');
+      showToast(`Referência ${trimmedRef} adicionada.`, 'success');
       return { ok: true };
     } catch {
       return { ok: false, error: 'Erro de ligação ao servidor.' };
@@ -178,13 +205,42 @@ export default function App() {
     originalRef: string,
     updated: ReferenceItem
   ): Promise<{ ok: boolean; error?: string }> => {
+    const nextRef = updated.ref.trim();
+    const nextPeca = updated.peca.trim();
+    if (!nextRef) {
+      return { ok: false, error: 'A referência não pode ficar vazia.' };
+    }
+
+    if (!backendAvailable) {
+      const collision = references.some(
+        (entry) =>
+          entry.ref.toLowerCase() !== originalRef.toLowerCase() &&
+          entry.ref.toLowerCase() === nextRef.toLowerCase()
+      );
+      if (collision) {
+        return {
+          ok: false,
+          error: `Já existe outra entrada com a referência "${nextRef}".`,
+        };
+      }
+      const next = references.map((entry) =>
+        entry.ref.toLowerCase() === originalRef.toLowerCase()
+          ? { ref: nextRef, peca: nextPeca }
+          : entry
+      );
+      setReferences(next);
+      await replaceCachedRefs(next);
+      showToast(`Referência ${nextRef} atualizada.`, 'success');
+      return { ok: true };
+    }
+
     try {
       const res = await fetch(
         `/api/references/${encodeURIComponent(originalRef)}`,
         {
           method: 'PUT',
           headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify(updated),
+          body: JSON.stringify({ ref: nextRef, peca: nextPeca }),
         }
       );
       const payload = await res.json();
@@ -198,7 +254,7 @@ export default function App() {
       );
       setReferences(next);
       await replaceCachedRefs(next);
-      showToast(`Referência ${updated.ref} atualizada.`, 'success');
+      showToast(`Referência ${nextRef} atualizada.`, 'success');
       return { ok: true };
     } catch {
       return { ok: false, error: 'Erro de ligação ao servidor.' };
@@ -208,6 +264,16 @@ export default function App() {
   const handleDeleteReference = async (
     ref: string
   ): Promise<{ ok: boolean; error?: string }> => {
+    if (!backendAvailable) {
+      const next = references.filter(
+        (entry) => entry.ref.toLowerCase() !== ref.toLowerCase()
+      );
+      setReferences(next);
+      await replaceCachedRefs(next);
+      showToast(`Referência ${ref} removida.`, 'info');
+      return { ok: true };
+    }
+
     try {
       const res = await fetch(`/api/references/${encodeURIComponent(ref)}`, {
         method: 'DELETE',
@@ -242,9 +308,9 @@ export default function App() {
 
   return (
     <div className="min-h-screen flex flex-col bg-[#f3f4f6] text-slate-900 print:bg-white">
-      {/* Top Bar (3-zone contract, hidden on print) */}
-      <header className="no-print bg-white border-b border-slate-200 px-6 py-3.5">
-        <div className="max-w-6xl mx-auto flex items-center justify-between gap-8">
+      {/* Top Bar (hidden on print) */}
+      <header className="no-print bg-white border-b border-slate-200 px-4 sm:px-6 py-3">
+        <div className="max-w-7xl mx-auto flex flex-wrap items-center justify-between gap-3 sm:gap-6">
           <a
             href="#etiqueta"
             onClick={(e) => {
@@ -256,32 +322,82 @@ export default function App() {
             Trigo STOP
           </a>
 
-          <nav className="hidden sm:flex items-center gap-6 text-sm font-medium text-slate-600">
+          <div className="flex flex-wrap items-center justify-center gap-2 order-3 lg:order-2 w-full lg:w-auto">
             <button
               type="button"
-              onClick={() => setDbOpen(false)}
-              className={`py-1 transition-colors whitespace-nowrap shrink-0 cursor-pointer ${
-                !dbOpen
-                  ? 'text-slate-950 font-semibold border-b-2 border-[#ffdc00]'
-                  : 'hover:text-slate-950'
-              }`}
+              onClick={handleClearForm}
+              className="inline-flex items-center justify-center gap-1.5 px-3.5 py-2 text-xs font-bold text-white bg-[#d61c1c] hover:bg-[#b91616] rounded-md transition-colors cursor-pointer whitespace-nowrap shrink-0"
             >
-              Etiqueta STOP
+              <Eraser className="w-3.5 h-3.5" />
+              <span>Limpar</span>
             </button>
+
             <button
               type="button"
               onClick={() => setDbOpen(true)}
-              className={`py-1 transition-colors whitespace-nowrap shrink-0 cursor-pointer ${
-                dbOpen
-                  ? 'text-slate-950 font-semibold border-b-2 border-[#ffdc00]'
-                  : 'hover:text-slate-950'
-              }`}
+              className="inline-flex items-center justify-center gap-1.5 px-3.5 py-2 text-xs font-bold text-slate-900 bg-white border border-slate-300 hover:bg-slate-50 rounded-md transition-colors cursor-pointer whitespace-nowrap shrink-0"
             >
-              Base de Dados
+              <Database className="w-3.5 h-3.5 text-[#034263]" />
+              <span>Base de Dados</span>
+              <span className="font-mono-tabular text-xs font-medium text-slate-500">
+                ({references.length.toLocaleString('pt-PT')})
+              </span>
             </button>
-          </nav>
 
-          <div className="flex items-center gap-3 shrink-0">
+            <button
+              type="button"
+              onClick={handleUpdateButtonClick}
+              disabled={checkingUpdate || installingUpdate}
+              className={`inline-flex items-center justify-center gap-1.5 px-3.5 py-2 text-xs font-bold rounded-md transition-colors cursor-pointer whitespace-nowrap shrink-0 disabled:opacity-60 ${
+                updateAvailable
+                  ? 'bg-[#ffdc00] text-black border border-amber-500 hover:bg-[#f2d000]'
+                  : 'bg-[#034263] text-white hover:bg-[#02334d]'
+              }`}
+              title={
+                updateAvailable
+                  ? 'Instalar a nova atualização disponível'
+                  : 'Verificar se existem atualizações disponíveis'
+              }
+            >
+              {updateAvailable ? (
+                <>
+                  <ArrowDownToLine className="w-3.5 h-3.5" />
+                  <span>
+                    {installingUpdate
+                      ? 'A instalar...'
+                      : 'Instalar Atualização'}
+                  </span>
+                </>
+              ) : (
+                <>
+                  <RefreshCw
+                    className={`w-3.5 h-3.5 ${checkingUpdate ? 'animate-spin' : ''}`}
+                  />
+                  <span>
+                    {checkingUpdate ? 'A verificar...' : 'Atualizar'}
+                  </span>
+                </>
+              )}
+            </button>
+
+            <button
+              type="button"
+              onClick={() => setPreviewDual((prev) => !prev)}
+              className={`hidden xl:inline-flex items-center gap-1.5 px-3 py-2 text-xs font-semibold rounded-md border transition-colors cursor-pointer whitespace-nowrap shrink-0 ${
+                previewDual
+                  ? 'bg-slate-900 text-white border-slate-900'
+                  : 'bg-white text-slate-700 border-slate-300 hover:bg-slate-50'
+              }`}
+              title="Alternar pré-visualização das 2 etiquetas A5 por página"
+            >
+              <Columns2 className="w-3.5 h-3.5" />
+              <span>{previewDual ? 'Vista Simples' : 'Pré-visualizar A4 (2x)'}</span>
+            </button>
+
+            <PWAInstallButton />
+          </div>
+
+          <div className="flex items-center gap-3 order-2 lg:order-3 shrink-0">
             <button
               type="button"
               onClick={() => window.print()}
@@ -296,83 +412,6 @@ export default function App() {
 
       {/* Main Workspace */}
       <main className="flex-1 flex flex-col items-center px-3 py-5 print:p-0">
-        {/* Action Toolbar above the A5 Label (hidden on print) */}
-        <div className="no-print w-full max-w-[14cm] lg:max-w-3xl mb-4 flex flex-wrap items-center justify-between gap-2.5">
-          <div className="flex flex-wrap items-center gap-2 flex-1">
-            <button
-              type="button"
-              onClick={handleClearForm}
-              className="inline-flex items-center justify-center gap-1.5 px-4 py-2.5 text-[13px] font-bold text-white bg-[#d61c1c] hover:bg-[#b91616] rounded-md shadow-xs transition-colors cursor-pointer whitespace-nowrap shrink-0 flex-1 sm:flex-initial"
-            >
-              <Eraser className="w-4 h-4" />
-              <span>Limpar</span>
-            </button>
-
-            <button
-              type="button"
-              onClick={() => setDbOpen(true)}
-              className="inline-flex items-center justify-center gap-2 px-4 py-2.5 text-[13px] font-bold text-slate-900 bg-white border border-slate-300 hover:bg-slate-50 rounded-md shadow-xs transition-colors cursor-pointer whitespace-nowrap shrink-0 flex-1 sm:flex-initial"
-            >
-              <Database className="w-4 h-4 text-[#034263]" />
-              <span>Base de Dados</span>
-              <span className="font-mono-tabular text-xs font-medium text-slate-500">
-                ({references.length.toLocaleString('pt-PT')})
-              </span>
-            </button>
-
-            <button
-              type="button"
-              onClick={handleUpdateButtonClick}
-              disabled={checkingUpdate || installingUpdate}
-              className={`inline-flex items-center justify-center gap-1.5 px-4 py-2.5 text-[13px] font-bold rounded-md shadow-xs transition-colors cursor-pointer whitespace-nowrap shrink-0 flex-1 sm:flex-initial disabled:opacity-60 ${
-                updateAvailable
-                  ? 'bg-[#ffdc00] text-black border border-amber-500 hover:bg-[#f2d000]'
-                  : 'bg-[#034263] text-white hover:bg-[#02334d]'
-              }`}
-              title={
-                updateAvailable
-                  ? 'Instalar a nova atualização disponível'
-                  : 'Verificar se existem atualizações disponíveis'
-              }
-            >
-              {updateAvailable ? (
-                <>
-                  <ArrowDownToLine className="w-4 h-4" />
-                  <span>
-                    {installingUpdate
-                      ? 'A instalar...'
-                      : 'Instalar Atualização'}
-                  </span>
-                </>
-              ) : (
-                <>
-                  <RefreshCw
-                    className={`w-4 h-4 ${checkingUpdate ? 'animate-spin' : ''}`}
-                  />
-                  <span>
-                    {checkingUpdate ? 'A verificar...' : 'Atualizar'}
-                  </span>
-                </>
-              )}
-            </button>
-
-            <PWAInstallButton />
-          </div>
-
-          <button
-            type="button"
-            onClick={() => setPreviewDual((prev) => !prev)}
-            className={`hidden xl:inline-flex items-center gap-1.5 px-3 py-2.5 text-xs font-semibold rounded-md border transition-colors cursor-pointer whitespace-nowrap shrink-0 ${
-              previewDual
-                ? 'bg-slate-900 text-white border-slate-900'
-                : 'bg-white text-slate-700 border-slate-300 hover:bg-slate-50'
-            }`}
-            title="Alternar pré-visualização das 2 etiquetas A5 por página"
-          >
-            <Columns2 className="w-4 h-4" />
-            <span>{previewDual ? 'Vista Simples' : 'Pré-visualizar A4 (2x)'}</span>
-          </button>
-        </div>
 
         {/* Startup / Update Available Banner */}
         {updateAvailable && (

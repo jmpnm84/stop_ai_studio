@@ -1,5 +1,6 @@
 import tailwindcss from '@tailwindcss/vite';
 import react from '@vitejs/plugin-react';
+import crypto from 'crypto';
 import fs from 'fs';
 import path from 'path';
 import { defineConfig } from 'vite';
@@ -53,7 +54,7 @@ export default defineConfig(() => {
         },
         workbox: {
           globPatterns: ['**/*.{js,css,html,ico,png,svg,jpg,woff,woff2}'],
-          navigateFallbackDenylist: [/^\/api\//],
+          navigateFallbackDenylist: [/^\/api\//, /^\/version\.json$/],
           runtimeCaching: [
             {
               urlPattern: /^https:\/\/fonts\.googleapis\.com\/.*/i,
@@ -90,6 +91,37 @@ export default defineConfig(() => {
           type: 'module',
         },
       }),
+      // Emits static dist/version.json during build so Vercel / static deployments
+      // can check for newly published updates without requiring a Node API server.
+      {
+        name: 'emit-static-version-json',
+        apply: 'build',
+        closeBundle(error?: Error): void {
+          if (error) return;
+          const distDir = path.resolve(__dirname, 'dist');
+          if (!fs.existsSync(distDir)) return;
+          const version = '4.2.0';
+          const buildHash = crypto
+            .createHash('sha256')
+            .update(`${version}:${Date.now()}`)
+            .digest('hex')
+            .slice(0, 12);
+          fs.writeFileSync(
+            path.join(distDir, 'version.json'),
+            JSON.stringify(
+              {
+                version,
+                buildHash,
+                refsMtime: 0,
+                checkedAt: new Date().toISOString(),
+              },
+              null,
+              2
+            ),
+            'utf8'
+          );
+        },
+      },
       // Copies src/assets into dist/ so root-relative URLs like
       // "/src/assets/images/..." (e.g. generate_image output) still resolve
       // in production builds. Do not remove.

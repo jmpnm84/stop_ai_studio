@@ -1,0 +1,9554 @@
+[
+  {
+    "ref": "135024452R",
+    "peca": "CART DIST BRU DAC"
+  },
+  {
+    "ref": "292A07076R",
+    "peca": "MDU CVTS TENSION"
+  },
+  {
+    "ref": "322045372R",
+    "peca": "STOP, SFT PINION"
+  },
+  {
+    "ref": "215868545R",
+    "peca": "CASQ.EIXOS/CED"
+  },
+  {
+    "ref": "304001950R",
+    "peca": "CED JR5*189 MPR"
+  },
+  {
+    "ref": "306206620R",
+    "peca": "REC CONC JT4 NOVO"
+  },
+  {
+    "ref": "313373737R",
+    "peca": "TAMPAO OBTUR 2 ND"
+  },
+  {
+    "ref": "320100858R",
+    "peca": "BVM ASS JT 006"
+  },
+  {
+    "ref": "320101499R",
+    "peca": "BVM ASS JT 024"
+  },
+  {
+    "ref": "320101738R",
+    "peca": "BVM ASS JT 033"
+  },
+  {
+    "ref": "320104466R",
+    "peca": "BVM ASS JT 032"
+  },
+  {
+    "ref": "320107142R",
+    "peca": "BVM ASS JT 013"
+  },
+  {
+    "ref": "320107400R",
+    "peca": "BVM ASS JT 023"
+  },
+  {
+    "ref": "320107956R",
+    "peca": "BVM ASS JT 021"
+  },
+  {
+    "ref": "320108084R",
+    "peca": "BVM ASS JT 012"
+  },
+  {
+    "ref": "320108230R",
+    "peca": "BVM ASS JT 022"
+  },
+  {
+    "ref": "320108995R",
+    "peca": "BVM ASS JT 027"
+  },
+  {
+    "ref": "320109811R",
+    "peca": "BVM ASS JT 018"
+  },
+  {
+    "ref": "321072780R",
+    "peca": "GOULOT AP JT4 NV"
+  },
+  {
+    "ref": "321073452R",
+    "peca": "GOULOT A SEC JT4"
+  },
+  {
+    "ref": "321091974R",
+    "peca": "DEFLETOR MAT JT4"
+  },
+  {
+    "ref": "321093652R",
+    "peca": "DEFLETOR SEC JT4"
+  },
+  {
+    "ref": "321097975R",
+    "peca": "DEFLETOR PRI JT4"
+  },
+  {
+    "ref": "322037053R",
+    "peca": "ROLAM AP/CED P12"
+  },
+  {
+    "ref": "322040472R",
+    "peca": "FREI ROL AS/CM JT"
+  },
+  {
+    "ref": "322233839R",
+    "peca": "ROL AS MA/CM P31"
+  },
+  {
+    "ref": "322237285R",
+    "peca": "ROLAM AS/CM P21"
+  },
+  {
+    "ref": "322370032R",
+    "peca": "FREI D62 EP 1.38"
+  },
+  {
+    "ref": "322370342R",
+    "peca": "FREI D62 EP 1.18"
+  },
+  {
+    "ref": "322370407R",
+    "peca": "FREI D62 EP 1.28"
+  },
+  {
+    "ref": "322370415R",
+    "peca": "FREI D62 EP 1.455"
+  },
+  {
+    "ref": "322370428R",
+    "peca": "ANIL D67,5 EP1.62"
+  },
+  {
+    "ref": "322370617R",
+    "peca": "ANIL P 4A 1.825"
+  },
+  {
+    "ref": "322370645R",
+    "peca": "ANIL P 4A 1.950"
+  },
+  {
+    "ref": "322370790R",
+    "peca": "ANIL D67,5 EP1.90"
+  },
+  {
+    "ref": "322370863R",
+    "peca": "FREI D62 EP 1.255"
+  },
+  {
+    "ref": "322371504R",
+    "peca": "ANIL P 6A 1,875"
+  },
+  {
+    "ref": "322371561R",
+    "peca": "FREI D62 EP 1.705"
+  },
+  {
+    "ref": "322371589R",
+    "peca": "ANIL P 6A 2,000"
+  },
+  {
+    "ref": "322371823R",
+    "peca": "ANIL P 6A 2,125"
+  },
+  {
+    "ref": "322371926R",
+    "peca": "ANIL P 4A 1.900"
+  },
+  {
+    "ref": "322371985R",
+    "peca": "FREI D62 EP 1.23"
+  },
+  {
+    "ref": "322372242R",
+    "peca": "ANIL P 6A 2,150"
+  },
+  {
+    "ref": "322372716R",
+    "peca": "FREI D62 EP 1.73"
+  },
+  {
+    "ref": "322372748R",
+    "peca": "ANIL D67,5 EP1.86"
+  },
+  {
+    "ref": "322373063R",
+    "peca": "FREI D62 EP 1.655"
+  },
+  {
+    "ref": "322373143R",
+    "peca": "ANIL P 4A 2.050"
+  },
+  {
+    "ref": "322373209R",
+    "peca": "FREI D62 EP 1.08"
+  },
+  {
+    "ref": "322373323R",
+    "peca": "ANIL P 6A 2,025"
+  },
+  {
+    "ref": "322373418R",
+    "peca": "ANIL P 6A 1,900"
+  },
+  {
+    "ref": "322373705R",
+    "peca": "FREI D62 EP 1.505"
+  },
+  {
+    "ref": "322374036R",
+    "peca": "FREI D62 EP 1.605"
+  },
+  {
+    "ref": "322374236R",
+    "peca": "ANIL P 6A 1,975"
+  },
+  {
+    "ref": "322374282R",
+    "peca": "ANIL P 6A 2,100"
+  },
+  {
+    "ref": "322374329R",
+    "peca": "ANIL P 4A 2.000"
+  },
+  {
+    "ref": "322374560R",
+    "peca": "ANIL P 4A 2.150"
+  },
+  {
+    "ref": "322374786R",
+    "peca": "ANIL P 6A 2,050"
+  },
+  {
+    "ref": "322374902R",
+    "peca": "FREI D62 EP 1.105"
+  },
+  {
+    "ref": "322375013R",
+    "peca": "ANIL P 4A 1.975"
+  },
+  {
+    "ref": "322375078R",
+    "peca": "ANIL P 4A 2.100"
+  },
+  {
+    "ref": "322375213R",
+    "peca": "FREI D62 EP 1.53"
+  },
+  {
+    "ref": "322375455R",
+    "peca": "ANIL P 4A 1.850"
+  },
+  {
+    "ref": "322375523R",
+    "peca": "FREI D62 EP 1.405"
+  },
+  {
+    "ref": "322375601R",
+    "peca": "ANIL D67,5 EP1.78"
+  },
+  {
+    "ref": "322375714R",
+    "peca": "ANIL P 4A 2.125"
+  },
+  {
+    "ref": "322375782R",
+    "peca": "ANIL D67,5 EP1.50"
+  },
+  {
+    "ref": "322375822R",
+    "peca": "FREI D62 EP 1.305"
+  },
+  {
+    "ref": "322375826R",
+    "peca": "FREI D62 EP 1.205"
+  },
+  {
+    "ref": "322376125R",
+    "peca": "ANIL P 6A 1,950"
+  },
+  {
+    "ref": "322376141R",
+    "peca": "ANIL P 4A 2.200"
+  },
+  {
+    "ref": "322376517R",
+    "peca": "ANIL P 4A 2.025"
+  },
+  {
+    "ref": "322376944R",
+    "peca": "FREI D62 EP 1.155"
+  },
+  {
+    "ref": "322377234R",
+    "peca": "FREI D62 EP 1.355"
+  },
+  {
+    "ref": "322377335R",
+    "peca": "FREI D62 EP 1.33"
+  },
+  {
+    "ref": "322377494R",
+    "peca": "ANIL D67,5 EP1.54"
+  },
+  {
+    "ref": "322377557R",
+    "peca": "ANIL P 4A 1.800"
+  },
+  {
+    "ref": "322377726R",
+    "peca": "FREI D62 EP 1.48"
+  },
+  {
+    "ref": "322377859R",
+    "peca": "FREI D62 EP 1.13"
+  },
+  {
+    "ref": "322377993R",
+    "peca": "ANIL P 4A 2.075"
+  },
+  {
+    "ref": "322378127R",
+    "peca": "ANIL P 6A 2,075"
+  },
+  {
+    "ref": "322378171R",
+    "peca": "ANIL P 6A 1,850"
+  },
+  {
+    "ref": "322378350R",
+    "peca": "ANIL D67,5 EP1.74"
+  },
+  {
+    "ref": "322378371R",
+    "peca": "FREI D62 EP 1.43"
+  },
+  {
+    "ref": "322378675R",
+    "peca": "ANIL D67,5 EP1.82"
+  },
+  {
+    "ref": "322378760R",
+    "peca": "FREI D62 EP 1.58"
+  },
+  {
+    "ref": "322379003R",
+    "peca": "ANIL P 4A 2.175"
+  },
+  {
+    "ref": "322379156R",
+    "peca": "ANIL D67,5 EP1.66"
+  },
+  {
+    "ref": "322379262R",
+    "peca": "ANIL D67,5 EP1.70"
+  },
+  {
+    "ref": "322379372R",
+    "peca": "FREI D62 EP 1.68"
+  },
+  {
+    "ref": "322379382R",
+    "peca": "ANIL P 4A 1.875"
+  },
+  {
+    "ref": "322379437R",
+    "peca": "ANIL P 4A 1.925"
+  },
+  {
+    "ref": "322379532R",
+    "peca": "FREI D62 EP 1.555"
+  },
+  {
+    "ref": "322379599R",
+    "peca": "ANIL D67,5 EP1.58"
+  },
+  {
+    "ref": "322379675R",
+    "peca": "ANIL P 6A 1,925"
+  },
+  {
+    "ref": "322379952R",
+    "peca": "FREI D62 EP 1.63"
+  },
+  {
+    "ref": "322390702R",
+    "peca": "FREI AP EP 1,725"
+  },
+  {
+    "ref": "322390903R",
+    "peca": "FREI AP EP 2.100"
+  },
+  {
+    "ref": "322391136R",
+    "peca": "FREI AP EP 1.550"
+  },
+  {
+    "ref": "322391438R",
+    "peca": "FREI AP EP 1.650"
+  },
+  {
+    "ref": "322391647R",
+    "peca": "FREI AP EP 1.575"
+  },
+  {
+    "ref": "322392021R",
+    "peca": "FREI AP EP 2.025"
+  },
+  {
+    "ref": "322392256R",
+    "peca": "FREI AP EP 2.050"
+  },
+  {
+    "ref": "322392755R",
+    "peca": "FREI AP EP 1.925"
+  },
+  {
+    "ref": "322392840R",
+    "peca": "FREI AP EP 2.000"
+  },
+  {
+    "ref": "322392849R",
+    "peca": "FREI AP EP 1.900"
+  },
+  {
+    "ref": "322392911R",
+    "peca": "FREI AP EP 1.775"
+  },
+  {
+    "ref": "322392916R",
+    "peca": "FREI AP EP 1.500"
+  },
+  {
+    "ref": "322392996R",
+    "peca": "FREI AP EP 1.525"
+  },
+  {
+    "ref": "322394245R",
+    "peca": "FREI AP EP 1.600"
+  },
+  {
+    "ref": "322394975R",
+    "peca": "FREI AP EP 1.800"
+  },
+  {
+    "ref": "322395528R",
+    "peca": "FREI AP EP 1.700"
+  },
+  {
+    "ref": "322395777R",
+    "peca": "FREI AP EP 2.125"
+  },
+  {
+    "ref": "322396162R",
+    "peca": "FREI AP EP 1.625"
+  },
+  {
+    "ref": "322396376R",
+    "peca": "FREI AP EP 1.825"
+  },
+  {
+    "ref": "322396613R",
+    "peca": "FREI AP EP 2.075"
+  },
+  {
+    "ref": "322396877R",
+    "peca": "FREI AP EP 2.150"
+  },
+  {
+    "ref": "322397774R",
+    "peca": "FREI AP EP 1.850"
+  },
+  {
+    "ref": "322397778R",
+    "peca": "FREI AP EP 1.675"
+  },
+  {
+    "ref": "322397832R",
+    "peca": "FREI AP EP 1.950"
+  },
+  {
+    "ref": "322398780R",
+    "peca": "FREI AP EP 1.750"
+  },
+  {
+    "ref": "322399232R",
+    "peca": "FREI AP EP 1.975"
+  },
+  {
+    "ref": "322399540R",
+    "peca": "FREI AP EP 1.875"
+  },
+  {
+    "ref": "322534837R",
+    "peca": "BAGUE PL 1A JT4"
+  },
+  {
+    "ref": "322626175R",
+    "peca": "BAGUE PL 2A JT4"
+  },
+  {
+    "ref": "322628922R",
+    "peca": "CASQ INT ROL P22"
+  },
+  {
+    "ref": "322638835R",
+    "peca": "ROL AS MA/CED P32"
+  },
+  {
+    "ref": "322646916R",
+    "peca": "ROL AGUL PL 1A JT"
+  },
+  {
+    "ref": "322655173R",
+    "peca": "ESPA PF 5/6 JT"
+  },
+  {
+    "ref": "322657985R",
+    "peca": "ESPA PF 3/4 JT"
+  },
+  {
+    "ref": "322753187R",
+    "peca": "ROLAM AP/CM P11"
+  },
+  {
+    "ref": "322787327R",
+    "peca": "ANIL APOI PL6A NV"
+  },
+  {
+    "ref": "322837211R",
+    "peca": "ROL AGUL PL MA JT"
+  },
+  {
+    "ref": "322900251R",
+    "peca": "BAG.AGUL.PL 1A JT"
+  },
+  {
+    "ref": "323385265R",
+    "peca": "BAGUE PF 6A JT4"
+  },
+  {
+    "ref": "326019244R",
+    "peca": "MIOLO 1/2 JT4 NV"
+  },
+  {
+    "ref": "326024662R",
+    "peca": "MOL SIN 5/6 JT I"
+  },
+  {
+    "ref": "326041262R",
+    "peca": "ANEL SINC 5/6 JT"
+  },
+  {
+    "ref": "326043606R",
+    "peca": "ANEL SINC 3/4 NV"
+  },
+  {
+    "ref": "326044323R",
+    "peca": "ANEL SIN 1/2 INF"
+  },
+  {
+    "ref": "326055704R",
+    "peca": "MIOLO 3/4 JT4 NV"
+  },
+  {
+    "ref": "326065550R",
+    "peca": "BALADER 1/2 JT4"
+  },
+  {
+    "ref": "326075095R",
+    "peca": "ANEL SIN 1/2 SUP"
+  },
+  {
+    "ref": "326116661R",
+    "peca": "BALADER 3/4 JT4"
+  },
+  {
+    "ref": "326159392R",
+    "peca": "ANEL FRIC 1/2 JT4"
+  },
+  {
+    "ref": "326266891R",
+    "peca": "BALAD 5/6 JT4"
+  },
+  {
+    "ref": "326288110R",
+    "peca": "MIOL MAT JT APPRO"
+  },
+  {
+    "ref": "326289375R",
+    "peca": "MIOLO 5/6 JT4 NV"
+  },
+  {
+    "ref": "326336832R",
+    "peca": "BALADER MAT JT4"
+  },
+  {
+    "ref": "328017244R",
+    "peca": "EIXO 1/2/3/4/5/6"
+  },
+  {
+    "ref": "328020410R",
+    "peca": "CASQ EIXO CDO JT"
+  },
+  {
+    "ref": "328145959R",
+    "peca": "EIXO MAR JT4"
+  },
+  {
+    "ref": "328582517R",
+    "peca": "VED.EIX.SEL JT4"
+  },
+  {
+    "ref": "328760441R",
+    "peca": "ANIL EIX SEL 1.62"
+  },
+  {
+    "ref": "328760880R",
+    "peca": "ANIL EIX SEL 1.86"
+  },
+  {
+    "ref": "328762411R",
+    "peca": "ANIL EIX SEL 2.10"
+  },
+  {
+    "ref": "328762647R",
+    "peca": "ANIL EIX SEL 2.04"
+  },
+  {
+    "ref": "328763963R",
+    "peca": "ANIL EIX SEL 1.80"
+  },
+  {
+    "ref": "328764866R",
+    "peca": "ANIL EIX SEL 1.74"
+  },
+  {
+    "ref": "328764931R",
+    "peca": "ANIL EIX SEL 1.92"
+  },
+  {
+    "ref": "328765126R",
+    "peca": "ANIL EIX SEL 1.98"
+  },
+  {
+    "ref": "328765295R",
+    "peca": "ANIL EIX SEL 2.16"
+  },
+  {
+    "ref": "328767737R",
+    "peca": "ANIL EIX SEL 1.68"
+  },
+  {
+    "ref": "328909643R",
+    "peca": "EIX SEL VEL JT NV"
+  },
+  {
+    "ref": "328923329R",
+    "peca": "EIXO CDO JT4"
+  },
+  {
+    "ref": "329804101R",
+    "peca": "MASSA JT4 TYPE B"
+  },
+  {
+    "ref": "329804170R",
+    "peca": "MASSA PEND JT 006"
+  },
+  {
+    "ref": "383424036R",
+    "peca": "VEDANT.DIF.D33 NV"
+  },
+  {
+    "ref": "384310210R",
+    "peca": "ANIL DIF EP 1.76"
+  },
+  {
+    "ref": "384311254R",
+    "peca": "ANIL DIF EP 1.73"
+  },
+  {
+    "ref": "384311778R",
+    "peca": "ANIL DIF EP 1.82"
+  },
+  {
+    "ref": "384311946R",
+    "peca": "ANIL DIF EP 2.00"
+  },
+  {
+    "ref": "384313270R",
+    "peca": "ANIL DIF EP 1.85"
+  },
+  {
+    "ref": "384313770R",
+    "peca": "ANIL DIF EP 2.24"
+  },
+  {
+    "ref": "384313824R",
+    "peca": "ANIL DIF EP 1.70"
+  },
+  {
+    "ref": "384313980R",
+    "peca": "ANIL DIF EP 2.06"
+  },
+  {
+    "ref": "384314111R",
+    "peca": "ANIL DIF EP 2.03"
+  },
+  {
+    "ref": "384314305R",
+    "peca": "ANIL DIF EP 2.15"
+  },
+  {
+    "ref": "384314318R",
+    "peca": "ANIL DIF EP 1.88"
+  },
+  {
+    "ref": "384314412R",
+    "peca": "ANIL DIF EP 1.64"
+  },
+  {
+    "ref": "384315147R",
+    "peca": "ANIL DIF EP 1.91"
+  },
+  {
+    "ref": "384316498R",
+    "peca": "ANIL DIF EP 1.79"
+  },
+  {
+    "ref": "384316526R",
+    "peca": "ANIL DIF EP 2.12"
+  },
+  {
+    "ref": "384317160R",
+    "peca": "ANIL DIF EP 1.97"
+  },
+  {
+    "ref": "384317238R",
+    "peca": "ANIL DIF EP 2.09"
+  },
+  {
+    "ref": "384317305R",
+    "peca": "ANIL DIF EP 1.94"
+  },
+  {
+    "ref": "384317895R",
+    "peca": "ANIL DIF EP 2.18"
+  },
+  {
+    "ref": "384318200R",
+    "peca": "ANIL DIF EP 1.67"
+  },
+  {
+    "ref": "384318967R",
+    "peca": "ANIL DIF EP 1.61"
+  },
+  {
+    "ref": "384318996R",
+    "peca": "ANIL DIF EP 2,21"
+  },
+  {
+    "ref": "7701479303",
+    "peca": "CED JR5 ASS EXP"
+  },
+  {
+    "ref": "7701717696",
+    "peca": "MIOL+BAL3/4 ASS J"
+  },
+  {
+    "ref": "7701717713",
+    "peca": "JR5102 BVM PT.FACE"
+  },
+  {
+    "ref": "7701717789",
+    "peca": "MIOL+BAL.1/2 ASS"
+  },
+  {
+    "ref": "7701717847",
+    "peca": "MIOL+BAL.5 ASS KY"
+  },
+  {
+    "ref": "8200177718",
+    "peca": "CONTAC.BI-FUNCAO"
+  },
+  {
+    "ref": "8200191753",
+    "peca": "VED.ALAV CDO JT"
+  },
+  {
+    "ref": "8200251894",
+    "peca": "ANEL SINC MAT JT"
+  },
+  {
+    "ref": "8200320785",
+    "peca": "ELEMENT LUBRIFICA"
+  },
+  {
+    "ref": "8200326249",
+    "peca": "REVERSE BAULK"
+  },
+  {
+    "ref": "8200427515",
+    "peca": "CHAV.SINC.1/2"
+  },
+  {
+    "ref": "8200544206",
+    "peca": "VED.AP/CED JT4"
+  },
+  {
+    "ref": "8200724657",
+    "peca": "DEDO TRAV SEL.JT"
+  },
+  {
+    "ref": "8200729362",
+    "peca": "EMB.RENIFL.ND SCR"
+  },
+  {
+    "ref": "8200844791",
+    "peca": "CONJ.CALAGE A.S.J"
+  },
+  {
+    "ref": "8200884113",
+    "peca": "VED.D40 2 LABIOS"
+  },
+  {
+    "ref": "8201240059",
+    "peca": "SINCR.1/2 ASS REC"
+  },
+  {
+    "ref": "8201292037",
+    "peca": "SINC.1/2 CARB CLE"
+  },
+  {
+    "ref": "8201499498",
+    "peca": "CED JR GF C/T EXP"
+  },
+  {
+    "ref": "8201625078",
+    "peca": "CED JR H4 S/T EXP"
+  },
+  {
+    "ref": "8201695685",
+    "peca": "MIO+BAL 1/2 INDIA"
+  },
+  {
+    "ref": "8201711825",
+    "peca": "SINC.1/2 CARB IND"
+  },
+  {
+    "ref": "8201728254",
+    "peca": "CONJ.CAL PF6 O152"
+  },
+  {
+    "ref": "8201728255",
+    "peca": "CONJ.CAL AS OP430"
+  },
+  {
+    "ref": "8201728257",
+    "peca": "CONJ.CAL AP OP430"
+  },
+  {
+    "ref": "8201728259",
+    "peca": "CONJ.CAL AS OP154"
+  },
+  {
+    "ref": "8201728937",
+    "peca": "CASQ EXT ROL P22"
+  },
+  {
+    "ref": "8201728995",
+    "peca": "CONJ.CAL MA OP430"
+  },
+  {
+    "ref": "8201728996",
+    "peca": "CONJ.CAL MC OP430"
+  },
+  {
+    "ref": "8201728997",
+    "peca": "CONJ.CAL DIF O430"
+  },
+  {
+    "ref": "8201729240",
+    "peca": "CONE DIFFER.JT4"
+  },
+  {
+    "ref": "8201729241",
+    "peca": "CUVETTE DIF JT4"
+  },
+  {
+    "ref": "8201729404",
+    "peca": "CONJ SINC 1/2 JT"
+  },
+  {
+    "ref": "8201729405",
+    "peca": "CONJ SINC 3/4 JT"
+  },
+  {
+    "ref": "8201729406",
+    "peca": "CONJ SINC 5/6 JT"
+  },
+  {
+    "ref": "8201729407",
+    "peca": "CONJ SINC MAR JT"
+  },
+  {
+    "ref": "8201730696",
+    "peca": "CONJ CAL PL4 O151"
+  },
+  {
+    "ref": "009331221A",
+    "peca": "TAMPAO D.22 H5"
+  },
+  {
+    "ref": "110170791R",
+    "peca": "SEMEL.PRE 3 CIL"
+  },
+  {
+    "ref": "110172092R",
+    "peca": "SEMEL H5H BR APRO"
+  },
+  {
+    "ref": "110175081R",
+    "peca": "SEMEL.H5F BR GEN1"
+  },
+  {
+    "ref": "110178980R",
+    "peca": "SEMEL.H5H 4X4 BRU"
+  },
+  {
+    "ref": "110220466R",
+    "peca": "PINO CON HR12 VDV"
+  },
+  {
+    "ref": "111100160R",
+    "peca": "SEMEL.H5H*460 4X4"
+  },
+  {
+    "ref": "111103561R",
+    "peca": "SEMEL.H5H G2 4X2"
+  },
+  {
+    "ref": "111103641R",
+    "peca": "SEMEL.HR10 S/SOND"
+  },
+  {
+    "ref": "111105173R",
+    "peca": "SEM HR13 DDT HHN"
+  },
+  {
+    "ref": "111107170R",
+    "peca": "SEMELLE H5F ASS"
+  },
+  {
+    "ref": "111108473R",
+    "peca": "SEM H5D GEN2 FULL"
+  },
+  {
+    "ref": "111108836R",
+    "peca": "SEMEL.H5F S/SONDA"
+  },
+  {
+    "ref": "111109158R",
+    "peca": "SEMEL HR10 DET"
+  },
+  {
+    "ref": "111109528R",
+    "peca": "SEM HR10 DET SOND"
+  },
+  {
+    "ref": "111135744R",
+    "peca": "PLAC.ANTIEMUL H5D"
+  },
+  {
+    "ref": "111136752R",
+    "peca": "PLAC.ANTIEMUL H5H"
+  },
+  {
+    "ref": "118100M300",
+    "peca": "VALV.REAS.VAP.OL"
+  },
+  {
+    "ref": "1181241B00",
+    "peca": "JUNTA VALV.REASP"
+  },
+  {
+    "ref": "118322415R",
+    "peca": "PLACA 2 DECANT."
+  },
+  {
+    "ref": "118326369R",
+    "peca": "PLACA 1 DECANT."
+  },
+  {
+    "ref": "122820779R",
+    "peca": "CAR CHAP HR12 BRU"
+  },
+  {
+    "ref": "122820799R",
+    "peca": "CAR CHAP HR12 ASS"
+  },
+  {
+    "ref": "122828736R",
+    "peca": "CHAP.H4D BRUTO"
+  },
+  {
+    "ref": "122829720R",
+    "peca": "CHAP.H5 GEN2 BRUT"
+  },
+  {
+    "ref": "132648303R",
+    "peca": "TAMPA CUL H5F SER"
+  },
+  {
+    "ref": "132653841R",
+    "peca": "TAMP.CUL.BR.H5F"
+  },
+  {
+    "ref": "132709416R",
+    "peca": "JUNTA TAMP.CUL.H5"
+  },
+  {
+    "ref": "132774114R",
+    "peca": "EMBOUT 1 SAID.DEC"
+  },
+  {
+    "ref": "135023058R",
+    "peca": "CART.DIS.H4B BR 2"
+  },
+  {
+    "ref": "135023545R",
+    "peca": "CD HR10 DET MAQ"
+  },
+  {
+    "ref": "135026062R",
+    "peca": "CD HR10 DET BRUT"
+  },
+  {
+    "ref": "152410708R",
+    "peca": "VAL.DES.FILTRO H5"
+  },
+  {
+    "ref": "152413953R",
+    "peca": "VAL.DES.ECHAN.H5F"
+  },
+  {
+    "ref": "7700104134",
+    "peca": "EMBOUT BSE K4/F"
+  },
+  {
+    "ref": "7700115373",
+    "peca": "VOLANT.BRUTO F9Q*"
+  },
+  {
+    "ref": "7700600514",
+    "peca": "CAIX.MULTIFUNC.BR"
+  },
+  {
+    "ref": "8200439175",
+    "peca": "VOLANT G9U*730 AS"
+  },
+  {
+    "ref": "8200934203",
+    "peca": "BSE ASS F/K"
+  },
+  {
+    "ref": "8201660055",
+    "peca": "CONJ.CHAPEUS H5H"
+  },
+  {
+    "ref": "8201719187",
+    "peca": "CONJ.CHAPEUS H5D"
+  },
+  {
+    "ref": "ML103326",
+    "peca": "SHAKLE ASSY REAR SPR"
+  },
+  {
+    "ref": "304010818R",
+    "peca": "CED HR16 JT EXP"
+  },
+  {
+    "ref": "304010842R",
+    "peca": "CED TL4/M4R NISSA"
+  },
+  {
+    "ref": "304011184R",
+    "peca": "CED TX26 HR13"
+  },
+  {
+    "ref": "304011666R",
+    "peca": "CED JH H4BT BRU"
+  },
+  {
+    "ref": "304011771R",
+    "peca": "CED HR16 BRU JT"
+  },
+  {
+    "ref": "304013092R",
+    "peca": "CED TX30 K9 BRU"
+  },
+  {
+    "ref": "304013195R",
+    "peca": "CED TX26 MR20 BR"
+  },
+  {
+    "ref": "304013645R",
+    "peca": "CED ND4/R9M CMF1"
+  },
+  {
+    "ref": "304014225R",
+    "peca": "CED TL K9 BR ARCH"
+  },
+  {
+    "ref": "304014283R",
+    "peca": "CED MAQ ND4 (NTN)"
+  },
+  {
+    "ref": "304014346R",
+    "peca": "CED TL M1G BR EUR"
+  },
+  {
+    "ref": "304014767R",
+    "peca": "CED JH H4BT S/T"
+  },
+  {
+    "ref": "304014901R",
+    "peca": "CED ND4/R9M (NTN)"
+  },
+  {
+    "ref": "304014939R",
+    "peca": "CED MAQ HR16 JT"
+  },
+  {
+    "ref": "304015188R",
+    "peca": "CED TL4/H5 CMF1"
+  },
+  {
+    "ref": "304015524R",
+    "peca": "CED TL4/K9 BRC F1"
+  },
+  {
+    "ref": "304015686R",
+    "peca": "CED TX26 HR13 BR"
+  },
+  {
+    "ref": "304015768R",
+    "peca": "CED MAQ HR10 JT"
+  },
+  {
+    "ref": "304016000R",
+    "peca": "CED HR12 VDV MAQ"
+  },
+  {
+    "ref": "304016090R",
+    "peca": "CED TX26 K9K BRUT"
+  },
+  {
+    "ref": "304016338R",
+    "peca": "CED TX26 K9 GEN2"
+  },
+  {
+    "ref": "304016400R",
+    "peca": "CED TX30 K9K MAQ"
+  },
+  {
+    "ref": "304016607R",
+    "peca": "CED TX26 MR20"
+  },
+  {
+    "ref": "304016763R",
+    "peca": "CED TL4 BRUT CMF1"
+  },
+  {
+    "ref": "304016932R",
+    "peca": "CED HR10 JT EXP"
+  },
+  {
+    "ref": "304019125R",
+    "peca": "CED HR10 BRU JT"
+  },
+  {
+    "ref": "304019479R",
+    "peca": "CED HR12 VDV BRUT"
+  },
+  {
+    "ref": "306202400R",
+    "peca": "REC.CONC.ND4 NOVO"
+  },
+  {
+    "ref": "320101914R",
+    "peca": "BVM ASS ND4 014"
+  },
+  {
+    "ref": "320103660R",
+    "peca": "BVM ASS ND4 008"
+  },
+  {
+    "ref": "320104219R",
+    "peca": "BVM ASS ND4 011"
+  },
+  {
+    "ref": "320105487R",
+    "peca": "BVM ASS ND4 012"
+  },
+  {
+    "ref": "321011553R",
+    "peca": "CM TX26 MAQ NV"
+  },
+  {
+    "ref": "321011941R",
+    "peca": "CM TL4/H5F ROGNE"
+  },
+  {
+    "ref": "321012608R",
+    "peca": "CM MAQ JT4 EXP"
+  },
+  {
+    "ref": "321015581R",
+    "peca": "CM TX30 MAQ"
+  },
+  {
+    "ref": "321016101R",
+    "peca": "CM TX26 BRU NV"
+  },
+  {
+    "ref": "321016599R",
+    "peca": "CM MAQ JT4 CIE"
+  },
+  {
+    "ref": "321016843R",
+    "peca": "CM TL4/H5F ROG BR"
+  },
+  {
+    "ref": "321016887R",
+    "peca": "CM JT4 BRUT APPRO"
+  },
+  {
+    "ref": "321019956R",
+    "peca": "CM TX30 BRUTO"
+  },
+  {
+    "ref": "321133387R",
+    "peca": "VED. AP/CED ND4"
+  },
+  {
+    "ref": "322231961R",
+    "peca": "ROLAM.AS/C.MECA N"
+  },
+  {
+    "ref": "322752919R",
+    "peca": "ROLAM.AP/C.MEC.ND"
+  },
+  {
+    "ref": "328584210R",
+    "peca": "VED.EIXO CDO ND"
+  },
+  {
+    "ref": "328588253R",
+    "peca": "VED.EIX.CDO 1 ND"
+  },
+  {
+    "ref": "344142466R",
+    "peca": "ARR.GAIN.1 ND4008"
+  },
+  {
+    "ref": "344146133R",
+    "peca": "ARR.GAIN.2 ND4008"
+  },
+  {
+    "ref": "383421561R",
+    "peca": "VED.TRANS.ESQ ND"
+  },
+  {
+    "ref": "383422716R",
+    "peca": "VED TRANS DIR ND"
+  },
+  {
+    "ref": "384214829R",
+    "peca": "CAIX.DIF BR.N.LFA"
+  },
+  {
+    "ref": "8200142177",
+    "peca": "SINCRO 4 ASS ND4"
+  },
+  {
+    "ref": "8200142188",
+    "peca": "ANEL SINC.5/6 NDX"
+  },
+  {
+    "ref": "8200142222",
+    "peca": "CONE DIFER.ND"
+  },
+  {
+    "ref": "8200143379",
+    "peca": "CHAVETA SINCRON.N"
+  },
+  {
+    "ref": "8200149580",
+    "peca": "DEFLETOR PRIMAR."
+  },
+  {
+    "ref": "8200149584",
+    "peca": "DEFLETOR SECUND."
+  },
+  {
+    "ref": "8200163332",
+    "peca": "ROLAM.AP/CED NDX"
+  },
+  {
+    "ref": "8200165458",
+    "peca": "MIOLO SINCRO.3/4"
+  },
+  {
+    "ref": "8200166705",
+    "peca": "CASQUI.P.LOUC.1A"
+  },
+  {
+    "ref": "8200166706",
+    "peca": "CASQUIL.P.LOU.2A"
+  },
+  {
+    "ref": "8200166707",
+    "peca": "CASQUIL.P.LOU.4A"
+  },
+  {
+    "ref": "8200166713",
+    "peca": "CASQ.ROL.AG.PINH."
+  },
+  {
+    "ref": "8200166719",
+    "peca": "ANIL.APOIO P.MAT"
+  },
+  {
+    "ref": "8200166736",
+    "peca": "ESPAC.P.FIX.34 N"
+  },
+  {
+    "ref": "8200171184",
+    "peca": "IMAN ND0 / ND6"
+  },
+  {
+    "ref": "8200171981",
+    "peca": "BUJAO OBTURAD.1 N"
+  },
+  {
+    "ref": "8200172580",
+    "peca": "PLACA TRAVAM.ROL."
+  },
+  {
+    "ref": "8200179625",
+    "peca": "CASQUIL.EIX.FORQ."
+  },
+  {
+    "ref": "8200180264",
+    "peca": "CASQUIL.P.LOU.5A"
+  },
+  {
+    "ref": "8200180267",
+    "peca": "ESPAC.P.FIX.5A/6A"
+  },
+  {
+    "ref": "8200187215",
+    "peca": "COUVETTE DIF. ND"
+  },
+  {
+    "ref": "8200188432",
+    "peca": "MIOLO SINCR.5/6 N"
+  },
+  {
+    "ref": "8200191573",
+    "peca": "EIXO PIN. SATEL."
+  },
+  {
+    "ref": "8200228315",
+    "peca": "ROLAM.ROLOS AS/CE"
+  },
+  {
+    "ref": "8200373222",
+    "peca": "CED TL4/M4R NISS"
+  },
+  {
+    "ref": "8200471965",
+    "peca": "ROL.AGUL.PIMAR ND"
+  },
+  {
+    "ref": "8200471966",
+    "peca": "ROL.AGUL.PINH.1A"
+  },
+  {
+    "ref": "8200471967",
+    "peca": "ROL.AGUL.PINH.2A"
+  },
+  {
+    "ref": "8200471968",
+    "peca": "ROL.AGUL.PINH.3A"
+  },
+  {
+    "ref": "8200471969",
+    "peca": "ROL.AGUL.PINH.4A"
+  },
+  {
+    "ref": "8200471970",
+    "peca": "ROL.AGUL.PINH.5A"
+  },
+  {
+    "ref": "8200471971",
+    "peca": "ROL.AGUL.PINH.6A"
+  },
+  {
+    "ref": "8200485848",
+    "peca": "ANEL SINC.MAR.NDX"
+  },
+  {
+    "ref": "8200515444",
+    "peca": "COQUILHA REFOR.ND"
+  },
+  {
+    "ref": "8200638111",
+    "peca": "EIXO 1/2 ASS ND4"
+  },
+  {
+    "ref": "8200638114",
+    "peca": "EIXO 3/4 ASS ND4"
+  },
+  {
+    "ref": "8200638115",
+    "peca": "EIXO MAT ASS ND4"
+  },
+  {
+    "ref": "8200641093",
+    "peca": "EIXO 5/6 ASS ND4"
+  },
+  {
+    "ref": "8200653351",
+    "peca": "SINCRO 3 ASS ND4"
+  },
+  {
+    "ref": "8200667174",
+    "peca": "CART.MEC.MAQ ND4"
+  },
+  {
+    "ref": "8200671828",
+    "peca": "MOLA SINC.MAT.ND4"
+  },
+  {
+    "ref": "8200675465",
+    "peca": "APOIO ESFER.EIXO"
+  },
+  {
+    "ref": "8200676411",
+    "peca": "MOLA RAPEL SEL.ND"
+  },
+  {
+    "ref": "8200678162",
+    "peca": "EIXO RAPPEL PM ND"
+  },
+  {
+    "ref": "8200732764",
+    "peca": "CART MEC BRT ND4"
+  },
+  {
+    "ref": "8200732769",
+    "peca": "CED BRUTO ND4"
+  },
+  {
+    "ref": "8200764597",
+    "peca": "EIXO CDO ND4"
+  },
+  {
+    "ref": "8200766784",
+    "peca": "ARRET GAINE 1 ND4"
+  },
+  {
+    "ref": "8200782733",
+    "peca": "ARRET GAINE 2 ND4"
+  },
+  {
+    "ref": "8200790637",
+    "peca": "CED TL/K9 BR AL"
+  },
+  {
+    "ref": "8200790638",
+    "peca": "CED TL4/K9 ST2"
+  },
+  {
+    "ref": "8200790640",
+    "peca": "CED TL4/K4M EXP T"
+  },
+  {
+    "ref": "8200790641",
+    "peca": "CED BRU.TL4 K4M T"
+  },
+  {
+    "ref": "8200797713",
+    "peca": "DEDO GUIA SELEC.N"
+  },
+  {
+    "ref": "8200807250",
+    "peca": "PLANETARIO ND"
+  },
+  {
+    "ref": "8200807251",
+    "peca": "SATELITE ND"
+  },
+  {
+    "ref": "8200807863",
+    "peca": "ANEL ELEVACAO ND4"
+  },
+  {
+    "ref": "8200830769",
+    "peca": "DIFER.MONTADO ND"
+  },
+  {
+    "ref": "8200830772",
+    "peca": "DIFER.MONT.ND EXP"
+  },
+  {
+    "ref": "8200833421",
+    "peca": "GOULOT DIFER.ND4"
+  },
+  {
+    "ref": "8200833423",
+    "peca": "GOULOT GERAL ND4"
+  },
+  {
+    "ref": "8200856575",
+    "peca": "CONJ.FREIO CAL.AP"
+  },
+  {
+    "ref": "8200856587",
+    "peca": "CONJ.CAL.LOUCO 4A"
+  },
+  {
+    "ref": "8200907117",
+    "peca": "BVM ASS ND4 001"
+  },
+  {
+    "ref": "8200907120",
+    "peca": "BVM ASS ND4 002"
+  },
+  {
+    "ref": "8200909036",
+    "peca": "CONJ.CAL.EIX.CDO"
+  },
+  {
+    "ref": "8200939575",
+    "peca": "BVM ASS ND4 004"
+  },
+  {
+    "ref": "8200950710",
+    "peca": "MIOL+BALD 1/2 EXP"
+  },
+  {
+    "ref": "8200950715",
+    "peca": "MIOL+BALD 3/4 EXP"
+  },
+  {
+    "ref": "8200950720",
+    "peca": "MIOL+BALD 5A EXP"
+  },
+  {
+    "ref": "8200950726",
+    "peca": "CED ND4 ASS EXP"
+  },
+  {
+    "ref": "8200950729",
+    "peca": "CM ND4 ASS EXP"
+  },
+  {
+    "ref": "8200951432",
+    "peca": "COL.MAR ND4 PR"
+  },
+  {
+    "ref": "8200955134",
+    "peca": "CED BRUT F4R"
+  },
+  {
+    "ref": "8200955137",
+    "peca": "CED MAQ F4R"
+  },
+  {
+    "ref": "8201007614",
+    "peca": "CED ND4/R9M BRU"
+  },
+  {
+    "ref": "8201051281",
+    "peca": "ALAV. CDO ND4 B"
+  },
+  {
+    "ref": "8201125429",
+    "peca": "BVM ASS ND4 009"
+  },
+  {
+    "ref": "8201246674",
+    "peca": "CED ND4/R9M EXP"
+  },
+  {
+    "ref": "8201282899",
+    "peca": "EIXO 3/4 JR EXP"
+  },
+  {
+    "ref": "8201282900",
+    "peca": "EIXO 5A JRQ EXP"
+  },
+  {
+    "ref": "8201285983",
+    "peca": "COL.MAR,ND4012 PR"
+  },
+  {
+    "ref": "8201758498",
+    "peca": "CJCED 6/12/8/21/2"
+  },
+  {
+    "ref": "8201758499",
+    "peca": "CJCED 20.25.26.30"
+  },
+  {
+    "ref": "8201758500",
+    "peca": "CJ CED 013.024"
+  },
+  {
+    "ref": "319D85914R",
+    "peca": "CIBLE DB35/DB45"
+  },
+  {
+    "ref": "323735500R",
+    "peca": "PL 6A (49X28) PF"
+  },
+  {
+    "ref": "323739538R",
+    "peca": "PL 6A (49X27) PF"
+  },
+  {
+    "ref": "381010172R",
+    "peca": "COR PA 15X58 JT4"
+  },
+  {
+    "ref": "381010985R",
+    "peca": "COROA BRU DB45"
+  },
+  {
+    "ref": "381011337R",
+    "peca": "COROA BRU DIA 201"
+  },
+  {
+    "ref": "381013784R",
+    "peca": "COR PA 14X69 DB35"
+  },
+  {
+    "ref": "381013901R",
+    "peca": "COROA BRU DB35"
+  },
+  {
+    "ref": "381016677R",
+    "peca": "COR PA 14X69 DB45"
+  },
+  {
+    "ref": "381016956R",
+    "peca": "COROA BRU DIA 204"
+  },
+  {
+    "ref": "381016987R",
+    "peca": "COR PA 14X59 JT4"
+  },
+  {
+    "ref": "381017582R",
+    "peca": "COROA BRU DIA 197"
+  },
+  {
+    "ref": "381017813R",
+    "peca": "COR PA 14X63 JT4"
+  },
+  {
+    "ref": "381018246R",
+    "peca": "COR PA 14X59 DB35"
+  },
+  {
+    "ref": "381019145R",
+    "peca": "COR PA 14X69 JT4"
+  },
+  {
+    "ref": "384102660R",
+    "peca": "BD ASS 14X69 DB35"
+  },
+  {
+    "ref": "384105194R",
+    "peca": "BD ASS 14X59 DB35"
+  },
+  {
+    "ref": "384106020R",
+    "peca": "BD RET 14X69 DB45"
+  },
+  {
+    "ref": "384108621R",
+    "peca": "BD RET 14X69 DB35"
+  },
+  {
+    "ref": "384108739R",
+    "peca": "BD RET 14X59 DB35"
+  },
+  {
+    "ref": "384108821R",
+    "peca": "BD ASS 14X69 DB45"
+  },
+  {
+    "ref": "384201357R",
+    "peca": "DIF. 15X58 JT EXP"
+  },
+  {
+    "ref": "384205184R",
+    "peca": "DIF. 14X63 JT EXP"
+  },
+  {
+    "ref": "384206008R",
+    "peca": "DIF. 14X59 JT EXP"
+  },
+  {
+    "ref": "384209887R",
+    "peca": "DIF. 14X69 JT EXP"
+  },
+  {
+    "ref": "384210548R",
+    "peca": "CAIX DIF BRT DB35"
+  },
+  {
+    "ref": "384212265R",
+    "peca": "CAIX DIF BRT DB45"
+  },
+  {
+    "ref": "384213677R",
+    "peca": "CAIX DIF JT APPRO"
+  },
+  {
+    "ref": "384214013R",
+    "peca": "CAIXA DIF MAQ JT4"
+  },
+  {
+    "ref": "384214352R",
+    "peca": "CAIX DIF MAQ DB45"
+  },
+  {
+    "ref": "384219005R",
+    "peca": "CAIXA DIF MAQ DBX"
+  },
+  {
+    "ref": "384219910R",
+    "peca": "CAIX DIF BRUT JT4"
+  },
+  {
+    "ref": "7700865542",
+    "peca": "PATTE MAINTIEN.LBA H"
+  },
+  {
+    "ref": "7701717803",
+    "peca": "PL 6A 41X31 PK P"
+  },
+  {
+    "ref": "7701717804",
+    "peca": "PL 6A 47X28 PK P"
+  },
+  {
+    "ref": "7701717805",
+    "peca": "PL 6A 47X30 PK P"
+  },
+  {
+    "ref": "7701717806",
+    "peca": "PL 6A 41X32 PK P"
+  },
+  {
+    "ref": "7701717807",
+    "peca": "PL 6A 51X28 PF P"
+  },
+  {
+    "ref": "7701717808",
+    "peca": "PL 6A 46X31 PK P"
+  },
+  {
+    "ref": "8200015858",
+    "peca": "PL 6A (41X31) PK"
+  },
+  {
+    "ref": "8200018919",
+    "peca": "PL 6A (47X28) PK"
+  },
+  {
+    "ref": "8200022613",
+    "peca": "PL 6A (47X30) PK"
+  },
+  {
+    "ref": "8200030799",
+    "peca": "PL 6A (41X32) PK"
+  },
+  {
+    "ref": "8200090705",
+    "peca": "EIX.3/4 ASS JR BA"
+  },
+  {
+    "ref": "8200118982",
+    "peca": "PL 6A (51X28) PF"
+  },
+  {
+    "ref": "8200144744",
+    "peca": "CAIX.DIF NUA SEV"
+  },
+  {
+    "ref": "8200145526",
+    "peca": "PLANETARIO JR/JT"
+  },
+  {
+    "ref": "8200145528",
+    "peca": "SATELITE JR/JT"
+  },
+  {
+    "ref": "8200275321",
+    "peca": "EX.1/2 ASS BA EXP"
+  },
+  {
+    "ref": "8200317982",
+    "peca": "PL 6A (46X31) PK4"
+  },
+  {
+    "ref": "8200425073",
+    "peca": "COQUIL.DIF.JR/JT"
+  },
+  {
+    "ref": "8200563170",
+    "peca": "EIXO SATEL JR/JT"
+  },
+  {
+    "ref": "8200719126",
+    "peca": "EIX+FOR.3/4 X44"
+  },
+  {
+    "ref": "8200730478",
+    "peca": "EIX+FOR.5 JR BASE"
+  },
+  {
+    "ref": "8200769909",
+    "peca": "PL 6A (41X29) PK"
+  },
+  {
+    "ref": "8200806024",
+    "peca": "PL 6A 41X29 PK PB"
+  },
+  {
+    "ref": "8200848463",
+    "peca": "PL 6A BRU PK"
+  },
+  {
+    "ref": "8200848464",
+    "peca": "PL 6A BRUTO PK"
+  },
+  {
+    "ref": "8201262830",
+    "peca": "EIXO 3/4 ASS X44"
+  },
+  {
+    "ref": "8201533163",
+    "peca": "PL 6A 41X31 PK PN"
+  },
+  {
+    "ref": "8201533166",
+    "peca": "PL 6A 47X28 PK PN"
+  },
+  {
+    "ref": "8201533167",
+    "peca": "PL 6A 47X30 PK PN"
+  },
+  {
+    "ref": "8201533169",
+    "peca": "PL 6A 41X32 PK PN"
+  },
+  {
+    "ref": "8201533171",
+    "peca": "PL 6A 51X28 PF PN"
+  },
+  {
+    "ref": "8201533173",
+    "peca": "PL 6A 46X31 PK PN"
+  },
+  {
+    "ref": "8201533175",
+    "peca": "PL 6A 41X29 PK PN"
+  },
+  {
+    "ref": "8201723681",
+    "peca": "PL 6A 49X28 PB PF"
+  },
+  {
+    "ref": "8201723682",
+    "peca": "PL 6A 49X28 PN PF"
+  },
+  {
+    "ref": "8201729065",
+    "peca": "COROA 14X69 PB JT"
+  },
+  {
+    "ref": "8201729066",
+    "peca": "COROA 14X69 PN JT"
+  },
+  {
+    "ref": "8201729069",
+    "peca": "COROA 15X58 PB JT"
+  },
+  {
+    "ref": "8201729070",
+    "peca": "COROA 15X58 PN JT"
+  },
+  {
+    "ref": "8201729071",
+    "peca": "COROA 14X63 PB JT"
+  },
+  {
+    "ref": "8201729073",
+    "peca": "COROA 14X63 PN JT"
+  },
+  {
+    "ref": "8201729313",
+    "peca": "COR 14X59 PN DB35"
+  },
+  {
+    "ref": "8201729314",
+    "peca": "COR 14X59 PB DB35"
+  },
+  {
+    "ref": "8201729315",
+    "peca": "COR 14X69 PN DB35"
+  },
+  {
+    "ref": "8201729316",
+    "peca": "COR 14X69 PB DB35"
+  },
+  {
+    "ref": "8201731817",
+    "peca": "COROA 14X59 PN JT"
+  },
+  {
+    "ref": "8201731819",
+    "peca": "COROA 14X59 PB JT"
+  },
+  {
+    "ref": "8201737290",
+    "peca": "BD 14X63 RET JT4"
+  },
+  {
+    "ref": "8201737291",
+    "peca": "BD 14X69 RET JT4"
+  },
+  {
+    "ref": "8201737292",
+    "peca": "BD 15X58 RET JT4"
+  },
+  {
+    "ref": "8201737293",
+    "peca": "BD 14X59 RET JT4"
+  },
+  {
+    "ref": "8201737294",
+    "peca": "BD 14X59 QUA DB35"
+  },
+  {
+    "ref": "8201737295",
+    "peca": "BD 14X69 QUA DB35"
+  },
+  {
+    "ref": "8201740832",
+    "peca": "DIF.14X69 OYAK"
+  },
+  {
+    "ref": "8201742094",
+    "peca": "FIC CX DIF BRU JT"
+  },
+  {
+    "ref": "8201743649",
+    "peca": "BD 14X69 QUARE 45"
+  },
+  {
+    "ref": "8201743650",
+    "peca": "COR 14X69 PN DB45"
+  },
+  {
+    "ref": "8201743651",
+    "peca": "COR 14X69 PB DB45"
+  },
+  {
+    "ref": "8201746899",
+    "peca": "PL 6A 49X27 PB PF"
+  },
+  {
+    "ref": "8201746900",
+    "peca": "PL 6A 49X27 PN PF"
+  },
+  {
+    "ref": "8201749093",
+    "peca": "CAIXA DIF TAL DBX"
+  },
+  {
+    "ref": "8201756435",
+    "peca": "COR 15X58AFORNOJT"
+  },
+  {
+    "ref": "8201756436",
+    "peca": "COR 14X59AFORNOJT"
+  },
+  {
+    "ref": "8201756437",
+    "peca": "COR 14X63AFORNOJT"
+  },
+  {
+    "ref": "8201756438",
+    "peca": "COR 14X69AFORNOJT"
+  },
+  {
+    "ref": "8201756439",
+    "peca": "COR 14X59FORNDB35"
+  },
+  {
+    "ref": "8201756440",
+    "peca": "COR 14X69FORNDB35"
+  },
+  {
+    "ref": "8201756442",
+    "peca": "COR 14X69FORNDB45"
+  },
+  {
+    "ref": "8201756494",
+    "peca": "PL 6A 41X29FORNPK"
+  },
+  {
+    "ref": "8201756495",
+    "peca": "PL 6A 41X29FOSFPK"
+  },
+  {
+    "ref": "8201756496",
+    "peca": "PL 6A 41X31FORNPK"
+  },
+  {
+    "ref": "8201756497",
+    "peca": "PL 6A 41X31FOSFPK"
+  },
+  {
+    "ref": "8201756498",
+    "peca": "PL 6A 41X32FORNPK"
+  },
+  {
+    "ref": "8201756499",
+    "peca": "PL 6A 41X32FOSFPK"
+  },
+  {
+    "ref": "8201756500",
+    "peca": "PL 6A 46X31FORNPK"
+  },
+  {
+    "ref": "8201756501",
+    "peca": "PL 6A 46X31FOSFPK"
+  },
+  {
+    "ref": "8201756502",
+    "peca": "PL 6A 47X28FORNPK"
+  },
+  {
+    "ref": "8201756503",
+    "peca": "PL 6A 47X28FOSFPK"
+  },
+  {
+    "ref": "8201756504",
+    "peca": "PL 6A 47X30FORNPK"
+  },
+  {
+    "ref": "8201756505",
+    "peca": "PL 6A 47X30FOSFPK"
+  },
+  {
+    "ref": "8201756506",
+    "peca": "PL 6A 49X27FORNPF"
+  },
+  {
+    "ref": "8201756507",
+    "peca": "PL 6A 49X27FOSFPF"
+  },
+  {
+    "ref": "8201756508",
+    "peca": "PL 6A 49X28FORNPF"
+  },
+  {
+    "ref": "8201756509",
+    "peca": "PL 6A 49X28FOSFPF"
+  },
+  {
+    "ref": "8201756510",
+    "peca": "PL 6A 51X28FORNPF"
+  },
+  {
+    "ref": "8201756511",
+    "peca": "PL 6A 51X28FOSFPF"
+  },
+  {
+    "ref": "132511773R",
+    "peca": "RAMPA ADMISS. D4F"
+  },
+  {
+    "ref": "132516746R",
+    "peca": "RAMPA ESCAPE D4F"
+  },
+  {
+    "ref": "132523930R",
+    "peca": "EIXO BAL D4F EXP"
+  },
+  {
+    "ref": "132528314R",
+    "peca": "KIT RAMPAS D4 FDV"
+  },
+  {
+    "ref": "132853895R",
+    "peca": "BAL.ESC.D4F EXP"
+  },
+  {
+    "ref": "132857192R",
+    "peca": "BAL.ADM.D4F EXP"
+  },
+  {
+    "ref": "140049623R",
+    "peca": "COL.ESC.BR.D4 DKF"
+  },
+  {
+    "ref": "140102157R",
+    "peca": "COLEC.ADM.F9Q"
+  },
+  {
+    "ref": "150002040R",
+    "peca": "BBA OL M9T 5.5"
+  },
+  {
+    "ref": "150003601R",
+    "peca": "BBA OL M9T 4.75"
+  },
+  {
+    "ref": "150005392R",
+    "peca": "BBA OL M9R 4.75"
+  },
+  {
+    "ref": "150100347R",
+    "peca": "BBA EURO 6DFULL"
+  },
+  {
+    "ref": "150100565R",
+    "peca": "BBA OL F ANOD"
+  },
+  {
+    "ref": "150101308R",
+    "peca": "BBA OLEO F9 NOVA"
+  },
+  {
+    "ref": "150102287R",
+    "peca": "BBA OL K9 CLA PL"
+  },
+  {
+    "ref": "150102617R",
+    "peca": "BBA OL K7 CLA PL"
+  },
+  {
+    "ref": "150106249R",
+    "peca": "BBA OL K4 CLA PL"
+  },
+  {
+    "ref": "150107366R",
+    "peca": "BBA HR10 DT FLEX"
+  },
+  {
+    "ref": "150107908R",
+    "peca": "BBA VOP H5"
+  },
+  {
+    "ref": "150108716R",
+    "peca": "BBA OLEO F+40"
+  },
+  {
+    "ref": "150121297R",
+    "peca": "CORP DFULL BR FAR"
+  },
+  {
+    "ref": "150122762R",
+    "peca": "CORP VOP H5 BRU"
+  },
+  {
+    "ref": "150123076R",
+    "peca": "CORP BBA BR K4 K7"
+  },
+  {
+    "ref": "150124340R",
+    "peca": "CORP DTEMP BR FAR"
+  },
+  {
+    "ref": "150125704R",
+    "peca": "CORP DTEMP BR PIT"
+  },
+  {
+    "ref": "150126230R",
+    "peca": "CORP VOP BRU HIBR"
+  },
+  {
+    "ref": "150128046R",
+    "peca": "CORP DFULL BR PIT"
+  },
+  {
+    "ref": "150129239R",
+    "peca": "CORP BRU K9 APPRO"
+  },
+  {
+    "ref": "150150453R",
+    "peca": "TAMP DF/DT BR PIT"
+  },
+  {
+    "ref": "150153076R",
+    "peca": "TAMP BRU K7 CLAP"
+  },
+  {
+    "ref": "150153298R",
+    "peca": "TAMP BR K4 K9 NV"
+  },
+  {
+    "ref": "150154340R",
+    "peca": "TAMP BO F MAQ AN"
+  },
+  {
+    "ref": "150157688R",
+    "peca": "TAMPA BBA M9 BRU"
+  },
+  {
+    "ref": "150159239R",
+    "peca": "TAMP VOP H BRUT"
+  },
+  {
+    "ref": "150159524R",
+    "peca": "TAMP DT/DF BR FAR"
+  },
+  {
+    "ref": "150260548R",
+    "peca": "PINH.BBA OL.K9/F9"
+  },
+  {
+    "ref": "150263443R",
+    "peca": "PINH.MENANT M9R"
+  },
+  {
+    "ref": "150263627R",
+    "peca": "PIN.CDO VOP H EI"
+  },
+  {
+    "ref": "150268986R",
+    "peca": "PINH.MENE M9R"
+  },
+  {
+    "ref": "150451779R",
+    "peca": "EIX.PINH.LOU. K/F"
+  },
+  {
+    "ref": "150478409R",
+    "peca": "ARV.CDO VOP H4"
+  },
+  {
+    "ref": "150772888R",
+    "peca": "GUIA MOLA ANEL H4"
+  },
+  {
+    "ref": "150789593R",
+    "peca": "ANEL CONTR.VOP H4"
+  },
+  {
+    "ref": "150791267R",
+    "peca": "MOLA AN.REG.H4 NV"
+  },
+  {
+    "ref": "150799804R",
+    "peca": "MOLA AN.REG.H4 NV"
+  },
+  {
+    "ref": "150820256R",
+    "peca": "SUPOR.ALHETAS VOP"
+  },
+  {
+    "ref": "150821579R",
+    "peca": "SUPOR.ALHETAS VOP"
+  },
+  {
+    "ref": "150835129R",
+    "peca": "ANEL CENT.ALHETAS"
+  },
+  {
+    "ref": "150842446R",
+    "peca": "ALHETA VOP H4/R9"
+  },
+  {
+    "ref": "150845873R",
+    "peca": "ALHETA HR10 FLEX"
+  },
+  {
+    "ref": "150850609R",
+    "peca": "VALV.REGUL.VOP H4"
+  },
+  {
+    "ref": "150873769R",
+    "peca": "GOLPI.VALV.REG.H4"
+  },
+  {
+    "ref": "150881235R",
+    "peca": "TAMP.VALV.VOP H4"
+  },
+  {
+    "ref": "150985273R",
+    "peca": "MOLA VALV REG H4"
+  },
+  {
+    "ref": "150B79090R",
+    "peca": "ESF.VAL.DESC H4B"
+  },
+  {
+    "ref": "150B86288R",
+    "peca": "FILTRO VOP H4B"
+  },
+  {
+    "ref": "150B96419R",
+    "peca": "VEDANTE ANEL VOP"
+  },
+  {
+    "ref": "152412885R",
+    "peca": "CLAPET BBO NOVO"
+  },
+  {
+    "ref": "152415573R",
+    "peca": "(ELECTRO-VÁLVULA) VALVE-ENG OIL PUMP FLOW"
+  },
+  {
+    "ref": "152417843R",
+    "peca": "CLAPET BBO PLASTI"
+  },
+  {
+    "ref": "152418461R",
+    "peca": "(ELECTRO-VÁLVULA) VALVE-ENG OIL PUMP FLOW"
+  },
+  {
+    "ref": "152434578R",
+    "peca": "MOLA 4.75 M9"
+  },
+  {
+    "ref": "152438377R",
+    "peca": "MOLA VAL.DESC.H4B"
+  },
+  {
+    "ref": "152441733R",
+    "peca": "BUCHON CLAPET DES"
+  },
+  {
+    "ref": "7700100490",
+    "peca": "ARV.CMD.BBA OLEO"
+  },
+  {
+    "ref": "7700100895",
+    "peca": "FILTRO CREPINA F"
+  },
+  {
+    "ref": "7700101250",
+    "peca": "PINH.MONOBLOCO 24"
+  },
+  {
+    "ref": "7700103973",
+    "peca": "BUTEE HIDRAULICA"
+  },
+  {
+    "ref": "7700103974",
+    "peca": "ANIL.APOIO.BUTEE"
+  },
+  {
+    "ref": "7700106546",
+    "peca": "CREPINA BBA.OL. E"
+  },
+  {
+    "ref": "7700106552",
+    "peca": "FUNDO CREPINA E/K"
+  },
+  {
+    "ref": "7700107717",
+    "peca": "TAMP.VAL.DESC. E/"
+  },
+  {
+    "ref": "7700112538",
+    "peca": "FUNDO CREPINA BRA"
+  },
+  {
+    "ref": "7700273041",
+    "peca": "PINH.BBA.OL.E/K/F"
+  },
+  {
+    "ref": "7700600120",
+    "peca": "CORP.B.OLEO BRT.E"
+  },
+  {
+    "ref": "7700600252",
+    "peca": "CORP.BBA OL.BR.MO"
+  },
+  {
+    "ref": "7700738213",
+    "peca": "TAMPAO VALV.DESC."
+  },
+  {
+    "ref": "7700739175",
+    "peca": "EIXO COM.BBA.OL.E"
+  },
+  {
+    "ref": "7701693575",
+    "peca": "BBA OLEO E7/K7"
+  },
+  {
+    "ref": "7701693576",
+    "peca": "BBA OLEO K4 MPR"
+  },
+  {
+    "ref": "7702300003",
+    "peca": "PINH.BBA. (OLEO )"
+  },
+  {
+    "ref": "7702300015",
+    "peca": "CORP.BBA.OL.BRUT"
+  },
+  {
+    "ref": "7702300017",
+    "peca": "PINH.MONOBLOCO G9"
+  },
+  {
+    "ref": "7703068106",
+    "peca": "FREIO BBA OLEO E/"
+  },
+  {
+    "ref": "8200007915",
+    "peca": "BALANCEIRO BRUT G"
+  },
+  {
+    "ref": "8200065121",
+    "peca": "PINH.MONOB.22DENT"
+  },
+  {
+    "ref": "8200087136",
+    "peca": "PINH.MONOB.20D.FR"
+  },
+  {
+    "ref": "8200121093",
+    "peca": "TAMP.BBA.BRU.G9T"
+  },
+  {
+    "ref": "8200121094",
+    "peca": "CORP.BBA.BRU.G9T"
+  },
+  {
+    "ref": "8200128954",
+    "peca": "ARV.CDO.BBA G9 AE"
+  },
+  {
+    "ref": "8200128955",
+    "peca": "PINH.BBA G9 AEQ"
+  },
+  {
+    "ref": "8200150195",
+    "peca": "CORP.BBA.BRU.+22"
+  },
+  {
+    "ref": "8200171405",
+    "peca": "TAMPA BBA OLEO BR"
+  },
+  {
+    "ref": "8200173808",
+    "peca": "FUNDO CREPIN.G9T"
+  },
+  {
+    "ref": "8200196344",
+    "peca": "EIX.BBA OL.FOSF.G"
+  },
+  {
+    "ref": "8200209426",
+    "peca": "FUND.CREPIN.MAHIN"
+  },
+  {
+    "ref": "8200227453",
+    "peca": "EIX.PINH.BBA.S/FO"
+  },
+  {
+    "ref": "8200345074",
+    "peca": "EIXO COM.BBA.OL.M"
+  },
+  {
+    "ref": "8200345080",
+    "peca": "PINH.COM.BBA.OL M"
+  },
+  {
+    "ref": "8200345084",
+    "peca": "FILTRO BBA OLEO M"
+  },
+  {
+    "ref": "8200345140",
+    "peca": "MOLA 5.5 BBA M9"
+  },
+  {
+    "ref": "8200345145",
+    "peca": "BUJAO MOLA BBA MX"
+  },
+  {
+    "ref": "8200345147",
+    "peca": "FREIO MOLA BBA OL"
+  },
+  {
+    "ref": "8200345633",
+    "peca": "CORP.BBA.OL.BRUT."
+  },
+  {
+    "ref": "8200400640",
+    "peca": "CORPO BBA.OL.F40"
+  },
+  {
+    "ref": "8200555001",
+    "peca": "EIXO COM. BBA.OL."
+  },
+  {
+    "ref": "8200555002",
+    "peca": "EIXO PIN.LOU.BBA"
+  },
+  {
+    "ref": "8200582334",
+    "peca": "GUIA CENTRAGEM 9X"
+  },
+  {
+    "ref": "8200590978",
+    "peca": "VALV.DESC.BBA F+4"
+  },
+  {
+    "ref": "8200590984",
+    "peca": "ARV.CMD.BBA OL.F9"
+  },
+  {
+    "ref": "8200591071",
+    "peca": "MOLA BBA OLEO F+4"
+  },
+  {
+    "ref": "8200710012",
+    "peca": "BBA OLEO G9 C/AEQ"
+  },
+  {
+    "ref": "8200741642",
+    "peca": "BBA OLEO G9"
+  },
+  {
+    "ref": "8200754011",
+    "peca": "EIXO BAL. MONT.GX"
+  },
+  {
+    "ref": "8200767156",
+    "peca": "TAMPA BBA OL F BR"
+  },
+  {
+    "ref": "8200783516",
+    "peca": "BBA OLEO MAHINDRA"
+  },
+  {
+    "ref": "8200783518",
+    "peca": "BBA OLEO FRPVERT"
+  },
+  {
+    "ref": "8200891499",
+    "peca": "CREPINE PLAS F+40"
+  },
+  {
+    "ref": "8200916824",
+    "peca": "CORP BBA OLE M9T"
+  },
+  {
+    "ref": "8200931248",
+    "peca": "EIXO PIN. LOU M"
+  },
+  {
+    "ref": "8200941691",
+    "peca": "TAMP.BRT.BBA.F9Q"
+  },
+  {
+    "ref": "8200965952",
+    "peca": "CLAPET PLAST M"
+  },
+  {
+    "ref": "8201020452",
+    "peca": "ANILHA BALANC G9"
+  },
+  {
+    "ref": "8201020457",
+    "peca": "EIXO ROLAM.BAL.G9"
+  },
+  {
+    "ref": "8201067792",
+    "peca": "ROLAM.BALANC.G9"
+  },
+  {
+    "ref": "8201067796",
+    "peca": "BALANC G9 ASS"
+  },
+  {
+    "ref": "8201282602",
+    "peca": "BALANC.NU G9 STK"
+  },
+  {
+    "ref": "8201301680",
+    "peca": "BAL.G9 OP130 STK"
+  },
+  {
+    "ref": "8201708257",
+    "peca": "TAMP F ANOD ELECT"
+  },
+  {
+    "ref": "124109387R",
+    "peca": "K7 AE BI IOD"
+  },
+  {
+    "ref": "132528277R",
+    "peca": "KIT RAMP BRA"
+  },
+  {
+    "ref": "135029977R",
+    "peca": "CART.DIST.H5F"
+  },
+  {
+    "ref": "140031108R",
+    "peca": "REP.M9 K1K2"
+  },
+  {
+    "ref": "140034235R",
+    "peca": "REP.A-B BR.SJ"
+  },
+  {
+    "ref": "140038122R",
+    "peca": "REP.M9R K1-K"
+  },
+  {
+    "ref": "140049478R",
+    "peca": "COL.ESC.BR.D4"
+  },
+  {
+    "ref": "144600763R",
+    "peca": "EMBOUT1 COL.ADM"
+  },
+  {
+    "ref": "144603317R",
+    "peca": "EMBOUT2 COL.ADM"
+  },
+  {
+    "ref": "150103110R",
+    "peca": "BBA OL K4M ANO"
+  },
+  {
+    "ref": "150109221R",
+    "peca": "BBA VOP H4"
+  },
+  {
+    "ref": "304012713R",
+    "peca": "CED TLH5F"
+  },
+  {
+    "ref": "306200650R",
+    "peca": "REC.JR VAL"
+  },
+  {
+    "ref": "306201683R",
+    "peca": "REC.CONC.ND0"
+  },
+  {
+    "ref": "320056J00A",
+    "peca": "CON.MAT.ND S/CR"
+  },
+  {
+    "ref": "320066J00A",
+    "peca": "CON.PM.ND S/CR6"
+  },
+  {
+    "ref": "320100158R",
+    "peca": "BVMASS JR5 055"
+  },
+  {
+    "ref": "320101142R",
+    "peca": "BVM ASS JT 002"
+  },
+  {
+    "ref": "320101652R",
+    "peca": "BVM ASS JR5366"
+  },
+  {
+    "ref": "320102158R",
+    "peca": "BVM ASSJR5 391"
+  },
+  {
+    "ref": "320102264R",
+    "peca": "BVMASS JR5 083"
+  },
+  {
+    "ref": "320102623R",
+    "peca": "BVM JR5 332"
+  },
+  {
+    "ref": "320102944R",
+    "peca": "BVM ASS JR5341"
+  },
+  {
+    "ref": "320103551R",
+    "peca": "BVM ASS JR5368"
+  },
+  {
+    "ref": "320103573R",
+    "peca": "BVM AS JR5 340"
+  },
+  {
+    "ref": "320104280R",
+    "peca": "BVM ASSJR5 513"
+  },
+  {
+    "ref": "320104545R",
+    "peca": "BVM ASS JR5358"
+  },
+  {
+    "ref": "320104650R",
+    "peca": "BVM ASSJR5 398"
+  },
+  {
+    "ref": "320104691R",
+    "peca": "BVM ASS JR5357"
+  },
+  {
+    "ref": "320104967R",
+    "peca": "BVMASS JR5 074"
+  },
+  {
+    "ref": "320105074R",
+    "peca": "BVM ASS JT 004"
+  },
+  {
+    "ref": "320105356R",
+    "peca": "BVMASS JR5 068"
+  },
+  {
+    "ref": "320105388R",
+    "peca": "BVM ASS JR5369"
+  },
+  {
+    "ref": "320105741R",
+    "peca": "BVM ASS JR5345"
+  },
+  {
+    "ref": "320105826R",
+    "peca": "BVM JR5 513"
+  },
+  {
+    "ref": "320106117R",
+    "peca": "BVM ASSJR5 380"
+  },
+  {
+    "ref": "320106170R",
+    "peca": "BVM ASS JR5 088"
+  },
+  {
+    "ref": "320106271R",
+    "peca": "BVMASS JR5 076"
+  },
+  {
+    "ref": "320106297R",
+    "peca": "BVMASS JR5 072"
+  },
+  {
+    "ref": "320106397R",
+    "peca": "BVM ASSJR5 392"
+  },
+  {
+    "ref": "320106562R",
+    "peca": "BVM ASS JR5 050"
+  },
+  {
+    "ref": "320106830R",
+    "peca": "BVMASS JR5 065"
+  },
+  {
+    "ref": "320106838R",
+    "peca": "BVM ASS JR5 089"
+  },
+  {
+    "ref": "320106908R",
+    "peca": "BVM ASSJR5 377"
+  },
+  {
+    "ref": "320106977R",
+    "peca": "BVM ASS JR5364"
+  },
+  {
+    "ref": "320107005R",
+    "peca": "BVM ASS JT 016"
+  },
+  {
+    "ref": "320107114R",
+    "peca": "BVMASS JR5 084"
+  },
+  {
+    "ref": "320107331R",
+    "peca": "BVM JR5 513"
+  },
+  {
+    "ref": "320107364R",
+    "peca": "BVM ASS JT 006"
+  },
+  {
+    "ref": "320107577R",
+    "peca": "BVM ASSJR5 513"
+  },
+  {
+    "ref": "320107946R",
+    "peca": "BVMASS JR5 067"
+  },
+  {
+    "ref": "320108646R",
+    "peca": "BVM ASS JT 013"
+  },
+  {
+    "ref": "320108760R",
+    "peca": "BVM ASSJR5 549"
+  },
+  {
+    "ref": "320108893R",
+    "peca": "BVMASS JR5 081"
+  },
+  {
+    "ref": "320109079R",
+    "peca": "BVMASS JR5 062"
+  },
+  {
+    "ref": "320109083R",
+    "peca": "BVMASS JR5 066"
+  },
+  {
+    "ref": "320109085R",
+    "peca": "BVM ASS JR5336"
+  },
+  {
+    "ref": "320109185R",
+    "peca": "BVM ASS JR5361"
+  },
+  {
+    "ref": "320109299R",
+    "peca": "BVM AS JR5086"
+  },
+  {
+    "ref": "320109328R",
+    "peca": "BVM ASS JR5 373"
+  },
+  {
+    "ref": "320109465R",
+    "peca": "BVM JR5 342"
+  },
+  {
+    "ref": "320109952R",
+    "peca": "BVM ASSJR5 551"
+  },
+  {
+    "ref": "321016082R",
+    "peca": "CM TL4/H5F"
+  },
+  {
+    "ref": "321818H50A",
+    "peca": "BUTEE SEL.S/CR6"
+  },
+  {
+    "ref": "322012A000",
+    "peca": "AP.ND0*001/8"
+  },
+  {
+    "ref": "32222AV61A",
+    "peca": "PMAR ASS ND0/6"
+  },
+  {
+    "ref": "322318H510",
+    "peca": "PL1A ND0/ND6"
+  },
+  {
+    "ref": "322458H500",
+    "peca": "PF MAT ND"
+  },
+  {
+    "ref": "322512A001",
+    "peca": "PL2A ND0*001"
+  },
+  {
+    "ref": "322603A10A",
+    "peca": "PL 3 ASS ND"
+  },
+  {
+    "ref": "322926J000",
+    "peca": "PIN-FRK SHFTN"
+  },
+  {
+    "ref": "323123A105",
+    "peca": "PL5A ND0*001"
+  },
+  {
+    "ref": "323318H566",
+    "peca": "PL 6A 50"
+  },
+  {
+    "ref": "323413A105",
+    "peca": "PF 5A ND0*0"
+  },
+  {
+    "ref": "323428H565",
+    "peca": "PF 6A ND6/N"
+  },
+  {
+    "ref": "326063A100",
+    "peca": "BALAD.1/2 ND"
+  },
+  {
+    "ref": "326098H51C",
+    "peca": "MOL.SIN.MAT ND"
+  },
+  {
+    "ref": "326118H501",
+    "peca": "BAL.3/4 ND0/N"
+  },
+  {
+    "ref": "328126J000",
+    "peca": "FREIO EIX.F.N"
+  },
+  {
+    "ref": "328308H520",
+    "peca": "MOL BILL.MAR N"
+  },
+  {
+    "ref": "328346J010",
+    "peca": "DED.TRAV.E.MAT"
+  },
+  {
+    "ref": "328907124R",
+    "peca": "MOD CDO BJ"
+  },
+  {
+    "ref": "381012A060",
+    "peca": "COR.ND0*003/8/1"
+  },
+  {
+    "ref": "384103062R",
+    "peca": "BD 14X59 DB1"
+  },
+  {
+    "ref": "384104974R",
+    "peca": "BD 14X69 DB1"
+  },
+  {
+    "ref": "432001324R",
+    "peca": "TAMBR VENTIL.AS"
+  },
+  {
+    "ref": "4820980278",
+    "peca": "ETIQ.IDENT."
+  },
+  {
+    "ref": "7700113768",
+    "peca": "AS BRUTO JR5"
+  },
+  {
+    "ref": "7700113770",
+    "peca": "AS BRU. JC"
+  },
+  {
+    "ref": "7700116327",
+    "peca": "AN.SUP.D.C J"
+  },
+  {
+    "ref": "7700116328",
+    "peca": "AN FRI.DC"
+  },
+  {
+    "ref": "7700116329",
+    "peca": "AN INF.DC J"
+  },
+  {
+    "ref": "7700116330",
+    "peca": "MOL SINC1/2"
+  },
+  {
+    "ref": "7700273265",
+    "peca": "EIX PATROL"
+  },
+  {
+    "ref": "7700273267",
+    "peca": "ANI.BAL.ROL"
+  },
+  {
+    "ref": "7700314993",
+    "peca": "VOL.BR G9T"
+  },
+  {
+    "ref": "7700594863",
+    "peca": "PL 3A BRT JR"
+  },
+  {
+    "ref": "7700595055",
+    "peca": "COR.DIF.BR"
+  },
+  {
+    "ref": "7701717709",
+    "peca": "CORP.BBA OL.K"
+  },
+  {
+    "ref": "7701717865",
+    "peca": "PL5 ALAR41X31 P"
+  },
+  {
+    "ref": "7701741902",
+    "peca": "CE JH/S2 S/T"
+  },
+  {
+    "ref": "7701767127",
+    "peca": "CE JH/S2 C/T"
+  },
+  {
+    "ref": "7703002635",
+    "peca": "PAR.M6-23S/CR6"
+  },
+  {
+    "ref": "7703002746",
+    "peca": "PAR.INV.S/CR"
+  },
+  {
+    "ref": "7703020042",
+    "peca": "PRF.ARR.GAIN S"
+  },
+  {
+    "ref": "7703067326",
+    "peca": "GUI.CENT.D9.VOL"
+  },
+  {
+    "ref": "7703090215",
+    "peca": "ESF. DIAM 7,9"
+  },
+  {
+    "ref": "7703101609",
+    "peca": "PARAF.BILL S/C"
+  },
+  {
+    "ref": "8200018491",
+    "peca": "AN.CRA.P2 PK"
+  },
+  {
+    "ref": "8200024456",
+    "peca": "COR VOLANT.G9T"
+  },
+  {
+    "ref": "8200052097",
+    "peca": "GAR 1/2 JR AS"
+  },
+  {
+    "ref": "8200085673",
+    "peca": "GOLPI.EIX CRA"
+  },
+  {
+    "ref": "8200116330",
+    "peca": "EIXO MAT.JB"
+  },
+  {
+    "ref": "8200128325",
+    "peca": "CED.MAQ.ND0"
+  },
+  {
+    "ref": "8200145025",
+    "peca": "SINC.MONT.1/2"
+  },
+  {
+    "ref": "8200148964",
+    "peca": "DEFL. RESP.ND"
+  },
+  {
+    "ref": "8200164983",
+    "peca": "IMP.DEDO TRAV."
+  },
+  {
+    "ref": "8200164984",
+    "peca": "DEDO INT-TRAV."
+  },
+  {
+    "ref": "8200165698",
+    "peca": "CENT. INVERS."
+  },
+  {
+    "ref": "8200166798",
+    "peca": "FORQ. 3/4 ND"
+  },
+  {
+    "ref": "8200166799",
+    "peca": "FORQ. 5/6 ND"
+  },
+  {
+    "ref": "8200166800",
+    "peca": "FORQ.MAT.ASS N"
+  },
+  {
+    "ref": "8200166802",
+    "peca": "EIX FORQ.1/2ND"
+  },
+  {
+    "ref": "8200166803",
+    "peca": "EIX FORQ.3/4ND"
+  },
+  {
+    "ref": "8200166804",
+    "peca": "EIX.FORQ.5/6ND"
+  },
+  {
+    "ref": "8200166805",
+    "peca": "EIX.FORQ.MATND"
+  },
+  {
+    "ref": "8200166807",
+    "peca": "EIX.G.FOR.MAT"
+  },
+  {
+    "ref": "8200166811",
+    "peca": "GARRA EIX1/2ND"
+  },
+  {
+    "ref": "8200166812",
+    "peca": "GARR.EIX.3/4ND"
+  },
+  {
+    "ref": "8200166813",
+    "peca": "GARR.EIX.5/6ND"
+  },
+  {
+    "ref": "8200166814",
+    "peca": "GARR.EIX.MATND"
+  },
+  {
+    "ref": "8200168712",
+    "peca": "FORQ.1/2ND"
+  },
+  {
+    "ref": "8200169709",
+    "peca": "MOL.BILLAG.5/6"
+  },
+  {
+    "ref": "8200173593",
+    "peca": "BILLAG.PAS.VEL"
+  },
+  {
+    "ref": "8200184536",
+    "peca": "MIOL.SINC.1/2N"
+  },
+  {
+    "ref": "8200205153",
+    "peca": "MOLBIL.1/2-3/4"
+  },
+  {
+    "ref": "8200291110",
+    "peca": "COROA AEQ M"
+  },
+  {
+    "ref": "8200306156",
+    "peca": "ARRET G. ND0"
+  },
+  {
+    "ref": "8200367224",
+    "peca": "ARRET GAINJR5"
+  },
+  {
+    "ref": "8200387944",
+    "peca": "CM TL4"
+  },
+  {
+    "ref": "8200388626",
+    "peca": "CED TL4EXP."
+  },
+  {
+    "ref": "8200393391",
+    "peca": "PARAF.CHAP.AEQ"
+  },
+  {
+    "ref": "8200482705",
+    "peca": "GOUL.OL ND NI"
+  },
+  {
+    "ref": "8200519099",
+    "peca": "SUP.BASC.N/GER"
+  },
+  {
+    "ref": "8200523232",
+    "peca": "MOD.CDO MA.ND0"
+  },
+  {
+    "ref": "8200570037",
+    "peca": "AS BRUTO. 16"
+  },
+  {
+    "ref": "8200591475",
+    "peca": "BBA OL K9+70"
+  },
+  {
+    "ref": "8200621998",
+    "peca": "MIOL1/2 JR PC"
+  },
+  {
+    "ref": "8200631106",
+    "peca": "INVERS.NDX SUR"
+  },
+  {
+    "ref": "8200708326",
+    "peca": "COR15X56"
+  },
+  {
+    "ref": "8200708327",
+    "peca": "COR.15X56GR"
+  },
+  {
+    "ref": "8200708329",
+    "peca": "COR15X58"
+  },
+  {
+    "ref": "8200708330",
+    "peca": "COR 15X58 GR"
+  },
+  {
+    "ref": "8200708332",
+    "peca": "COR.16X57"
+  },
+  {
+    "ref": "8200708333",
+    "peca": "COR.16X55"
+  },
+  {
+    "ref": "8200761783",
+    "peca": "COR.15X58 PB"
+  },
+  {
+    "ref": "8200779935",
+    "peca": "PL 1A BRUTO"
+  },
+  {
+    "ref": "8200779939",
+    "peca": "PL 1A BRUTO PC"
+  },
+  {
+    "ref": "8200779942",
+    "peca": "PL 2A BRUTO"
+  },
+  {
+    "ref": "8200790301",
+    "peca": "CED TL/M4 REN"
+  },
+  {
+    "ref": "8200800585",
+    "peca": "EIX 1/2 NU"
+  },
+  {
+    "ref": "8200803408",
+    "peca": "VOLANTE M9 ASS"
+  },
+  {
+    "ref": "8200810566",
+    "peca": "BO F+40 SUZ"
+  },
+  {
+    "ref": "8200826500",
+    "peca": "CM ND0 MAQ"
+  },
+  {
+    "ref": "8200826510",
+    "peca": "CM.BRU.ND0"
+  },
+  {
+    "ref": "8200837041",
+    "peca": "COR.16X57 GR"
+  },
+  {
+    "ref": "8200837042",
+    "peca": "COR.16X55 GR"
+  },
+  {
+    "ref": "8200840079",
+    "peca": "CEDMAQTL/K9ST3"
+  },
+  {
+    "ref": "8200867652",
+    "peca": "COROA AEQ M1D"
+  },
+  {
+    "ref": "8200976864",
+    "peca": "EIX.3/4 BRJRSI"
+  },
+  {
+    "ref": "8200988321",
+    "peca": "ARV.PRIM.A'PB"
+  },
+  {
+    "ref": "8201000187",
+    "peca": "BAL 1/2 JR5"
+  },
+  {
+    "ref": "8201019543",
+    "peca": "EIXO CDO JR5103"
+  },
+  {
+    "ref": "8201092556",
+    "peca": "PL 4A 31X29 PB"
+  },
+  {
+    "ref": "8201165145",
+    "peca": "PL 1A 11X41 PB"
+  },
+  {
+    "ref": "8201216115",
+    "peca": "CONJ.CHAP H4B"
+  },
+  {
+    "ref": "8201262818",
+    "peca": "EIX 1/2 JRQN/G"
+  },
+  {
+    "ref": "8201347965",
+    "peca": "BAL.3/6 C/TT"
+  },
+  {
+    "ref": "8201368801",
+    "peca": "FIC PF 5 42X31"
+  },
+  {
+    "ref": "935708887R",
+    "peca": "TAMP.OBT COL AD"
+  },
+  {
+    "ref": "990701417R",
+    "peca": "PLAC.ID REP F4"
+  },
+  {
+    "ref": "R100133977",
+    "peca": "LOCT.5205 ERRO"
+  },
+  {
+    "ref": "T683222700",
+    "peca": "FITA CINTAR"
+  },
+  {
+    "ref": "T845217000",
+    "peca": "MASSA MOLYKOT"
+  },
+  {
+    "ref": "T853024101",
+    "peca": "BLUEST.(125GR"
+  },
+  {
+    "ref": "110175352R",
+    "peca": "SEMEL.H5H BR 4CIL"
+  },
+  {
+    "ref": "110178859R",
+    "peca": "SEM.H5 BR CIE N/G"
+  },
+  {
+    "ref": "110221320R",
+    "peca": "GUIA CENTRAG 9X11"
+  },
+  {
+    "ref": "110255807R",
+    "peca": "EMBOUT EAU SORTIE"
+  },
+  {
+    "ref": "122823046R",
+    "peca": "CHAP PAL H5D 1"
+  },
+  {
+    "ref": "122823081R",
+    "peca": "CHAP PALIER 1 H5H"
+  },
+  {
+    "ref": "122831572R",
+    "peca": "CHAP PAL H5D 3"
+  },
+  {
+    "ref": "122834715R",
+    "peca": "CHAP PALIER 3 H5H"
+  },
+  {
+    "ref": "122845134R",
+    "peca": "CHAP PALIER 2 H5H"
+  },
+  {
+    "ref": "122846170R",
+    "peca": "CHAP PAL H5D 2"
+  },
+  {
+    "ref": "122852201R",
+    "peca": "CHAP PALIER 4 H5H"
+  },
+  {
+    "ref": "122856011R",
+    "peca": "CHAP PAL H5D 4"
+  },
+  {
+    "ref": "122865076R",
+    "peca": "CHAP PALIER 5 H5H"
+  },
+  {
+    "ref": "124014129R",
+    "peca": "AP AEQ NU N/G"
+  },
+  {
+    "ref": "124018287R",
+    "peca": "AEQ SEC M9T N/G"
+  },
+  {
+    "ref": "124018766R",
+    "peca": "AP MAQ.AEQ N/GER"
+  },
+  {
+    "ref": "124052214R",
+    "peca": "PINH AEQ BRUT N/G"
+  },
+  {
+    "ref": "130212544R",
+    "peca": "PINH AEQ M9 BR NG"
+  },
+  {
+    "ref": "132517795R",
+    "peca": "RAMPA ADM FDV"
+  },
+  {
+    "ref": "132518178R",
+    "peca": "RAMPA ESC FDV"
+  },
+  {
+    "ref": "132537000R",
+    "peca": "EIXO BALANC NU"
+  },
+  {
+    "ref": "132620648R",
+    "peca": "BAL ADM NU FDV"
+  },
+  {
+    "ref": "132625783R",
+    "peca": "BAL ADM FDV N/G"
+  },
+  {
+    "ref": "132626879R",
+    "peca": "BAL.ADM.NU.D4"
+  },
+  {
+    "ref": "132842693R",
+    "peca": "BAL ESC NU FDV"
+  },
+  {
+    "ref": "132843599R",
+    "peca": "CULB.ECH.NU D4"
+  },
+  {
+    "ref": "132844289R",
+    "peca": "BAL ESC FDV N/G"
+  },
+  {
+    "ref": "150121777R",
+    "peca": "CORP VOP R9 NU"
+  },
+  {
+    "ref": "150122250R",
+    "peca": "CORPS POMPE HUILE"
+  },
+  {
+    "ref": "150122632R",
+    "peca": "CORP.VOP H5 MAQ"
+  },
+  {
+    "ref": "150122876R",
+    "peca": "CORP BO K9 MA NG"
+  },
+  {
+    "ref": "150123979R",
+    "peca": "CORPS POMPE HUILE"
+  },
+  {
+    "ref": "150124315R",
+    "peca": "CORP BRU K9 N/G"
+  },
+  {
+    "ref": "150124452R",
+    "peca": "COR.VOP H4 NU EI"
+  },
+  {
+    "ref": "150128388R",
+    "peca": "COR.VOP M9 NU"
+  },
+  {
+    "ref": "150129443R",
+    "peca": "CORP.VOP NU R9M"
+  },
+  {
+    "ref": "150129827R",
+    "peca": "CORP. VOP H5 MAQ"
+  },
+  {
+    "ref": "150151060R",
+    "peca": "COUV.VOP.NU M/R"
+  },
+  {
+    "ref": "150151072R",
+    "peca": "TAMP VOP H4 NU"
+  },
+  {
+    "ref": "150151297R",
+    "peca": "TAMP K4 K9 CLAPE"
+  },
+  {
+    "ref": "150155643R",
+    "peca": "COUV.VOP H NU"
+  },
+  {
+    "ref": "150155704R",
+    "peca": "TAMP BBA K7 CLAPE"
+  },
+  {
+    "ref": "150157302R",
+    "peca": "COUV.POMPE NU N/G"
+  },
+  {
+    "ref": "150159443R",
+    "peca": "COUV.PPE H NU N/G"
+  },
+  {
+    "ref": "150264013R",
+    "peca": "PINH BBA OL N/G"
+  },
+  {
+    "ref": "150269337R",
+    "peca": "PINH BBA OL N/G"
+  },
+  {
+    "ref": "150436860R",
+    "peca": "PINH AEQ M9 BR NG"
+  },
+  {
+    "ref": "150462945R",
+    "peca": "PINH MONO F4R PIE"
+  },
+  {
+    "ref": "231C13534R",
+    "peca": "CART PEB BRT PITE"
+  },
+  {
+    "ref": "290H24181R",
+    "peca": "TRACTION MOTOR"
+  },
+  {
+    "ref": "304010972R",
+    "peca": "CARTER EMBRAYAGE"
+  },
+  {
+    "ref": "304017104R",
+    "peca": "CART EMB ALF PIE"
+  },
+  {
+    "ref": "321016838R",
+    "peca": "CART MEC NU PS"
+  },
+  {
+    "ref": "321018352R",
+    "peca": "CM BRUTO CIE PIE"
+  },
+  {
+    "ref": "321018605R",
+    "peca": "CART MECA BRUT FA"
+  },
+  {
+    "ref": "321018883R",
+    "peca": "CART MEC NU PC"
+  },
+  {
+    "ref": "322516894R",
+    "peca": "PIGNON FOU 2 KZ"
+  },
+  {
+    "ref": "322623335R",
+    "peca": "CASQ.PL 2/3/4 JR"
+  },
+  {
+    "ref": "322631911R",
+    "peca": "ROL AS/CED JT NG"
+  },
+  {
+    "ref": "322654984R",
+    "peca": "ESPA PF 5/6 N/G"
+  },
+  {
+    "ref": "322659158R",
+    "peca": "ESPA PF 3/4 N/G"
+  },
+  {
+    "ref": "322754793R",
+    "peca": "ROULEMENT ARBRE P"
+  },
+  {
+    "ref": "322B61382R",
+    "peca": "PIGNON FOU 4 KZ"
+  },
+  {
+    "ref": "323183585R",
+    "peca": "CASQ.PL 5A JR"
+  },
+  {
+    "ref": "326056986R",
+    "peca": "MOYEU 3/ 4EME RSB"
+  },
+  {
+    "ref": "326058H500",
+    "peca": "MOYEU SYNCHRONISE"
+  },
+  {
+    "ref": "326110990R",
+    "peca": "BALAD 3/4EM RSB"
+  },
+  {
+    "ref": "326268971R",
+    "peca": "BALAD 5EME RSB"
+  },
+  {
+    "ref": "326282188R",
+    "peca": "MOYEU 5EME RSB"
+  },
+  {
+    "ref": "326282450R",
+    "peca": "MIOL MAT JT PIE"
+  },
+  {
+    "ref": "326288095R",
+    "peca": "MIOL MAT JT PIE"
+  },
+  {
+    "ref": "326288H500",
+    "peca": "MOYEU DE 5EME ET"
+  },
+  {
+    "ref": "328495755R",
+    "peca": "AXE BASCULEUR MAR"
+  },
+  {
+    "ref": "328498041R",
+    "peca": "AXE BASCULEUR MAR"
+  },
+  {
+    "ref": "329415790R",
+    "peca": "AXE FOURCH. 5EME"
+  },
+  {
+    "ref": "384100163R",
+    "peca": "CD+COR 14X59 GR"
+  },
+  {
+    "ref": "384100261R",
+    "peca": "CD+COR 15X61 GR"
+  },
+  {
+    "ref": "384103102R",
+    "peca": "CD+COR.14X63 GF"
+  },
+  {
+    "ref": "384103618R",
+    "peca": "CD+COR.14X63 GF"
+  },
+  {
+    "ref": "384103920R",
+    "peca": "BD 14X63 ASS N/GE"
+  },
+  {
+    "ref": "384104375R",
+    "peca": "BD 15X58 ASS N/GE"
+  },
+  {
+    "ref": "384104791R",
+    "peca": "CD+COR.16X57 GR"
+  },
+  {
+    "ref": "384104803R",
+    "peca": "CD+COR.14X61 GF"
+  },
+  {
+    "ref": "384104956R",
+    "peca": "CD+COR.14X59 GF"
+  },
+  {
+    "ref": "384105634R",
+    "peca": "CD+COR.17X56 GR"
+  },
+  {
+    "ref": "384106360R",
+    "peca": "BD 14X59 ASS N/GE"
+  },
+  {
+    "ref": "384107116R",
+    "peca": "CD+COR.14X69 GF"
+  },
+  {
+    "ref": "384107535R",
+    "peca": "CD+COR.18X57 GR"
+  },
+  {
+    "ref": "384108086R",
+    "peca": "CD+COR.15X58 GR"
+  },
+  {
+    "ref": "384108575R",
+    "peca": "CD+COR.16X55 GR"
+  },
+  {
+    "ref": "384108790R",
+    "peca": "BD 14X69 ASS N/GE"
+  },
+  {
+    "ref": "384109735R",
+    "peca": "CD+COR.15X56 GR"
+  },
+  {
+    "ref": "384433090R",
+    "peca": "ROL DIFER JT4 N/G"
+  },
+  {
+    "ref": "7700100819",
+    "peca": "TAMPA BBA OL.MOT."
+  },
+  {
+    "ref": "7700100827",
+    "peca": "CORP.BBA.OL.MONT."
+  },
+  {
+    "ref": "7700100863",
+    "peca": "CORP.BBA OLEO F"
+  },
+  {
+    "ref": "7700100890",
+    "peca": "TAMP.BBA.OL.MONT."
+  },
+  {
+    "ref": "7700102516",
+    "peca": "ARBRE ENTRN POMPE"
+  },
+  {
+    "ref": "7700102535",
+    "peca": "TAMIS CREPINE.MGI"
+  },
+  {
+    "ref": "7700104676",
+    "peca": "TAMPA BBA.OLEO K"
+  },
+  {
+    "ref": "7700105790",
+    "peca": "CAIXA MULTIFUN. M"
+  },
+  {
+    "ref": "7700106581",
+    "peca": "PIGNON CMD POMPE"
+  },
+  {
+    "ref": "7700106719",
+    "peca": "EMBOUT EAU SORTIE"
+  },
+  {
+    "ref": "7700106859",
+    "peca": "CREPINE.MGICOUTIE"
+  },
+  {
+    "ref": "7700106860",
+    "peca": "FOND CREPINE.MGIC"
+  },
+  {
+    "ref": "7700108482",
+    "peca": "ARBRE ENTRAINEMEN"
+  },
+  {
+    "ref": "7700108590",
+    "peca": "BOUCHON BUTEE.MET"
+  },
+  {
+    "ref": "7700108855",
+    "peca": "PIGNON POMPE HUIL"
+  },
+  {
+    "ref": "7700109858",
+    "peca": "FOURCHETTE 1ERE 2"
+  },
+  {
+    "ref": "7700112407",
+    "peca": "EIXO 3/4 NU JR BA"
+  },
+  {
+    "ref": "7700112539",
+    "peca": "TAMPA BBA. MONT.F"
+  },
+  {
+    "ref": "7700113834",
+    "peca": "FUNDO CREPINE. FX"
+  },
+  {
+    "ref": "7700114165",
+    "peca": "COL.ESC.K4M 4/1NO"
+  },
+  {
+    "ref": "7700114491",
+    "peca": "EIXO 1/2 NU JR BA"
+  },
+  {
+    "ref": "7700115773",
+    "peca": "PIG.FOU 4 (34X35)"
+  },
+  {
+    "ref": "7700273045",
+    "peca": "PIGNON POMPE HUIL"
+  },
+  {
+    "ref": "7700273615",
+    "peca": "TAMPA BBA.OL.MAQ."
+  },
+  {
+    "ref": "7700742899",
+    "peca": "ARBRE CDE POMPE A"
+  },
+  {
+    "ref": "7700743190",
+    "peca": "BUJAO MOLA BBA OL"
+  },
+  {
+    "ref": "7702300001",
+    "peca": "CORP.BBA.OL.MAQ.G"
+  },
+  {
+    "ref": "7702300013",
+    "peca": "PINH.BBA OLEO G"
+  },
+  {
+    "ref": "7702300019",
+    "peca": "PINHAO CDO BBA OL"
+  },
+  {
+    "ref": "7703066383",
+    "peca": "FREI D32 APRO 376"
+  },
+  {
+    "ref": "7705010240",
+    "peca": "GUIA BBA OL.MOT F"
+  },
+  {
+    "ref": "8200004861",
+    "peca": "AXE CULBUTEURS NU"
+  },
+  {
+    "ref": "8200005568",
+    "peca": "BALAN BRUTG9TSONA"
+  },
+  {
+    "ref": "8200009981",
+    "peca": "BALANCEIRO MAQ. G"
+  },
+  {
+    "ref": "8200022604",
+    "peca": "PING.FOU.2EME PK"
+  },
+  {
+    "ref": "8200060077",
+    "peca": "PIGN PPE HUIL N/G"
+  },
+  {
+    "ref": "8200071154",
+    "peca": "EIXO 5A NU JR BA"
+  },
+  {
+    "ref": "8200073120",
+    "peca": "ROL.CON.DIF.JRX"
+  },
+  {
+    "ref": "8200096874",
+    "peca": "BALAD 3/ 4 EME CL"
+  },
+  {
+    "ref": "8200098642",
+    "peca": "TAMPA BBA OL.G9T"
+  },
+  {
+    "ref": "8200101961",
+    "peca": "TAMP.BBA.K9K*262"
+  },
+  {
+    "ref": "8200108885",
+    "peca": "ROUL.CONIQ.AS/CED"
+  },
+  {
+    "ref": "8200143373",
+    "peca": "MOYEU SYNCHRONISE"
+  },
+  {
+    "ref": "8200146085",
+    "peca": "CENTREUR"
+  },
+  {
+    "ref": "8200146327",
+    "peca": "BAGUE SOUS PIGNON"
+  },
+  {
+    "ref": "8200149102",
+    "peca": "TAMPA 5 VOIR APRO"
+  },
+  {
+    "ref": "8200150196",
+    "peca": "CORPS POMPE HUILE"
+  },
+  {
+    "ref": "8200158257",
+    "peca": "CORPS PPE HUILE N"
+  },
+  {
+    "ref": "8200159383",
+    "peca": "MOYEU 5EME 6EME"
+  },
+  {
+    "ref": "8200169102",
+    "peca": "BAGUE AXE FOURCHE"
+  },
+  {
+    "ref": "8200171404",
+    "peca": "TAMPA BBA OL.MAQ."
+  },
+  {
+    "ref": "8200196343",
+    "peca": "CORP.BBA.OL.MAQ.G"
+  },
+  {
+    "ref": "8200228975",
+    "peca": "ARBRE EQUILIBRAGE"
+  },
+  {
+    "ref": "8200228976",
+    "peca": "ARBRE EQUILIBRAGE"
+  },
+  {
+    "ref": "8200231855",
+    "peca": "DOIGT INTERVERROU"
+  },
+  {
+    "ref": "8200259104",
+    "peca": "BALANC. G BR.FU"
+  },
+  {
+    "ref": "8200298120",
+    "peca": "ROLAMEN.CON.DIF.N"
+  },
+  {
+    "ref": "8200307176",
+    "peca": "CORP0 BBA OLEO MA"
+  },
+  {
+    "ref": "8200345760",
+    "peca": "COUVERCLE POMPE H"
+  },
+  {
+    "ref": "8200385554",
+    "peca": "SEMELLE AEQ MAQ.M"
+  },
+  {
+    "ref": "8200386141",
+    "peca": "CHAPEU APOIO MAQ"
+  },
+  {
+    "ref": "8200389245",
+    "peca": "CHAPEU MAQ AEQ MX"
+  },
+  {
+    "ref": "8200400638",
+    "peca": "CORP.BBA.OL.F40.M"
+  },
+  {
+    "ref": "8200426388",
+    "peca": "EIXO 1/2 NU JA5"
+  },
+  {
+    "ref": "8200438501",
+    "peca": "MOYEU 5EME"
+  },
+  {
+    "ref": "8200541573",
+    "peca": "PIG.FOU 4 (35X34)"
+  },
+  {
+    "ref": "8200541576",
+    "peca": "PIG.FOU 4 (31X34)"
+  },
+  {
+    "ref": "8200546421",
+    "peca": "AXE SATELITTE JT4"
+  },
+  {
+    "ref": "8200555306",
+    "peca": "BAGUE CENTRAGE"
+  },
+  {
+    "ref": "8200632476",
+    "peca": "BALAD 5 JR5B N/G"
+  },
+  {
+    "ref": "8200701594",
+    "peca": "BOITIERDIF.USINE"
+  },
+  {
+    "ref": "8200711779",
+    "peca": "EMBOUT RENIFLARD"
+  },
+  {
+    "ref": "8200783529",
+    "peca": "TAMPA BBA F MAQ"
+  },
+  {
+    "ref": "8200796786",
+    "peca": "SUP.INJECT.K4.GAS"
+  },
+  {
+    "ref": "8200916822",
+    "peca": "CORPS PPE HL M9T"
+  },
+  {
+    "ref": "8200941693",
+    "peca": "TAMP.BBA.OL.SUZ.M"
+  },
+  {
+    "ref": "8200941694",
+    "peca": "COUVERCLE POMPE H"
+  },
+  {
+    "ref": "8201007996",
+    "peca": "ARBRE EQUILIBRAGE"
+  },
+  {
+    "ref": "8201007998",
+    "peca": "ARBRE EQUILIBRAGE"
+  },
+  {
+    "ref": "8201081262",
+    "peca": "AXE FOURCHETTE 3E"
+  },
+  {
+    "ref": "8201081265",
+    "peca": "AXE FOURCHETTE 5E"
+  },
+  {
+    "ref": "8201081288",
+    "peca": "AXE FOURCHETTE 3E"
+  },
+  {
+    "ref": "8201083585",
+    "peca": "AXE FOURCHETTE 5E"
+  },
+  {
+    "ref": "8201694637",
+    "peca": "PECAS N/G MOTORES"
+  },
+  {
+    "ref": "8201694639",
+    "peca": "PECAS N/G CAIXAS"
+  },
+  {
+    "ref": "8201747852",
+    "peca": "SUCATA ALUM LIMPO"
+  },
+  {
+    "ref": "EMAPMPRS01",
+    "peca": "EMBA AP MPR SOFRA"
+  },
+  {
+    "ref": "EMASILNV17",
+    "peca": "EMBA ARV SEG AILN"
+  },
+  {
+    "ref": "EMASMPRS02",
+    "peca": "EMBA AS MPR SOFRA"
+  },
+  {
+    "ref": "EMBALCAC35",
+    "peca": "EMBA CONS0130 BAL"
+  },
+  {
+    "ref": "EMBDMPRS10",
+    "peca": "EMBA CAIX DIF MPR"
+  },
+  {
+    "ref": "EMBOMPRS03",
+    "peca": "EMBA BBO MPR SOFR"
+  },
+  {
+    "ref": "EMCDCHOI39",
+    "peca": "EMBA CART DIS CHO"
+  },
+  {
+    "ref": "EMCDMPRS05",
+    "peca": "EMBA CART DIS MPR"
+  },
+  {
+    "ref": "EMCEDILN29",
+    "peca": "EMBA KIT CED AILN"
+  },
+  {
+    "ref": "EMCHAPEU24",
+    "peca": "EMBA CHAPEU PALIE"
+  },
+  {
+    "ref": "EMCINTAG20",
+    "peca": "EMBA CINTAGEM"
+  },
+  {
+    "ref": "EMCMMPRS25",
+    "peca": "EMBA CAIX MUL MPR"
+  },
+  {
+    "ref": "EMCOCHEN28",
+    "peca": "EMBA COROA CHENAI"
+  },
+  {
+    "ref": "EMCOMPRS09",
+    "peca": "EMBA COLECTOR MPR"
+  },
+  {
+    "ref": "EMEFILNV23",
+    "peca": "EMBA EIXO FOR ILN"
+  },
+  {
+    "ref": "EMEFMPRS08",
+    "peca": "EMBA EIXO FOR MPR"
+  },
+  {
+    "ref": "EMEFOYAC27",
+    "peca": "EMBA EIXO FOR CHO"
+  },
+  {
+    "ref": "EMEMAMPR04",
+    "peca": "EMBA EIXO MAR MPR"
+  },
+  {
+    "ref": "EMEPMCHO16",
+    "peca": "EMBA EIXO MAR CHO"
+  },
+  {
+    "ref": "EMEPMILN21",
+    "peca": "EMBA EIXO MAR ILN"
+  },
+  {
+    "ref": "EMMONKIT30",
+    "peca": "EMBA MONTAGEM K3P"
+  },
+  {
+    "ref": "EMPARBAL36",
+    "peca": "EMBA EMPARELH BAL"
+  },
+  {
+    "ref": "EMPIILNV18",
+    "peca": "EMBA PINHOES AILN"
+  },
+  {
+    "ref": "EMPIMPRS07",
+    "peca": "EMBA PINHOES MPR"
+  },
+  {
+    "ref": "EMPK6CHO38",
+    "peca": "EMBA PINH PK6 CHO"
+  },
+  {
+    "ref": "EMPREPBO31",
+    "peca": "EMBA PREP MIL BOL"
+  },
+  {
+    "ref": "EMREACOB34",
+    "peca": "EMBA REACOND BALA"
+  },
+  {
+    "ref": "EMSEMPRS12",
+    "peca": "EMBA SEMELLE MPR"
+  },
+  {
+    "ref": "EMTAMMPR33",
+    "peca": "EMBA TAMB MPR SOF"
+  },
+  {
+    "ref": "EMTCMPRS11",
+    "peca": "EMBA TAMP CUL MPR"
+  },
+  {
+    "ref": "EMVOMPRS06",
+    "peca": "EMBA VOL MPR SOFR"
+  },
+  {
+    "ref": "IMPETIQU15",
+    "peca": "IMP ETIQUETA MPR"
+  },
+  {
+    "ref": "PREKITCA32",
+    "peca": "EMBA PREV KIT CAR"
+  },
+  {
+    "ref": "R100649336",
+    "peca": "TOPCOAT BLACK W11"
+  },
+  {
+    "ref": "T853014270",
+    "peca": "LOCT.16128(64"
+  },
+  {
+    "ref": "T853024130",
+    "peca": "ESTANQUIDADE CARTERS"
+  },
+  {
+    "ref": "812061628",
+    "peca": "PARAF.PLAC.ROL ND"
+  },
+  {
+    "ref": "3143880X00",
+    "peca": "ANIL.CALA.1 DIFER"
+  },
+  {
+    "ref": "3143880X01",
+    "peca": "ANIL.CALA.1 DIFER"
+  },
+  {
+    "ref": "3143880X02",
+    "peca": "ANIL.CALA.1 DIFER"
+  },
+  {
+    "ref": "3143880X03",
+    "peca": "ANIL.CALA.1 DIFER"
+  },
+  {
+    "ref": "3143880X04",
+    "peca": "ANIL.CALA.1 DIFER"
+  },
+  {
+    "ref": "3143880X05",
+    "peca": "ANIL.CALA.1 DIFER"
+  },
+  {
+    "ref": "3143880X06",
+    "peca": "ANIL.CALA.1 DIFER"
+  },
+  {
+    "ref": "3143880X07",
+    "peca": "ANIL.CALA.1 DIFER"
+  },
+  {
+    "ref": "3143880X08",
+    "peca": "ANIL.CALA.1 DIFER"
+  },
+  {
+    "ref": "3143880X09",
+    "peca": "ANIL.CALA.1 DIFER"
+  },
+  {
+    "ref": "3143880X10",
+    "peca": "ANIL.CALA.1 DIFER"
+  },
+  {
+    "ref": "3143880X11",
+    "peca": "ANIL.CALA.1 DIFER"
+  },
+  {
+    "ref": "32105C6900",
+    "peca": "GUIA CENT.CART.ND"
+  },
+  {
+    "ref": "322012A010",
+    "peca": "ARV.PRI.NDO*2/9/"
+  },
+  {
+    "ref": "322019J70A",
+    "peca": "ARV.PRIM.ND4*012"
+  },
+  {
+    "ref": "322153A100",
+    "peca": "PF 3A ND0*001"
+  },
+  {
+    "ref": "322158H500",
+    "peca": "PF 3 ND6/ND0"
+  },
+  {
+    "ref": "32215JG70A",
+    "peca": "PF 3A ND4 008"
+  },
+  {
+    "ref": "322172A000",
+    "peca": "PF 4A ND0*001"
+  },
+  {
+    "ref": "322173A115",
+    "peca": "PF 4A ND4*004"
+  },
+  {
+    "ref": "32217JG70A",
+    "peca": "PF 4A ND4"
+  },
+  {
+    "ref": "322227N60A",
+    "peca": "P. MAR ASS ND4"
+  },
+  {
+    "ref": "322229J70A",
+    "peca": "PIN.MAT ASS ND412"
+  },
+  {
+    "ref": "322258H500",
+    "peca": "ANIL.CAL.PRIMAR.N"
+  },
+  {
+    "ref": "322258H501",
+    "peca": "ANIL.CAL.PRIMAR.N"
+  },
+  {
+    "ref": "322258H502",
+    "peca": "ANIL.CAL.PRIMAR.N"
+  },
+  {
+    "ref": "322258H503",
+    "peca": "ANIL.CAL.PRIMAR.N"
+  },
+  {
+    "ref": "322258H504",
+    "peca": "ANIL.CAL.PRIMAR.N"
+  },
+  {
+    "ref": "322258H505",
+    "peca": "ANIL.CAL.PRIMAR.N"
+  },
+  {
+    "ref": "322258H506",
+    "peca": "ANIL.CAL.PRIMAR.N"
+  },
+  {
+    "ref": "322258H507",
+    "peca": "ANIL.CAL.PRIMAR.N"
+  },
+  {
+    "ref": "322258H508",
+    "peca": "ANIL.CAL.PRIMAR.N"
+  },
+  {
+    "ref": "322258H509",
+    "peca": "ANIL.CAL.PRIMAR.N"
+  },
+  {
+    "ref": "322258H510",
+    "peca": "ANIL.CAL.PRIMAR.N"
+  },
+  {
+    "ref": "322258H511",
+    "peca": "ANIL.CAL.PRIMAR.N"
+  },
+  {
+    "ref": "322258H512",
+    "peca": "ANIL.CAL.PRIMAR.N"
+  },
+  {
+    "ref": "322258H513",
+    "peca": "ANIL.CAL.PRIMAR.N"
+  },
+  {
+    "ref": "322258H514",
+    "peca": "ANIL.CAL.PRIMAR.N"
+  },
+  {
+    "ref": "322258H515",
+    "peca": "ANIL.CAL.PRIMAR.N"
+  },
+  {
+    "ref": "322258H516",
+    "peca": "ANIL.CAL.PRIMAR.N"
+  },
+  {
+    "ref": "322258H517",
+    "peca": "ANIL.CAL.PRIMAR.N"
+  },
+  {
+    "ref": "322258H518",
+    "peca": "ANIL.CAL.PRIMAR.N"
+  },
+  {
+    "ref": "322258H519",
+    "peca": "ANIL.CAL.PRIMAR.N"
+  },
+  {
+    "ref": "322258H520",
+    "peca": "ANIL.CAL.PRIMAR.N"
+  },
+  {
+    "ref": "322258H521",
+    "peca": "ANIL.CAL.PRIMAR.N"
+  },
+  {
+    "ref": "322258H522",
+    "peca": "ANIL.CAL.PRIMAR.N"
+  },
+  {
+    "ref": "322258H523",
+    "peca": "ANIL.CAL.PRIMAR.N"
+  },
+  {
+    "ref": "322258H524",
+    "peca": "ANIL.CAL.PRIMAR.N"
+  },
+  {
+    "ref": "322258H560",
+    "peca": "ANIL.CAL.PRIMAR.N"
+  },
+  {
+    "ref": "322258H561",
+    "peca": "ANIL.CAL.PRIMAR.N"
+  },
+  {
+    "ref": "322258H562",
+    "peca": "ANIL.CAL.PRIMAR.N"
+  },
+  {
+    "ref": "322258H563",
+    "peca": "ANIL.CAL.PRIMAR.N"
+  },
+  {
+    "ref": "322258H564",
+    "peca": "ANIL.CAL.PRIMAR.N"
+  },
+  {
+    "ref": "322258H565",
+    "peca": "ANIL.CAL.PRIMAR.N"
+  },
+  {
+    "ref": "322258H566",
+    "peca": "ANIL.CAL.PRIMAR.N"
+  },
+  {
+    "ref": "322317N60A",
+    "peca": "PL 1A ND4"
+  },
+  {
+    "ref": "322319J70A",
+    "peca": "PL 1A ND4*012"
+  },
+  {
+    "ref": "322378H560",
+    "peca": "ANIL.CAL. 3 SEC.N"
+  },
+  {
+    "ref": "322378H561",
+    "peca": "ANIL.CAL.3 SEC.ND"
+  },
+  {
+    "ref": "322378H562",
+    "peca": "ANIL.CAL.3 SEC.ND"
+  },
+  {
+    "ref": "322378H563",
+    "peca": "ANIL.CAL.3 SEC.ND"
+  },
+  {
+    "ref": "322378H564",
+    "peca": "ANIL.CAL.3 SEC.ND"
+  },
+  {
+    "ref": "322378H565",
+    "peca": "ANIL.CAL.3 SEC.ND"
+  },
+  {
+    "ref": "322378H566",
+    "peca": "ANIL.CAL.3 SEC.ND"
+  },
+  {
+    "ref": "322378H800",
+    "peca": "SHIM ADJ REV IDLE"
+  },
+  {
+    "ref": "322378H802",
+    "peca": "SHIM ADJ REV IDLE"
+  },
+  {
+    "ref": "322378H804",
+    "peca": "SHIM ADJ REV IDLE"
+  },
+  {
+    "ref": "322378H806",
+    "peca": "SHIM ADJ REV IDLE"
+  },
+  {
+    "ref": "322378H808",
+    "peca": "SHIM ADJ REV IDLE"
+  },
+  {
+    "ref": "322378H810",
+    "peca": "SHIM ADJ REV IDLE"
+  },
+  {
+    "ref": "322378H812",
+    "peca": "SHIM ADJ REV IDLE"
+  },
+  {
+    "ref": "322378H814",
+    "peca": "SHIM ADJ REV IDLE"
+  },
+  {
+    "ref": "322378H816",
+    "peca": "SHIM ADJ REV IDLE"
+  },
+  {
+    "ref": "322378H818",
+    "peca": "SHIM ADJ REV IDLE"
+  },
+  {
+    "ref": "322378H820",
+    "peca": "SHIM ADJ REV IDLE"
+  },
+  {
+    "ref": "322378H822",
+    "peca": "SHIM ADJ REV IDLE"
+  },
+  {
+    "ref": "322388H500",
+    "peca": "ANIL.CAL.P.FIX.3A"
+  },
+  {
+    "ref": "322388H501",
+    "peca": "ANIL.CAL.P.FIX.3A"
+  },
+  {
+    "ref": "322388H502",
+    "peca": "ANIL.CAL.P.FIX.3A"
+  },
+  {
+    "ref": "322388H503",
+    "peca": "ANIL.CAL.P.FIX.3A"
+  },
+  {
+    "ref": "322388H504",
+    "peca": "ANIL.CAL.P.FIX.3A"
+  },
+  {
+    "ref": "322388H505",
+    "peca": "ANIL.CAL.P.FIX.3A"
+  },
+  {
+    "ref": "322388H506",
+    "peca": "ANIL.CAL.P.FIX.3A"
+  },
+  {
+    "ref": "322388H507",
+    "peca": "ANIL.CALP.FIX.3A"
+  },
+  {
+    "ref": "322388H510",
+    "peca": "ANIL.CAL.1 ARV.SE"
+  },
+  {
+    "ref": "322388H511",
+    "peca": "ANIL.CAL.1 ARV SE"
+  },
+  {
+    "ref": "322388H512",
+    "peca": "ANIL.CAL.1 ARV.SE"
+  },
+  {
+    "ref": "322388H513",
+    "peca": "ANIL.CAL.1 ARV.SE"
+  },
+  {
+    "ref": "322388H514",
+    "peca": "ANIL.CAL.1 ARV.SE"
+  },
+  {
+    "ref": "322388H515",
+    "peca": "ANIL.CAL.1 ARV SE"
+  },
+  {
+    "ref": "322388H516",
+    "peca": "ANIL.CAL.1 ARV.SE"
+  },
+  {
+    "ref": "322388H517",
+    "peca": "ANIL.CAL.1 ARV.SE"
+  },
+  {
+    "ref": "322388H518",
+    "peca": "ANIL.CAL.1 ARV.SE"
+  },
+  {
+    "ref": "322388H519",
+    "peca": "ANIL.CAL.1 ARV.SE"
+  },
+  {
+    "ref": "322388H520",
+    "peca": "ANIL.CAL.1 ARV.SE"
+  },
+  {
+    "ref": "322388H521",
+    "peca": "ANIL.CAL.1 ARV.SE"
+  },
+  {
+    "ref": "322388H522",
+    "peca": "ANIL.CAL.1 ARV.SE"
+  },
+  {
+    "ref": "322388H523",
+    "peca": "ANIL.CAL.1 ARV.SE"
+  },
+  {
+    "ref": "322388H524",
+    "peca": "ANIL.CAL.1 ARV.SE"
+  },
+  {
+    "ref": "322388H560",
+    "peca": "ANIL.CAL.1 ARV.SE"
+  },
+  {
+    "ref": "322388H561",
+    "peca": "ANIL.CAL.1 ARV.SE"
+  },
+  {
+    "ref": "322412A07B",
+    "peca": "ARV.SEC.14X57 ND0"
+  },
+  {
+    "ref": "322417N60B",
+    "peca": "ARV.SEC.ND4002"
+  },
+  {
+    "ref": "322417N60E",
+    "peca": "ARV.SEC. ND4003"
+  },
+  {
+    "ref": "322417N65B",
+    "peca": "ARV.SEC.15X62 ND4"
+  },
+  {
+    "ref": "322417N69B",
+    "peca": "ARV.SEC.16X61 ND4"
+  },
+  {
+    "ref": "322457N60A",
+    "peca": "PF MAR ND4"
+  },
+  {
+    "ref": "322467N60A",
+    "peca": "BAG.AGUL.P LOU 1"
+  },
+  {
+    "ref": "322517N60A",
+    "peca": "PL 2A ND4"
+  },
+  {
+    "ref": "322519J70A",
+    "peca": "PL 2A ND4*012"
+  },
+  {
+    "ref": "322607N60A",
+    "peca": "PL 3A ND4"
+  },
+  {
+    "ref": "322608H50D",
+    "peca": "PL 3A ASS ND4"
+  },
+  {
+    "ref": "322609J70A",
+    "peca": "PL 3A ASS ND4 008"
+  },
+  {
+    "ref": "322702A001",
+    "peca": "PL 4A ASS ND0"
+  },
+  {
+    "ref": "322703A116",
+    "peca": "PL 4A ND6*001"
+  },
+  {
+    "ref": "322708H506",
+    "peca": "PL 4A ND0/ND6"
+  },
+  {
+    "ref": "322748H52A",
+    "peca": "CASQ. P.LOU.6 ND4"
+  },
+  {
+    "ref": "322818H500",
+    "peca": "EIXO MAR.ND"
+  },
+  {
+    "ref": "323123A115",
+    "peca": "PL 5A ND4"
+  },
+  {
+    "ref": "323129J70A",
+    "peca": "PL 5A 46X31 GF"
+  },
+  {
+    "ref": "32312JG70A",
+    "peca": "PL 5A ND4"
+  },
+  {
+    "ref": "323312A05B",
+    "peca": "PL 6A 48X29 ND"
+  },
+  {
+    "ref": "32331JG70B",
+    "peca": "PL 6A 52X31 ND"
+  },
+  {
+    "ref": "323413A115",
+    "peca": "PF 5A ND00"
+  },
+  {
+    "ref": "323419J70A",
+    "peca": "PF 5A 46X31 GF"
+  },
+  {
+    "ref": "32341JG70A",
+    "peca": "PF 5A ND4"
+  },
+  {
+    "ref": "323422A005",
+    "peca": "PF 6A ND0/"
+  },
+  {
+    "ref": "32342JG70A",
+    "peca": "PF 6A ND4"
+  },
+  {
+    "ref": "323488H800",
+    "peca": "ANIL.CAL.2 SEC.ND"
+  },
+  {
+    "ref": "323488H801",
+    "peca": "ANIL.CAL.2 SEC.ND"
+  },
+  {
+    "ref": "323488H802",
+    "peca": "ANIL.CAL.2 SEC.ND"
+  },
+  {
+    "ref": "323488H803",
+    "peca": "ANIL.CAL.2 SEC.ND"
+  },
+  {
+    "ref": "323488H804",
+    "peca": "ANIL.CAL.2 SEC.ND"
+  },
+  {
+    "ref": "323488H805",
+    "peca": "ANIL.CAL.2 SEC.ND"
+  },
+  {
+    "ref": "323488H806",
+    "peca": "ANIL.CAL.2 SEC.ND"
+  },
+  {
+    "ref": "323488H807",
+    "peca": "ANIL.CAL.2 SEC.ND"
+  },
+  {
+    "ref": "323488H808",
+    "peca": "ANIL.CAL.2 SEC.ND"
+  },
+  {
+    "ref": "323488H809",
+    "peca": "ANIL.CAL.2 SEC.ND"
+  },
+  {
+    "ref": "323488H810",
+    "peca": "ANIL.CAL.2 SEC.ND"
+  },
+  {
+    "ref": "323488H811",
+    "peca": "ANIL.CAL.2 SEC.ND"
+  },
+  {
+    "ref": "323488H812",
+    "peca": "ANIL.CAL.2 SEC.ND"
+  },
+  {
+    "ref": "323488H813",
+    "peca": "ANIL.CAL.2 SEC.ND"
+  },
+  {
+    "ref": "323488H814",
+    "peca": "ANIL.CAL.2 SEC.ND"
+  },
+  {
+    "ref": "323488H815",
+    "peca": "ANIL.CAL.2 SEC.ND"
+  },
+  {
+    "ref": "323488H816",
+    "peca": "ANIL.CAL.2 SEC.ND"
+  },
+  {
+    "ref": "323488H817",
+    "peca": "ANIL.CAL.2 SEC.ND"
+  },
+  {
+    "ref": "323488H818",
+    "peca": "ANIL.CAL.2 SEC.ND"
+  },
+  {
+    "ref": "323508H800",
+    "peca": "SUPOR.ANIL.CALAG."
+  },
+  {
+    "ref": "326017N60B",
+    "peca": "MIOLO SINCRO 1-2"
+  },
+  {
+    "ref": "326038H520",
+    "peca": "MOLA SINCRO 1/2"
+  },
+  {
+    "ref": "326038H521",
+    "peca": "MOLA SINCRO 5/6 N"
+  },
+  {
+    "ref": "326047N60A",
+    "peca": "CONJ.SINCRO.1A ND"
+  },
+  {
+    "ref": "326047N62B",
+    "peca": "CONJ.SINCR. 2 ND4"
+  },
+  {
+    "ref": "326067N60A",
+    "peca": "BALADER 1-2 ND4"
+  },
+  {
+    "ref": "326118H502",
+    "peca": "BALADER 3-4 ND4"
+  },
+  {
+    "ref": "32626JG70A",
+    "peca": "BALADER 5/6 ND4"
+  },
+  {
+    "ref": "381017N60A",
+    "peca": "COROA ND4001/011"
+  },
+  {
+    "ref": "381017N60B",
+    "peca": "COROA DIF. ND4002"
+  },
+  {
+    "ref": "381017N60E",
+    "peca": "COROA ND4004/010"
+  },
+  {
+    "ref": "381028H500",
+    "peca": "PARAF.COROA/DIF.N"
+  },
+  {
+    "ref": "8200856557",
+    "peca": "CONJ.CAL.MAT.NDX"
+  },
+  {
+    "ref": "8200856561",
+    "peca": "CONJ.CAL.ARV.PRIM"
+  },
+  {
+    "ref": "8200856584",
+    "peca": "CONJ.CAL.FIXO 3A"
+  },
+  {
+    "ref": "8200856591",
+    "peca": "CONJ.CAL.1 AR.SEC"
+  },
+  {
+    "ref": "8200856594",
+    "peca": "CONJ.CAL.2 AR SEC"
+  },
+  {
+    "ref": "8200856597",
+    "peca": "CONJ.CAL.3 AR SEC"
+  },
+  {
+    "ref": "8200856598",
+    "peca": "CONJ.CAL.DIFER.ND"
+  },
+  {
+    "ref": "93311890",
+    "peca": "BOUCHON DIAM 18"
+  },
+  {
+    "ref": "150880227R",
+    "peca": "ESF VAL REGUL NV"
+  },
+  {
+    "ref": "150931828R",
+    "peca": "PARAF.M5 TAMP BBA"
+  },
+  {
+    "ref": "152430857R",
+    "peca": "MOLA V DES DIA 13"
+  },
+  {
+    "ref": "292E11567R",
+    "peca": "BUSBAR"
+  },
+  {
+    "ref": "295G27605R",
+    "peca": "ETIQ SEGURANCA"
+  },
+  {
+    "ref": "315061XA16",
+    "peca": "FREI CON. 36 PIN"
+  },
+  {
+    "ref": "322040256R",
+    "peca": "FREI AS EP 1.775"
+  },
+  {
+    "ref": "322040404R",
+    "peca": "FREI.AS2 2.100"
+  },
+  {
+    "ref": "322040416R",
+    "peca": "FREI AS EP 1.575"
+  },
+  {
+    "ref": "322041114R",
+    "peca": "FREI.AS2 2.150"
+  },
+  {
+    "ref": "322041135R",
+    "peca": "FREI.AS2 1.900"
+  },
+  {
+    "ref": "322041392R",
+    "peca": "FREI.AS2 1.925"
+  },
+  {
+    "ref": "322041536R",
+    "peca": "FREI.AS2 1.950"
+  },
+  {
+    "ref": "322041559R",
+    "peca": "FREI.AS2 1.850"
+  },
+  {
+    "ref": "322041579R",
+    "peca": "FREI AS EP 1.700"
+  },
+  {
+    "ref": "322042222R",
+    "peca": "FREI.AS2 1.875"
+  },
+  {
+    "ref": "322042808R",
+    "peca": "FREI.AS2 2.200"
+  },
+  {
+    "ref": "322043347R",
+    "peca": "FREI.AS2 2.000"
+  },
+  {
+    "ref": "322044705R",
+    "peca": "FREI.AS2 2.050"
+  },
+  {
+    "ref": "322044845R",
+    "peca": "FREI AS EP 1.500"
+  },
+  {
+    "ref": "322044884R",
+    "peca": "FREI AS EP 1.600"
+  },
+  {
+    "ref": "322045011R",
+    "peca": "FREI.AS2 1.975"
+  },
+  {
+    "ref": "322045031R",
+    "peca": "FREI.AS2 2.175"
+  },
+  {
+    "ref": "322045122R",
+    "peca": "FREI AS EP 1.800"
+  },
+  {
+    "ref": "322045301R",
+    "peca": "FREI AS EP 1.725"
+  },
+  {
+    "ref": "322046218R",
+    "peca": "FREI.AS2 1.825"
+  },
+  {
+    "ref": "322046571R",
+    "peca": "FREI AS EP 1.650"
+  },
+  {
+    "ref": "322046854R",
+    "peca": "FREI AS EP 1.625"
+  },
+  {
+    "ref": "322048019R",
+    "peca": "FREI.AS2 2.025"
+  },
+  {
+    "ref": "322048038R",
+    "peca": "FREI AS EP 1.750"
+  },
+  {
+    "ref": "322048100R",
+    "peca": "FREI AS EP 1.675"
+  },
+  {
+    "ref": "322048854R",
+    "peca": "FREI AS EP 1.525"
+  },
+  {
+    "ref": "322049066R",
+    "peca": "FREI.AS2 2.125"
+  },
+  {
+    "ref": "322049885R",
+    "peca": "FREI AS EP 1.550"
+  },
+  {
+    "ref": "322049979R",
+    "peca": "FREI.AS2 2.075"
+  },
+  {
+    "ref": "322492065R",
+    "peca": "ANIL FIX PLAC H5H"
+  },
+  {
+    "ref": "331729798R",
+    "peca": "JUNTA DIA.16"
+  },
+  {
+    "ref": "7700688654",
+    "peca": "IMAN C/ FURO"
+  },
+  {
+    "ref": "7703002631",
+    "peca": "PARAF EMB M6-43S/"
+  },
+  {
+    "ref": "7703002637",
+    "peca": "PARAF EMB M6-33S/"
+  },
+  {
+    "ref": "7703002653",
+    "peca": "PARAF EMB M6-50S/"
+  },
+  {
+    "ref": "7703002658",
+    "peca": "PARAF PILOT M6X14"
+  },
+  {
+    "ref": "7703002661",
+    "peca": "PARAF PLACA AEQ"
+  },
+  {
+    "ref": "7703002664",
+    "peca": "PARAF H M6X14"
+  },
+  {
+    "ref": "7703002665",
+    "peca": "PAR.MAS.AEQ M9T"
+  },
+  {
+    "ref": "7703002668",
+    "peca": "PARAF EMB M6-20S/"
+  },
+  {
+    "ref": "7703002751",
+    "peca": "PARAF M8X125 JT"
+  },
+  {
+    "ref": "7703002924",
+    "peca": "PARAF.M10X-35.S/C"
+  },
+  {
+    "ref": "7703002925",
+    "peca": "PARAF.M10X-35 S/C"
+  },
+  {
+    "ref": "7703008220",
+    "peca": "PARAF RLX M5X12"
+  },
+  {
+    "ref": "7703009291",
+    "peca": "PARAF CZX M6X12"
+  },
+  {
+    "ref": "7703066376",
+    "peca": "FREIO DIAM 32 JT4"
+  },
+  {
+    "ref": "7703075219",
+    "peca": "TAMPAO D.16 H5F"
+  },
+  {
+    "ref": "7703075347",
+    "peca": "BUJAO M16X150"
+  },
+  {
+    "ref": "7703079631",
+    "peca": "CLIP SUPORT CVTS"
+  },
+  {
+    "ref": "7703090392",
+    "peca": "ESFER D.6,35 H5F"
+  },
+  {
+    "ref": "7703102087",
+    "peca": "PARAF H M5X25"
+  },
+  {
+    "ref": "7703602292",
+    "peca": "PARAF.COSTUR/EQUE"
+  },
+  {
+    "ref": "7704000179",
+    "peca": "CASQ.EIXO FORQ.ND"
+  },
+  {
+    "ref": "7705010121",
+    "peca": "GUIA DE CENTRAGEM"
+  },
+  {
+    "ref": "7705035035",
+    "peca": "EIXO 6-12,5 (MOT."
+  },
+  {
+    "ref": "7705095132",
+    "peca": "FREIO D30 1.70"
+  },
+  {
+    "ref": "7705095133",
+    "peca": "FREIO D30 1.725"
+  },
+  {
+    "ref": "7705095134",
+    "peca": "FREIO D30 1.750"
+  },
+  {
+    "ref": "7705095135",
+    "peca": "FREIO D30 1.775"
+  },
+  {
+    "ref": "7705095136",
+    "peca": "FREIO D30 1.8"
+  },
+  {
+    "ref": "7705095137",
+    "peca": "FREIO D30 1.825"
+  },
+  {
+    "ref": "7705095138",
+    "peca": "FREIO D30 1.850"
+  },
+  {
+    "ref": "7705095139",
+    "peca": "FREIO D30 1.875"
+  },
+  {
+    "ref": "7705095140",
+    "peca": "FREIO D30 1.9"
+  },
+  {
+    "ref": "7705095141",
+    "peca": "FREIO D30 1.925"
+  },
+  {
+    "ref": "7705095142",
+    "peca": "FREIO D30 1.95"
+  },
+  {
+    "ref": "7705095143",
+    "peca": "FREIO D30 1.975"
+  },
+  {
+    "ref": "7705095144",
+    "peca": "FREIO D30 2.0"
+  },
+  {
+    "ref": "7705095145",
+    "peca": "FREIO D30 2.025"
+  },
+  {
+    "ref": "7705095146",
+    "peca": "FREIO D30 2.050"
+  },
+  {
+    "ref": "7705095147",
+    "peca": "FREIO D30 2.075"
+  },
+  {
+    "ref": "7705095148",
+    "peca": "FREIO D30 2.100"
+  },
+  {
+    "ref": "7705095149",
+    "peca": "FREIO D30 2.125"
+  },
+  {
+    "ref": "7705095150",
+    "peca": "FREIO D30 2.150"
+  },
+  {
+    "ref": "8200086356",
+    "peca": "GARRA 5A JR5"
+  },
+  {
+    "ref": "8200166187",
+    "peca": "FREIO CALAGE AP N"
+  },
+  {
+    "ref": "8200166196",
+    "peca": "FREIO ROL.AS/CM"
+  },
+  {
+    "ref": "8200169782",
+    "peca": "GOLPILHA EIX.MAT."
+  },
+  {
+    "ref": "8200170959",
+    "peca": "FREIO ARV.SEC. ND"
+  },
+  {
+    "ref": "8200173105",
+    "peca": "FREIO CALAGE AP N"
+  },
+  {
+    "ref": "8200173106",
+    "peca": "FREIO CALAGE AP N"
+  },
+  {
+    "ref": "8200173107",
+    "peca": "FREIO CALAGE AP N"
+  },
+  {
+    "ref": "8200173108",
+    "peca": "FREIO CALAGE AP N"
+  },
+  {
+    "ref": "8200173109",
+    "peca": "FREIO CALAGE AP N"
+  },
+  {
+    "ref": "8200173110",
+    "peca": "FREIO CALAGE AP N"
+  },
+  {
+    "ref": "8200173111",
+    "peca": "FREIO CALAGE AP N"
+  },
+  {
+    "ref": "8200173112",
+    "peca": "FREIO CALAGE AP N"
+  },
+  {
+    "ref": "8200173113",
+    "peca": "FREIO CALAGE AP N"
+  },
+  {
+    "ref": "8200191580",
+    "peca": "FREIO EIXO SATEL."
+  },
+  {
+    "ref": "8200199604",
+    "peca": "ANIL CAN P3/4/5 G"
+  },
+  {
+    "ref": "8200251895",
+    "peca": "FREI.AN SINC MAT"
+  },
+  {
+    "ref": "8200273460",
+    "peca": "MOLA VALVULA DESC"
+  },
+  {
+    "ref": "8200273469",
+    "peca": "MOLA VALVULA DESC"
+  },
+  {
+    "ref": "8200601471",
+    "peca": "CASQ MOLA SEL JT"
+  },
+  {
+    "ref": "8200681110",
+    "peca": "CAL.EIX.CDO 1,12"
+  },
+  {
+    "ref": "8200681112",
+    "peca": "CAL.EIX.CDO 1,16"
+  },
+  {
+    "ref": "8200681113",
+    "peca": "CAL.EIX.CDO 1,20"
+  },
+  {
+    "ref": "8200681114",
+    "peca": "CAL.EIX.CDO 1,24"
+  },
+  {
+    "ref": "8200681115",
+    "peca": "CAL.EIX.CDO 1,28"
+  },
+  {
+    "ref": "8200681117",
+    "peca": "CAL.EIX.CDO 1,32"
+  },
+  {
+    "ref": "8200681118",
+    "peca": "CAL.EIX.CDO 1,36"
+  },
+  {
+    "ref": "8200681120",
+    "peca": "CAL.EIX.CDO 1,40"
+  },
+  {
+    "ref": "8200681122",
+    "peca": "CAL.EIX.CDO 1,44"
+  },
+  {
+    "ref": "8200681123",
+    "peca": "CAL.EIX.CDO 1,48"
+  },
+  {
+    "ref": "8200692272",
+    "peca": "JONC ARRET JT4"
+  },
+  {
+    "ref": "8200790219",
+    "peca": "PARAF.CSC ND C/ I"
+  },
+  {
+    "ref": "8200834463",
+    "peca": "CAL.EIX.CDO 1,52"
+  },
+  {
+    "ref": "8200834464",
+    "peca": "CAL.EIX.CDO 1,56"
+  },
+  {
+    "ref": "8200834465",
+    "peca": "CAL.EIX.CDO 1,60"
+  },
+  {
+    "ref": "8200834467",
+    "peca": "CAL.EIX.CDO 1,64"
+  },
+  {
+    "ref": "8200899798",
+    "peca": "ANIL.CAL.PL4 3,84"
+  },
+  {
+    "ref": "8200899799",
+    "peca": "ANIL.CAL.PL4 3,90"
+  },
+  {
+    "ref": "8200899800",
+    "peca": "ANIL.CAL.PL4 3,96"
+  },
+  {
+    "ref": "8200899801",
+    "peca": "ANIL.CAL.PL4 4,02"
+  },
+  {
+    "ref": "8200899802",
+    "peca": "ANIL.CAL.PL4 4,08"
+  },
+  {
+    "ref": "8200899803",
+    "peca": "ANIL.CAL.PL4 4,14"
+  },
+  {
+    "ref": "8200927914",
+    "peca": "CLIP SUPORT DCDC"
+  },
+  {
+    "ref": "8201728998",
+    "peca": "CONJ CAL ASH O245"
+  },
+  {
+    "ref": "8201731428",
+    "peca": "CONJ CAL AP OP154"
+  },
+  {
+    "ref": "322010609R",
+    "peca": "AP BRU JT4"
+  },
+  {
+    "ref": "322014159R",
+    "peca": "AP 11X45-17X41 JT"
+  },
+  {
+    "ref": "322017097R",
+    "peca": "AP 11X43-17X39 JT"
+  },
+  {
+    "ref": "322017861R",
+    "peca": "AP 11X43-17X39 EX"
+  },
+  {
+    "ref": "322017923R",
+    "peca": "AP 11X45-17X41 EX"
+  },
+  {
+    "ref": "322300037R",
+    "peca": "PL 1A 11X45 PH JT"
+  },
+  {
+    "ref": "322302288R",
+    "peca": "PL 1A 11X45 PH EX"
+  },
+  {
+    "ref": "322305430R",
+    "peca": "PL 1A 11X43 PH EX"
+  },
+  {
+    "ref": "322307883R",
+    "peca": "PL 1A 11X43 PH JT"
+  },
+  {
+    "ref": "322312380R",
+    "peca": "PL 1A BRUTO JT4"
+  },
+  {
+    "ref": "322410227R",
+    "peca": "AS MAT 15X58 JT4"
+  },
+  {
+    "ref": "322410368R",
+    "peca": "AS MAT 14X69 JT4"
+  },
+  {
+    "ref": "322410644R",
+    "peca": "AS 14X63 JT EXP"
+  },
+  {
+    "ref": "322410780R",
+    "peca": "AS MAT BRU D59"
+  },
+  {
+    "ref": "322410929R",
+    "peca": "AS 14X69 GF JT4"
+  },
+  {
+    "ref": "322411026R",
+    "peca": "AS 14X69 JT EXP"
+  },
+  {
+    "ref": "322411767R",
+    "peca": "AS MAT 14X63 JT4"
+  },
+  {
+    "ref": "322412819R",
+    "peca": "AS MAR 15X58 EXP"
+  },
+  {
+    "ref": "322413021R",
+    "peca": "AS 15X58 RET JT4"
+  },
+  {
+    "ref": "322413283R",
+    "peca": "AS 14X59 GF JT"
+  },
+  {
+    "ref": "322414657R",
+    "peca": "AS 15X58 GF JT4"
+  },
+  {
+    "ref": "322415521R",
+    "peca": "AS 15X58 JT EXP"
+  },
+  {
+    "ref": "322415592R",
+    "peca": "AS 14X63 RET JT4"
+  },
+  {
+    "ref": "322416481R",
+    "peca": "AS MAT 14X59 JT4"
+  },
+  {
+    "ref": "322416512R",
+    "peca": "AS MAR 14X59 EXP"
+  },
+  {
+    "ref": "322416730R",
+    "peca": "AS BRUTO D59"
+  },
+  {
+    "ref": "322416735R",
+    "peca": "AS MAR 14X63 EXP"
+  },
+  {
+    "ref": "322416750R",
+    "peca": "AS MAR 14X69 EXP"
+  },
+  {
+    "ref": "322417849R",
+    "peca": "AS 14X59 JT EXP"
+  },
+  {
+    "ref": "322417921R",
+    "peca": "AS MAT 15X58 SEV"
+  },
+  {
+    "ref": "322419484R",
+    "peca": "AS 14X63 GF JT4"
+  },
+  {
+    "ref": "322419487R",
+    "peca": "AS BRUTO D64.5"
+  },
+  {
+    "ref": "322419680R",
+    "peca": "AS 14X69 RET JT4"
+  },
+  {
+    "ref": "322419778R",
+    "peca": "AS MAT BRU D64.5"
+  },
+  {
+    "ref": "322440684R",
+    "peca": "ANILH.CRAB.5/6 JT"
+  },
+  {
+    "ref": "322440907R",
+    "peca": "ANILH CRAB 1/2 JT"
+  },
+  {
+    "ref": "322500611R",
+    "peca": "PL 2A 17X41 GR JT"
+  },
+  {
+    "ref": "322503657R",
+    "peca": "PL 2A 17X41 JT EX"
+  },
+  {
+    "ref": "322503919R",
+    "peca": "PL 2A 17X39 GR JT"
+  },
+  {
+    "ref": "322505107R",
+    "peca": "PL 2A 17X39 JT EX"
+  },
+  {
+    "ref": "322512524R",
+    "peca": "PL 2A BRUTO JT4"
+  },
+  {
+    "ref": "322822559R",
+    "peca": "PL MAT 45X44 EXP"
+  },
+  {
+    "ref": "322824453R",
+    "peca": "PL MAT BRUTO JT4"
+  },
+  {
+    "ref": "322826179R",
+    "peca": "PL MAT 45X44 JT"
+  },
+  {
+    "ref": "322828807R",
+    "peca": "PL MAT 43X42 EXP"
+  },
+  {
+    "ref": "322829798R",
+    "peca": "PL MAT 43X42 JT"
+  },
+  {
+    "ref": "322B11446R",
+    "peca": "PF 3A 29X43 EXP"
+  },
+  {
+    "ref": "322B11590R",
+    "peca": "PF 3A 29X43 JT4"
+  },
+  {
+    "ref": "322B13787R",
+    "peca": "PF 3A 26X41 EXP"
+  },
+  {
+    "ref": "322B14338R",
+    "peca": "PF 3A 26X41 JT4"
+  },
+  {
+    "ref": "322B15159R",
+    "peca": "PF 3A BRUTO JT4"
+  },
+  {
+    "ref": "322B20291R",
+    "peca": "PL 3A 29X43 JT4"
+  },
+  {
+    "ref": "322B20371R",
+    "peca": "PL 3A 29X43 EXP"
+  },
+  {
+    "ref": "322B20826R",
+    "peca": "PL 3A 26X41 PH JT"
+  },
+  {
+    "ref": "322B27287R",
+    "peca": "PL 3A 26X41 EXP"
+  },
+  {
+    "ref": "322B35043R",
+    "peca": "PL 3A BRU JT4"
+  },
+  {
+    "ref": "322B41262R",
+    "peca": "PF 4A BRU JT4"
+  },
+  {
+    "ref": "322B41930R",
+    "peca": "PF 4A 35X39 JT4"
+  },
+  {
+    "ref": "322B43184R",
+    "peca": "PF 4A 38X39 GR JT"
+  },
+  {
+    "ref": "322B43607R",
+    "peca": "PF 4A 35X39 EXP"
+  },
+  {
+    "ref": "322B45598R",
+    "peca": "PF 4A 37X41 GR JT"
+  },
+  {
+    "ref": "322B49458R",
+    "peca": "PF 4A 38X39 EXP"
+  },
+  {
+    "ref": "322B50008R",
+    "peca": "PL 4A 38X39 EXP"
+  },
+  {
+    "ref": "322B50463R",
+    "peca": "PL 4A 38X39 GF JT"
+  },
+  {
+    "ref": "322B51995R",
+    "peca": "PL 4A 35X39 PH JT"
+  },
+  {
+    "ref": "322B58892R",
+    "peca": "PL 4A 35X39 EXP"
+  },
+  {
+    "ref": "322B63220R",
+    "peca": "PL 4A BRU JT4"
+  },
+  {
+    "ref": "322B63246R",
+    "peca": "PL 4A 37X41 GF JT"
+  },
+  {
+    "ref": "323704820R",
+    "peca": "PF 5A 43X32 JT"
+  },
+  {
+    "ref": "323704948R",
+    "peca": "PF 5A 41X35 JT4"
+  },
+  {
+    "ref": "323706194R",
+    "peca": "PF 5A BRU JT4"
+  },
+  {
+    "ref": "323708076R",
+    "peca": "PF 5A 41X35 EXP"
+  },
+  {
+    "ref": "323709550R",
+    "peca": "PF 5A 43X32 EXP"
+  },
+  {
+    "ref": "323712327R",
+    "peca": "PL 5A BRU JT4"
+  },
+  {
+    "ref": "323713393R",
+    "peca": "PL 5A 43X32 PH JT"
+  },
+  {
+    "ref": "323713969R",
+    "peca": "PL 5A 41X35 PH JT"
+  },
+  {
+    "ref": "323715067R",
+    "peca": "PL 5A 43X32 EXP"
+  },
+  {
+    "ref": "323715335R",
+    "peca": "PL 5A 41X35 EXP"
+  },
+  {
+    "ref": "323722769R",
+    "peca": "PF 6A 43X29 GF JT"
+  },
+  {
+    "ref": "323724393R",
+    "peca": "PF 6A BRU JT4"
+  },
+  {
+    "ref": "323725540R",
+    "peca": "PF 6A 50X28 EXP"
+  },
+  {
+    "ref": "323728845R",
+    "peca": "PF 6A 43X29 EXP"
+  },
+  {
+    "ref": "323729409R",
+    "peca": "PF 6A 50X28 FG JT"
+  },
+  {
+    "ref": "323730777R",
+    "peca": "PL 6A 50X28 EXP"
+  },
+  {
+    "ref": "323732275R",
+    "peca": "PL 6A 50X28 GF JT"
+  },
+  {
+    "ref": "323736989R",
+    "peca": "PL 6A BRU JT4"
+  },
+  {
+    "ref": "323737067R",
+    "peca": "PL 6A 43X29 EXP"
+  },
+  {
+    "ref": "323738023R",
+    "peca": "PL 6A 43X29 GF JT"
+  },
+  {
+    "ref": "8200124793",
+    "peca": "PINH.LOU.4A JC EX"
+  },
+  {
+    "ref": "8201574143",
+    "peca": "PL 4A 35X34 EXP"
+  },
+  {
+    "ref": "8201729074",
+    "peca": "AS MAT 14X69 PB"
+  },
+  {
+    "ref": "8201729075",
+    "peca": "AS MAT 14X69AFORN"
+  },
+  {
+    "ref": "8201729076",
+    "peca": "AS MAT 15X58 PB"
+  },
+  {
+    "ref": "8201729077",
+    "peca": "AS MAT 15X58AFORN"
+  },
+  {
+    "ref": "8201729078",
+    "peca": "AS MAT 14X63 PB"
+  },
+  {
+    "ref": "8201729080",
+    "peca": "AS MAT 14X63AFORN"
+  },
+  {
+    "ref": "8201729081",
+    "peca": "AS 14X69 PB JT"
+  },
+  {
+    "ref": "8201729083",
+    "peca": "AS 14X69 PN JT"
+  },
+  {
+    "ref": "8201729084",
+    "peca": "AS 15X58 PB JT"
+  },
+  {
+    "ref": "8201729085",
+    "peca": "AS 15X58 PN JT"
+  },
+  {
+    "ref": "8201729087",
+    "peca": "AS 14X63 PB JT"
+  },
+  {
+    "ref": "8201729088",
+    "peca": "AS 14X63 PN JT"
+  },
+  {
+    "ref": "8201729202",
+    "peca": "PL 1A 11X45 PB JT"
+  },
+  {
+    "ref": "8201729203",
+    "peca": "PL 1A 11X45 PN JT"
+  },
+  {
+    "ref": "8201729205",
+    "peca": "PL 2A 17X41 PB JT"
+  },
+  {
+    "ref": "8201729206",
+    "peca": "PL 2A 17X41 PN JT"
+  },
+  {
+    "ref": "8201729207",
+    "peca": "PL 3A 26X41 PB JT"
+  },
+  {
+    "ref": "8201729208",
+    "peca": "PL 3A 26X41AFORNO"
+  },
+  {
+    "ref": "8201729209",
+    "peca": "PL 4A 35X39 PB JT"
+  },
+  {
+    "ref": "8201729210",
+    "peca": "PL 4A 35X39 PN JT"
+  },
+  {
+    "ref": "8201729211",
+    "peca": "PL 5A 41X35 PB JT"
+  },
+  {
+    "ref": "8201729212",
+    "peca": "PL 5A 41X35 PN JT"
+  },
+  {
+    "ref": "8201729213",
+    "peca": "PL 6A 43X29 PB JT"
+  },
+  {
+    "ref": "8201729214",
+    "peca": "PL 6A 43X29 PN JT"
+  },
+  {
+    "ref": "8201729215",
+    "peca": "PF 3A 26X41 PB JT"
+  },
+  {
+    "ref": "8201729216",
+    "peca": "PF 3A 26X41 PN JT"
+  },
+  {
+    "ref": "8201729217",
+    "peca": "PF 4A 35X39 PB JT"
+  },
+  {
+    "ref": "8201729218",
+    "peca": "PF 4A 35X39 PN JT"
+  },
+  {
+    "ref": "8201729219",
+    "peca": "PF 5A 41X35 PB JT"
+  },
+  {
+    "ref": "8201729220",
+    "peca": "PF 5A 41X35 PN JT"
+  },
+  {
+    "ref": "8201729221",
+    "peca": "PF 6A 43X29 PB JT"
+  },
+  {
+    "ref": "8201729222",
+    "peca": "PF 6A 43X29 PN JT"
+  },
+  {
+    "ref": "8201729223",
+    "peca": "AP 11X45-17X41 PB"
+  },
+  {
+    "ref": "8201729224",
+    "peca": "AP 11X45-17X41 PN"
+  },
+  {
+    "ref": "8201729225",
+    "peca": "PL MAT 45X44 PB"
+  },
+  {
+    "ref": "8201729226",
+    "peca": "PL MAT 45X44AFORN"
+  },
+  {
+    "ref": "8201731576",
+    "peca": "AP 11X43-17X39 PN"
+  },
+  {
+    "ref": "8201731577",
+    "peca": "AP 11X43-17X39 PB"
+  },
+  {
+    "ref": "8201731578",
+    "peca": "PL 1A 11X43 PN JT"
+  },
+  {
+    "ref": "8201731579",
+    "peca": "PL 1A 11X43 PB JT"
+  },
+  {
+    "ref": "8201731580",
+    "peca": "PL MAT 43X42AFORN"
+  },
+  {
+    "ref": "8201731581",
+    "peca": "PL MAT 43X42 PB"
+  },
+  {
+    "ref": "8201731582",
+    "peca": "PL 3A 29X43AFORNO"
+  },
+  {
+    "ref": "8201731583",
+    "peca": "PL 3A 29X43 PB JT"
+  },
+  {
+    "ref": "8201731584",
+    "peca": "PF 3A 29X43 PN JT"
+  },
+  {
+    "ref": "8201731585",
+    "peca": "PF 3A 29X43 PB JT"
+  },
+  {
+    "ref": "8201731586",
+    "peca": "PF 4A 38X39 PN JT"
+  },
+  {
+    "ref": "8201731587",
+    "peca": "PF 4A 38X39 PB JT"
+  },
+  {
+    "ref": "8201731588",
+    "peca": "PL 4A 38X39 PN JT"
+  },
+  {
+    "ref": "8201731589",
+    "peca": "PL 4A 38X39 PB JT"
+  },
+  {
+    "ref": "8201731590",
+    "peca": "PF 5A 43X32 PN JT"
+  },
+  {
+    "ref": "8201731591",
+    "peca": "PF 5A 43X32 PB JT"
+  },
+  {
+    "ref": "8201731592",
+    "peca": "PL 5A 43X32 PN JT"
+  },
+  {
+    "ref": "8201731593",
+    "peca": "PL 5A 43X32 PB JT"
+  },
+  {
+    "ref": "8201731594",
+    "peca": "PF 6A 50X28 PN JT"
+  },
+  {
+    "ref": "8201731595",
+    "peca": "PF 6A 50X28 PB JT"
+  },
+  {
+    "ref": "8201731596",
+    "peca": "PL 6A 50X28 PN JT"
+  },
+  {
+    "ref": "8201731597",
+    "peca": "PL 6A 50X28 PB JT"
+  },
+  {
+    "ref": "8201731818",
+    "peca": "AS 14X59 PB JT"
+  },
+  {
+    "ref": "8201731821",
+    "peca": "AS 14X59 PN JT"
+  },
+  {
+    "ref": "8201731823",
+    "peca": "AS MAT 14X59 PB"
+  },
+  {
+    "ref": "8201731824",
+    "peca": "AS MAT 14X59AFORN"
+  },
+  {
+    "ref": "8201732004",
+    "peca": "PL 2A 17X39 PB JT"
+  },
+  {
+    "ref": "8201732005",
+    "peca": "PL 2A 17X39 PN JT"
+  },
+  {
+    "ref": "8201748080",
+    "peca": "PF 4A 37X41 PB JT"
+  },
+  {
+    "ref": "8201748081",
+    "peca": "PF 4A 37X41 PN JT"
+  },
+  {
+    "ref": "8201748082",
+    "peca": "PL 4A 37X41 PB JT"
+  },
+  {
+    "ref": "8201748083",
+    "peca": "PL 4A 37X41 PN JT"
+  },
+  {
+    "ref": "8201752225",
+    "peca": "AS 14X69 RET PB"
+  },
+  {
+    "ref": "8201752226",
+    "peca": "AS 14X69 RET PN"
+  },
+  {
+    "ref": "8201756118",
+    "peca": "AP 11X45-17X41AFO"
+  },
+  {
+    "ref": "8201756119",
+    "peca": "AP 11X43-17X39AFO"
+  },
+  {
+    "ref": "8201756120",
+    "peca": "PL 4A 35X39AFORNO"
+  },
+  {
+    "ref": "8201756122",
+    "peca": "PL 4A 35X39AFOSFA"
+  },
+  {
+    "ref": "8201756123",
+    "peca": "PL 4A 38X39AFORNO"
+  },
+  {
+    "ref": "8201756124",
+    "peca": "PL 4A 38X39AFOSFA"
+  },
+  {
+    "ref": "8201756125",
+    "peca": "PL 4A 37X41AFORNO"
+  },
+  {
+    "ref": "8201756126",
+    "peca": "PL 4A 37X41AFOSFA"
+  },
+  {
+    "ref": "8201756207",
+    "peca": "PL 1A 11X43AFORNO"
+  },
+  {
+    "ref": "8201756212",
+    "peca": "PL 1A 11X43AFOSFA"
+  },
+  {
+    "ref": "8201756213",
+    "peca": "PL 1A 11X45AFORNO"
+  },
+  {
+    "ref": "8201756214",
+    "peca": "PL 1A 11X45AFOSFA"
+  },
+  {
+    "ref": "8201756215",
+    "peca": "PL 2A 17X39AFORNO"
+  },
+  {
+    "ref": "8201756220",
+    "peca": "PL 2A 17X41AFORNO"
+  },
+  {
+    "ref": "8201756225",
+    "peca": "PL 3A 26X41AFOSFA"
+  },
+  {
+    "ref": "8201756228",
+    "peca": "PL 3A 29X43AFOSFA"
+  },
+  {
+    "ref": "8201756229",
+    "peca": "PL 5A 41X35AFORNO"
+  },
+  {
+    "ref": "8201756231",
+    "peca": "PL 5A 41X35AFOSFA"
+  },
+  {
+    "ref": "8201756232",
+    "peca": "PL 5A 43X32AFORNO"
+  },
+  {
+    "ref": "8201756234",
+    "peca": "PL 5A 43X32AFOSFA"
+  },
+  {
+    "ref": "8201756235",
+    "peca": "PL 6A 43X29AFORNO"
+  },
+  {
+    "ref": "8201756237",
+    "peca": "PL 6A 43X29AFOSFA"
+  },
+  {
+    "ref": "8201756238",
+    "peca": "PL 6A 50X28AFORNO"
+  },
+  {
+    "ref": "8201756240",
+    "peca": "PL 6A 50X28AFOSFA"
+  },
+  {
+    "ref": "8201756241",
+    "peca": "PL 6A 52X29AFORNO"
+  },
+  {
+    "ref": "8201756243",
+    "peca": "PL 6A 52X29AFOSFA"
+  },
+  {
+    "ref": "8201756261",
+    "peca": "PL MAT 43X42AFOSF"
+  },
+  {
+    "ref": "8201756263",
+    "peca": "PL MAT 45X44AFOSF"
+  },
+  {
+    "ref": "8201756331",
+    "peca": "PF 3A 26X41AFORNO"
+  },
+  {
+    "ref": "8201756332",
+    "peca": "PF 3A 29X43AFORNO"
+  },
+  {
+    "ref": "8201756333",
+    "peca": "PF 4A 35X39AFORNO"
+  },
+  {
+    "ref": "8201756334",
+    "peca": "PF 4A 38X39AFORNO"
+  },
+  {
+    "ref": "8201756335",
+    "peca": "PF 4A 37X41AFORNO"
+  },
+  {
+    "ref": "8201756336",
+    "peca": "PF 5A 41X35AFORNO"
+  },
+  {
+    "ref": "8201756337",
+    "peca": "PF 5A 43X32AFORNO"
+  },
+  {
+    "ref": "8201756338",
+    "peca": "PF 6A 43X29AFORNO"
+  },
+  {
+    "ref": "8201756339",
+    "peca": "PF 6A 43X29AFOSFA"
+  },
+  {
+    "ref": "8201756340",
+    "peca": "PF 6A 50X28AFORNO"
+  },
+  {
+    "ref": "8201756341",
+    "peca": "PF 6A 50X28AFOSFA"
+  },
+  {
+    "ref": "8201756342",
+    "peca": "PF 6A 52X29AFORNO"
+  },
+  {
+    "ref": "8201756343",
+    "peca": "PF 6A 52X29AFOSFA"
+  },
+  {
+    "ref": "8201756364",
+    "peca": "AS 15X58 APOSFORN"
+  },
+  {
+    "ref": "8201756365",
+    "peca": "AS 15X58 APOSFOSF"
+  },
+  {
+    "ref": "8201756366",
+    "peca": "AS 14X59 APOSFORN"
+  },
+  {
+    "ref": "8201756367",
+    "peca": "AS 14X59 APOSFOSF"
+  },
+  {
+    "ref": "8201756368",
+    "peca": "AS 14X63 APOSFORN"
+  },
+  {
+    "ref": "8201756369",
+    "peca": "AS 14X63 APOSFOSF"
+  },
+  {
+    "ref": "8201756370",
+    "peca": "AS 14X69 APOSFORN"
+  },
+  {
+    "ref": "8201756371",
+    "peca": "AS 14X69 APOSFOSF"
+  },
+  {
+    "ref": "8201756372",
+    "peca": "AS 15X58 RETAFORN"
+  },
+  {
+    "ref": "8201756373",
+    "peca": "AS 15X58 RETAFOSF"
+  },
+  {
+    "ref": "8201756374",
+    "peca": "AS 14X63 RETAFORN"
+  },
+  {
+    "ref": "8201756375",
+    "peca": "AS 14X63 RETAFOSF"
+  },
+  {
+    "ref": "8201756376",
+    "peca": "AS 14X69 RETAFORN"
+  },
+  {
+    "ref": "8201756377",
+    "peca": "AS 14X69 RETAFOSF"
+  },
+  {
+    "ref": "8201756417",
+    "peca": "AP 11X45-17X41FOS"
+  },
+  {
+    "ref": "8201756418",
+    "peca": "AP 11X43-17X39FOS"
+  },
+  {
+    "ref": "8201758202",
+    "peca": "AP 11X45-17X41DES"
+  },
+  {
+    "ref": "8201758203",
+    "peca": "AP 11X43-17X39DES"
+  },
+  {
+    "ref": "8201758276",
+    "peca": "AS 15X58 RET DESP"
+  },
+  {
+    "ref": "8201758277",
+    "peca": "AS 14X63 RET DESP"
+  },
+  {
+    "ref": "8201758278",
+    "peca": "AS 14X69 RET DESP"
+  },
+  {
+    "ref": "8201758279",
+    "peca": "AS 14X59 DESEMPEN"
+  },
+  {
+    "ref": "8201758482",
+    "peca": "CJAP 032.018.033"
+  },
+  {
+    "ref": "8201758483",
+    "peca": "CJAP 21/2/3/4/27"
+  },
+  {
+    "ref": "8201758484",
+    "peca": "CJAP 20/5/6/8/29"
+  },
+  {
+    "ref": "8201758485",
+    "peca": "CJAP 006.012"
+  },
+  {
+    "ref": "8201758486",
+    "peca": "CJAP 013"
+  },
+  {
+    "ref": "8201758487",
+    "peca": "CJAS 006.012.033"
+  },
+  {
+    "ref": "8201758488",
+    "peca": "CJAS 030.028"
+  },
+  {
+    "ref": "8201758489",
+    "peca": "CJAS 031"
+  },
+  {
+    "ref": "8201758490",
+    "peca": "CJAS 024.027"
+  },
+  {
+    "ref": "8201758491",
+    "peca": "CJAS 020"
+  },
+  {
+    "ref": "8201758492",
+    "peca": "CJAS 018.032"
+  },
+  {
+    "ref": "8201758493",
+    "peca": "CJAS 013"
+  },
+  {
+    "ref": "8201758494",
+    "peca": "CJAS 025.026"
+  },
+  {
+    "ref": "8201758495",
+    "peca": "CJAS 022.023"
+  },
+  {
+    "ref": "8201758496",
+    "peca": "CJAS 029"
+  },
+  {
+    "ref": "8201758497",
+    "peca": "CJAS 021"
+  },
+  {
+    "ref": "111132479R",
+    "peca": "PLACA ANT-EMULSAO"
+  },
+  {
+    "ref": "123134465R",
+    "peca": "BAG.S/GOLA AEQ"
+  },
+  {
+    "ref": "123137801R",
+    "peca": "BAG.C/GOLA AEQ"
+  },
+  {
+    "ref": "124000587R",
+    "peca": "AP ASS M9T 260"
+  },
+  {
+    "ref": "124000829R",
+    "peca": "AP.ASS.M9T MONO"
+  },
+  {
+    "ref": "124001025R",
+    "peca": "AS M9T-260 ASS"
+  },
+  {
+    "ref": "124011089R",
+    "peca": "AP AEQ M9T BR"
+  },
+  {
+    "ref": "124011215R",
+    "peca": "AS AEQ M9T BR"
+  },
+  {
+    "ref": "124031057R",
+    "peca": "BUTEE AEQ M9T"
+  },
+  {
+    "ref": "124106897R",
+    "peca": "K7 M9T MONO ST"
+  },
+  {
+    "ref": "124108205R",
+    "peca": "K7 AEQ M9T TT"
+  },
+  {
+    "ref": "124205524R",
+    "peca": "CAR.AEQ.2A BRU EI"
+  },
+  {
+    "ref": "124206575R",
+    "peca": "CAR.AE ASS EI MON"
+  },
+  {
+    "ref": "124206751R",
+    "peca": "CAR.AEQ.1A.BRU EI"
+  },
+  {
+    "ref": "124209572R",
+    "peca": "CART.AEQ ASS EI"
+  },
+  {
+    "ref": "124330284R",
+    "peca": "MASSA AEQ M9T"
+  },
+  {
+    "ref": "124343758R",
+    "peca": "COQ.AEQ M9T NOV"
+  },
+  {
+    "ref": "130213411R",
+    "peca": "PINH.53D AEQ M9T"
+  },
+  {
+    "ref": "130214374R",
+    "peca": "PINH.AEQ M9 BRT"
+  },
+  {
+    "ref": "130216552R",
+    "peca": "COR.AE.M9 BR.NOVA"
+  },
+  {
+    "ref": "130219767R",
+    "peca": "COR. AEQ M9T EI"
+  },
+  {
+    "ref": "150436753R",
+    "peca": "PINH.43D AEQ M9T"
+  },
+  {
+    "ref": "150437954R",
+    "peca": "PINH AEQ M9 BRT"
+  },
+  {
+    "ref": "322B92053R",
+    "peca": "CONE CRA.BRU TUER"
+  },
+  {
+    "ref": "7701717830",
+    "peca": "PINH.AEQ.M1 47 D"
+  },
+  {
+    "ref": "7701717831",
+    "peca": "PINH.47D ESQ PB"
+  },
+  {
+    "ref": "8200055230",
+    "peca": "COL.ESC.K4 4X4"
+  },
+  {
+    "ref": "8200119714",
+    "peca": "COL.ESCAPE K4M 4/"
+  },
+  {
+    "ref": "8200130197",
+    "peca": "GUIA 9X11 CENTRAG"
+  },
+  {
+    "ref": "8200339579",
+    "peca": "PINH.AEQ.BRUT.M"
+  },
+  {
+    "ref": "8200385103",
+    "peca": "PIN.AEQ M 47DR"
+  },
+  {
+    "ref": "8200385236",
+    "peca": "PIN.AEQ.M 47ES"
+  },
+  {
+    "ref": "8200385914",
+    "peca": "CONE CRAB 3/4/5/6"
+  },
+  {
+    "ref": "8200444619",
+    "peca": "CONE CRABOT 6A"
+  },
+  {
+    "ref": "8200498125",
+    "peca": "K7 AEQ M9R"
+  },
+  {
+    "ref": "8200740580",
+    "peca": "COLECT.MAQ.D4F"
+  },
+  {
+    "ref": "8201196716",
+    "peca": "FIC COLEC.BRU.D4"
+  },
+  {
+    "ref": "8201411883",
+    "peca": "PINH.43D M9T PB"
+  },
+  {
+    "ref": "8201411886",
+    "peca": "PINH.53D M9T PB"
+  },
+  {
+    "ref": "8201481830",
+    "peca": "COROA AEQ PB"
+  },
+  {
+    "ref": "8201725401",
+    "peca": "PINH.47D ESQ PN"
+  },
+  {
+    "ref": "8201725402",
+    "peca": "PINH.43D M9T PN"
+  },
+  {
+    "ref": "8201725403",
+    "peca": "PINH.53D M9T PN"
+  },
+  {
+    "ref": "8201725404",
+    "peca": "PINH.47D DIR PN"
+  },
+  {
+    "ref": "8201725405",
+    "peca": "COROA AEQ PN"
+  },
+  {
+    "ref": "8201729176",
+    "peca": "CON CRA 3/4 JT CA"
+  },
+  {
+    "ref": "8201756575",
+    "peca": "PINH 47D ESQFORNO"
+  },
+  {
+    "ref": "8201756576",
+    "peca": "PINH 47D DIRFORNO"
+  },
+  {
+    "ref": "8201756577",
+    "peca": "PINH 43D M9TFORNO"
+  },
+  {
+    "ref": "8201756578",
+    "peca": "PINH 53D M9TFORNO"
+  },
+  {
+    "ref": "8201756579",
+    "peca": "COROA AEQ FORNO"
+  },
+  {
+    "ref": "304010877R",
+    "peca": "CED K9 GF CF S/T"
+  },
+  {
+    "ref": "304014515R",
+    "peca": "CED K9 GF BR APRO"
+  },
+  {
+    "ref": "304016619R",
+    "peca": "CED JR/H5F MAQ PC"
+  },
+  {
+    "ref": "304017434R",
+    "peca": "CED S2G PC ST"
+  },
+  {
+    "ref": "322016330R",
+    "peca": "ARV.PRIM I¯ OYAK"
+  },
+  {
+    "ref": "323707512R",
+    "peca": "PF 5A 47X31 OYAK"
+  },
+  {
+    "ref": "8200216427",
+    "peca": "ANILH.CAL.AS.2,07"
+  },
+  {
+    "ref": "8200216433",
+    "peca": "ANILH.CAL.AS.2,15"
+  },
+  {
+    "ref": "8200216434",
+    "peca": "ANILH.CAL.AS.2,17"
+  },
+  {
+    "ref": "8200216436",
+    "peca": "ANILH.CAL.AS.2,21"
+  },
+  {
+    "ref": "8200216437",
+    "peca": "ANILH.CAL.AS.2,23"
+  },
+  {
+    "ref": "8200216439",
+    "peca": "ANILH.CAL.AS.2,25"
+  },
+  {
+    "ref": "8200216442",
+    "peca": "ANILH.CAL.AS.2,27"
+  },
+  {
+    "ref": "8200216447",
+    "peca": "ANILH.CAL.AS.2,31"
+  },
+  {
+    "ref": "8200216451",
+    "peca": "ANILH.CAL.AS.2,33"
+  },
+  {
+    "ref": "8200216455",
+    "peca": "ANILH.CAL.AS.2,35"
+  },
+  {
+    "ref": "8200216460",
+    "peca": "ANILH.CAL.AS.2,37"
+  },
+  {
+    "ref": "8200216464",
+    "peca": "ANILH.CAL.AS.2,39"
+  },
+  {
+    "ref": "8200216466",
+    "peca": "ANILH.CAL.AS.2,41"
+  },
+  {
+    "ref": "8200216470",
+    "peca": "ANILH.CAL.AS.2,43"
+  },
+  {
+    "ref": "8200216471",
+    "peca": "ANILH.CAL.AS.2,45"
+  },
+  {
+    "ref": "8200216473",
+    "peca": "ANILH.CAL.AS.2,47"
+  },
+  {
+    "ref": "8200216476",
+    "peca": "ANILH.CAL.AS.2,49"
+  },
+  {
+    "ref": "8200367222",
+    "peca": "CED JR S2G PS ST"
+  },
+  {
+    "ref": "8201491434",
+    "peca": "CED S2G PC ST EXP"
+  },
+  {
+    "ref": "8201495418",
+    "peca": "DIFER 14X59 CL NV"
+  },
+  {
+    "ref": "8201723382",
+    "peca": "AS 16X57 OY"
+  },
+  {
+    "ref": "8201746447",
+    "peca": "PL 1A 11X41 EXP"
+  },
+  {
+    "ref": "8201746449",
+    "peca": "PL 2A 23X45 EXP"
+  },
+  {
+    "ref": "8201746450",
+    "peca": "PL 3A 30X37 EXP"
+  },
+  {
+    "ref": "8201746451",
+    "peca": "PL 4A 31X28 EXP"
+  },
+  {
+    "ref": "8201746452",
+    "peca": "AS 14X59 EXP"
+  },
+  {
+    "ref": "8201746453",
+    "peca": "AS 16X57 EXP"
+  },
+  {
+    "ref": "8201746454",
+    "peca": "DIFER 14X59 EXP"
+  },
+  {
+    "ref": "8201746455",
+    "peca": "DIFER 16X57 EXP"
+  },
+  {
+    "ref": "8201746456",
+    "peca": "CX DIF NU JR EXP"
+  },
+  {
+    "ref": "8201746457",
+    "peca": "CX DIF NU JR EXP"
+  },
+  {
+    "ref": "8201747877",
+    "peca": "PL 5A BRUTO EXP"
+  },
+  {
+    "ref": "8201747878",
+    "peca": "PL 5A BRT KZ EXP"
+  },
+  {
+    "ref": "8201747879",
+    "peca": "AP BRUTO EXP"
+  },
+  {
+    "ref": "231B23215R",
+    "peca": "TAMPA PEB CIPG"
+  },
+  {
+    "ref": "231B47561R",
+    "peca": "TAMP SEGURAN CIPG"
+  },
+  {
+    "ref": "231C12536R",
+    "peca": "CARTER PEB BRUTO"
+  },
+  {
+    "ref": "231C19341R",
+    "peca": "CARTER PEB MAQ"
+  },
+  {
+    "ref": "231C31367R",
+    "peca": "TAMPA CIRC REFRIG"
+  },
+  {
+    "ref": "231C39294R",
+    "peca": "TAMPA PEB NU"
+  },
+  {
+    "ref": "231C50987R",
+    "peca": "TAMP SEGURANCA NU"
+  },
+  {
+    "ref": "290983130R",
+    "peca": "VALVULA RESPIRO"
+  },
+  {
+    "ref": "290G35304R",
+    "peca": "PURGA DE AGUA"
+  },
+  {
+    "ref": "291A13054R",
+    "peca": "PEB ASS 406 SW582"
+  },
+  {
+    "ref": "291A13414R",
+    "peca": "PEB ASS 405 SW562"
+  },
+  {
+    "ref": "291A16645R",
+    "peca": "PEB ASS 405 SW564"
+  },
+  {
+    "ref": "291E01760R",
+    "peca": "CONDENSADOR"
+  },
+  {
+    "ref": "292A01977R",
+    "peca": "DCDC 401 DELTA"
+  },
+  {
+    "ref": "292A01997R",
+    "peca": "DCDC 405"
+  },
+  {
+    "ref": "292A08514R",
+    "peca": "CALIBRATED, LOW VOLTAGE CONVERTER"
+  },
+  {
+    "ref": "292A60468R",
+    "peca": "INVERTER VHC ELCT, PROGRAMMED"
+  },
+  {
+    "ref": "292A60469R",
+    "peca": "VARIADOR 405/410"
+  },
+  {
+    "ref": "292A60481R",
+    "peca": "VARIADOR 401"
+  },
+  {
+    "ref": "292A60482R",
+    "peca": "VARIADOR 401"
+  },
+  {
+    "ref": "292A60547R",
+    "peca": "VARIADOR 405/410"
+  },
+  {
+    "ref": "292A60621R",
+    "peca": "VARIADO 410 SW565"
+  },
+  {
+    "ref": "292A60634R",
+    "peca": "VARIADOR 406SW582"
+  },
+  {
+    "ref": "292A60720R",
+    "peca": "VARIADOR 406SW583"
+  },
+  {
+    "ref": "292C63380R",
+    "peca": "JUNTA ESTANQUEIDA"
+  },
+  {
+    "ref": "296616431R",
+    "peca": "CONETOR BATERIA"
+  },
+  {
+    "ref": "296646152R",
+    "peca": "CONETOR CLIMATIZA"
+  },
+  {
+    "ref": "296833614R",
+    "peca": "MOTOR SIGNAL CONN BASE"
+  },
+  {
+    "ref": "296D73371R",
+    "peca": "CONET MOTOR HSG"
+  },
+  {
+    "ref": "296D75694R",
+    "peca": "CONET MOT PRINCIP"
+  },
+  {
+    "ref": "297362794R",
+    "peca": "CABO SWITCH"
+  },
+  {
+    "ref": "297A11492R",
+    "peca": "CABO CVTS 405"
+  },
+  {
+    "ref": "297A16340R",
+    "peca": "CABO CVTS 410"
+  },
+  {
+    "ref": "297C02408R",
+    "peca": "FUSIVEL"
+  },
+  {
+    "ref": "7703006300",
+    "peca": "PARAF CBLX M6X19"
+  },
+  {
+    "ref": "7703008217",
+    "peca": "PARAF RLX M5X16"
+  },
+  {
+    "ref": "7703027553",
+    "peca": "PERNO ROSC M5X64"
+  },
+  {
+    "ref": "7703027554",
+    "peca": "PERNO ROSC M5X72"
+  },
+  {
+    "ref": "7703033168",
+    "peca": "PORCA M5X0.8"
+  },
+  {
+    "ref": "7703102151",
+    "peca": "PARAF H M5X16"
+  },
+  {
+    "ref": "8201753333",
+    "peca": "VAR RFSH SW120 CL"
+  },
+  {
+    "ref": "8201753355",
+    "peca": "VAR RFSH SW562 CL"
+  },
+  {
+    "ref": "8201754716",
+    "peca": "VAR RFSH SW564 CL"
+  },
+  {
+    "ref": "8201756154",
+    "peca": "VAR RFSH SW582 CL"
+  },
+  {
+    "ref": "8201756770",
+    "peca": "VAR RFSH SW564AVE"
+  },
+  {
+    "ref": "R100582402",
+    "peca": "GRAISSE THERMIQUE"
+  },
+  {
+    "ref": "01125E6021",
+    "peca": "PARAF CONET RESOL"
+  },
+  {
+    "ref": "1405342L0A",
+    "peca": "PARAFUSO PURGA"
+  },
+  {
+    "ref": "290584847R",
+    "peca": "ISOLANTE ESQUERDO"
+  },
+  {
+    "ref": "290587642R",
+    "peca": "ISOLANTE DIREITO"
+  },
+  {
+    "ref": "290908208R",
+    "peca": "CAMISA DE AGUA"
+  },
+  {
+    "ref": "290908319R",
+    "peca": "TRACTION MOTOR CLOSING PARTIAL"
+  },
+  {
+    "ref": "290A04PM0E",
+    "peca": "E-MOTOR 5DH ASS"
+  },
+  {
+    "ref": "290E14PM0A",
+    "peca": "CABO CONET RESOL"
+  },
+  {
+    "ref": "290E21874R",
+    "peca": "BUSRING"
+  },
+  {
+    "ref": "290H20011R",
+    "peca": "CART DRAXT MAQ C"
+  },
+  {
+    "ref": "290H22383R",
+    "peca": "CART EMOT MAQ A"
+  },
+  {
+    "ref": "290H22866R",
+    "peca": "CART EMOT MAQ B"
+  },
+  {
+    "ref": "290H23747R",
+    "peca": "CART DRAXT MAQ B"
+  },
+  {
+    "ref": "290H23923R",
+    "peca": "CART BR EMOT APRO"
+  },
+  {
+    "ref": "290H24497R",
+    "peca": "CART DRAXT MAQ A"
+  },
+  {
+    "ref": "290H27531R",
+    "peca": "TRACTION MOTOR"
+  },
+  {
+    "ref": "290H29130R",
+    "peca": "CART EMOT MAQ C"
+  },
+  {
+    "ref": "290H64PM0A",
+    "peca": "TAMPA FRONTAL MOT"
+  },
+  {
+    "ref": "290H66673R",
+    "peca": "TAMPA FRONTAL MOT"
+  },
+  {
+    "ref": "290H93218R",
+    "peca": "ORING CAMISA AGUA"
+  },
+  {
+    "ref": "290H94PM0A",
+    "peca": "JUNTA TAMPA FRONT"
+  },
+  {
+    "ref": "290H94PM0B",
+    "peca": "JUNTA RESOLVER"
+  },
+  {
+    "ref": "290H94PM0C",
+    "peca": "JUNTA TERMINAIS"
+  },
+  {
+    "ref": "290H94PM0D",
+    "peca": "GSKT-METAL (N/OK)"
+  },
+  {
+    "ref": "290L14PM0C",
+    "peca": "ROTOR SHAFT ASS"
+  },
+  {
+    "ref": "290L24PM0C",
+    "peca": "ARVORE ROTOR"
+  },
+  {
+    "ref": "290L27006R",
+    "peca": "ARVORE ROTOR"
+  },
+  {
+    "ref": "290L34PM0A",
+    "peca": "ROTOR MAQUINADO"
+  },
+  {
+    "ref": "290L83KY0B",
+    "peca": "RETAINER ROTOR"
+  },
+  {
+    "ref": "290M17967R",
+    "peca": "IMAN CRACK BRUTO"
+  },
+  {
+    "ref": "290M24PM0A",
+    "peca": "IMANS CRACKIN ASS"
+  },
+  {
+    "ref": "290M25903R",
+    "peca": "IMAN CRACK ASS HA"
+  },
+  {
+    "ref": "290N04PM0C",
+    "peca": "COVER SENSOR ASS"
+  },
+  {
+    "ref": "290N64PM0A",
+    "peca": "RETAINER SUP RESO"
+  },
+  {
+    "ref": "290P14PM0A",
+    "peca": "STATOR ASS"
+  },
+  {
+    "ref": "290P24PM1A",
+    "peca": "CORE BOBINE"
+  },
+  {
+    "ref": "290P53KY0A",
+    "peca": "STATOR RESOLVER"
+  },
+  {
+    "ref": "290R14PM0C",
+    "peca": "ROTOR ASS"
+  },
+  {
+    "ref": "290R24PM1A",
+    "peca": "ANEL IMANS ROTOR"
+  },
+  {
+    "ref": "290R44PM0A",
+    "peca": "RESOLVER ROTOR"
+  },
+  {
+    "ref": "290R54PM0A",
+    "peca": "TAMPA ROTOR"
+  },
+  {
+    "ref": "290R55361R",
+    "peca": "TAMPA ROTOR"
+  },
+  {
+    "ref": "290T51200R",
+    "peca": "TAMPA BUSRING"
+  },
+  {
+    "ref": "290T54PM0A",
+    "peca": "TAMPA BUSRING"
+  },
+  {
+    "ref": "290T54PM0B",
+    "peca": "TAMPA TERMIN ELET"
+  },
+  {
+    "ref": "290U25520R",
+    "peca": "ROTOR MAQUINADO"
+  },
+  {
+    "ref": "290U28357R",
+    "peca": "ROTOR BRUTO"
+  },
+  {
+    "ref": "290U84436R",
+    "peca": "ANILHA INF ROTOR"
+  },
+  {
+    "ref": "290V43538R",
+    "peca": "VERNIZ STATOR"
+  },
+  {
+    "ref": "290V49506R",
+    "peca": "VERNIZ N/G"
+  },
+  {
+    "ref": "290V71174R",
+    "peca": "TAMP SENSOR COVER"
+  },
+  {
+    "ref": "290V75642R",
+    "peca": "TAMP SENSOR COVER"
+  },
+  {
+    "ref": "290W14PM0A",
+    "peca": "BOBINES MONTADAS"
+  },
+  {
+    "ref": "290W34PM0A",
+    "peca": "FIO DE COBRE"
+  },
+  {
+    "ref": "290W54PM1A",
+    "peca": "ISOLANTE A"
+  },
+  {
+    "ref": "290W54PM1B",
+    "peca": "ISOLANTE B"
+  },
+  {
+    "ref": "290X13KY0B",
+    "peca": "PARAFUSO BUSRING"
+  },
+  {
+    "ref": "290X14PM0A",
+    "peca": "PARAF LONG SCOVER"
+  },
+  {
+    "ref": "290X42762R",
+    "peca": "ANILH PLANA ROTOR"
+  },
+  {
+    "ref": "290X51MG0A",
+    "peca": "PINO TAMP TERM EL"
+  },
+  {
+    "ref": "290X61748R",
+    "peca": "COLA IMANS ROTOR"
+  },
+  {
+    "ref": "290X61MG1A",
+    "peca": "COLA IMAN ROT N/G"
+  },
+  {
+    "ref": "290X63424R",
+    "peca": "COLA CRACKING"
+  },
+  {
+    "ref": "290X63NF2B",
+    "peca": "COLA IMANS ROTOR"
+  },
+  {
+    "ref": "290X84GA0A",
+    "peca": "CHAV TRAVA STATOR"
+  },
+  {
+    "ref": "290Y14PM0A",
+    "peca": "BORNE TERMIN ELET"
+  },
+  {
+    "ref": "290Y14PM0B",
+    "peca": "CONTATOR S COVER"
+  },
+  {
+    "ref": "290Y14PM0C",
+    "peca": "CONTATOR LIGA PEB"
+  },
+  {
+    "ref": "290Y18744R",
+    "peca": "BORNE TERMIN ELET"
+  },
+  {
+    "ref": "294324PM0A",
+    "peca": "CAMISA AGUA ASS"
+  },
+  {
+    "ref": "295V14736R",
+    "peca": "TAMPA TERMIN ELET"
+  },
+  {
+    "ref": "304124PM0A",
+    "peca": "PINO TAMPA AGUA"
+  },
+  {
+    "ref": "30412H1001",
+    "peca": "PINO TAMP FRONTAL"
+  },
+  {
+    "ref": "310844PM0C",
+    "peca": "ORING ROTOR"
+  },
+  {
+    "ref": "313754PM0A",
+    "peca": "VEDANT OLEO ROTOR"
+  },
+  {
+    "ref": "313773KY0B",
+    "peca": "PARAFUSO M6"
+  },
+  {
+    "ref": "314094PM0A",
+    "peca": "ROLAMENTO STATOR"
+  },
+  {
+    "ref": "314374PM0A",
+    "peca": "ESPACADOR S COVER"
+  },
+  {
+    "ref": "321504PM0A",
+    "peca": "CHAVETA TAMP AGUA"
+  },
+  {
+    "ref": "344644PM0A",
+    "peca": "ANILH ONDUL ROTOR"
+  },
+  {
+    "ref": "8201752491",
+    "peca": "IMANS CRACKING CL"
+  },
+  {
+    "ref": "8201752501",
+    "peca": "ROTOR SHAFT CLEON"
+  },
+  {
+    "ref": "8201753605",
+    "peca": "TAMP S COVER ASS"
+  },
+  {
+    "ref": "8201755148",
+    "peca": "CART PARA PINTAR"
+  },
+  {
+    "ref": "8201755149",
+    "peca": "CARTER EM PINTURA"
+  },
+  {
+    "ref": "8201755150",
+    "peca": "CARTER PINTADO"
+  },
+  {
+    "ref": "304014966R",
+    "peca": "CED JR S2G ST PR"
+  },
+  {
+    "ref": "320100814R",
+    "peca": "BVM ASS JT 028"
+  },
+  {
+    "ref": "320100954R",
+    "peca": "BVM ASS JT 031"
+  },
+  {
+    "ref": "320101959R",
+    "peca": "BVM ASS JT 030"
+  },
+  {
+    "ref": "320102077R",
+    "peca": "BVM ASS JR5 359 V"
+  },
+  {
+    "ref": "320105825R",
+    "peca": "BVM ASS JT 020"
+  },
+  {
+    "ref": "320107348R",
+    "peca": "BVM ASS JT 026"
+  },
+  {
+    "ref": "320107469R",
+    "peca": "BVM ASS JT 029"
+  },
+  {
+    "ref": "320108443R",
+    "peca": "BVM ASS JT 025"
+  },
+  {
+    "ref": "321132745R",
+    "peca": "VED AP/CED JT4"
+  },
+  {
+    "ref": "328762680R",
+    "peca": "ANIL EIX SEL 2.22"
+  },
+  {
+    "ref": "328762902R",
+    "peca": "ANIL EIX SEL 1.50"
+  },
+  {
+    "ref": "328767534R",
+    "peca": "ANIL EIX SEL 1.56"
+  },
+  {
+    "ref": "328872079R",
+    "peca": "CASQ. EIXOS/CED"
+  },
+  {
+    "ref": "7702031474",
+    "peca": "MIOL+BAL 3/4 CMC"
+  },
+  {
+    "ref": "7702031695",
+    "peca": "MIO+BAL 1/2 CMC"
+  },
+  {
+    "ref": "216068496R",
+    "peca": "PLACA PERMUTADOR"
+  },
+  {
+    "ref": "216260487R",
+    "peca": "JUNTA PERMUTADOR"
+  },
+  {
+    "ref": "216333780R",
+    "peca": "TUBO AGUA"
+  },
+  {
+    "ref": "304000019R",
+    "peca": "CED DB45 ASSEMBLE"
+  },
+  {
+    "ref": "304010439R",
+    "peca": "CED HR12 DDV MAQ"
+  },
+  {
+    "ref": "304012724R",
+    "peca": "CED HR12 DDV BRUT"
+  },
+  {
+    "ref": "304014750R",
+    "peca": "CED TX26 K9 G2 BR"
+  },
+  {
+    "ref": "304016937R",
+    "peca": "CED DB45 MAQUINAD"
+  },
+  {
+    "ref": "304018584R",
+    "peca": "CED DB45 BRT PITE"
+  },
+  {
+    "ref": "306202864R",
+    "peca": "REC.CONC.ND0 NV"
+  },
+  {
+    "ref": "321017678R",
+    "peca": "CM DB45 BRT VALL"
+  },
+  {
+    "ref": "321019782R",
+    "peca": "CM DB45 MAQUINADO"
+  },
+  {
+    "ref": "8201738555",
+    "peca": "CARTER EMBRAYAGE"
+  },
+  {
+    "ref": "323737005R",
+    "peca": "PL 6A BR PK APPRO"
+  },
+  {
+    "ref": "328149613R",
+    "peca": "EIXO MAR BRUT NOV"
+  },
+  {
+    "ref": "381012843R",
+    "peca": "COR PA 15X68 DB45"
+  },
+  {
+    "ref": "384106909R",
+    "peca": "BD ASS 15X68 DB45"
+  },
+  {
+    "ref": "384237890R",
+    "peca": "PLANETARIO JT4"
+  },
+  {
+    "ref": "384256610R",
+    "peca": "SATELITE JT4"
+  },
+  {
+    "ref": "8201753760",
+    "peca": "COR 15X68 PB DB45"
+  },
+  {
+    "ref": "8201753761",
+    "peca": "COR 15X68 PN DB45"
+  },
+  {
+    "ref": "8201754108",
+    "peca": "BD RET 15X68 DB45"
+  },
+  {
+    "ref": "8201755708",
+    "peca": "BD 15X58 QUAR JT4"
+  },
+  {
+    "ref": "8201755709",
+    "peca": "BD 14X63 QUAR JT4"
+  },
+  {
+    "ref": "8201755710",
+    "peca": "BD 14X69 QUAR JT4"
+  },
+  {
+    "ref": "8201755711",
+    "peca": "BD 14X59 QUAR JT4"
+  },
+  {
+    "ref": "8201756441",
+    "peca": "COR 15X68FORNDB45"
+  },
+  {
+    "ref": "8201759384",
+    "peca": "BD 15X68 QUARE 45"
+  },
+  {
+    "ref": "110223622R",
+    "peca": "GUIA CENTRAG 9X11"
+  },
+  {
+    "ref": "132850886R",
+    "peca": "BAL ESC ASS FDV"
+  },
+  {
+    "ref": "132858368R",
+    "peca": "BAL ADM ASS FDV"
+  },
+  {
+    "ref": "140034312R",
+    "peca": "REP. A-B MAQ SJI"
+  },
+  {
+    "ref": "150157428R",
+    "peca": "TAMP BRT K7 NV"
+  },
+  {
+    "ref": "150842046R",
+    "peca": "ALHETA VOP M9 NV"
+  },
+  {
+    "ref": "8201725311",
+    "peca": "AEQ M9R OP 150"
+  },
+  {
+    "ref": "322412A03B",
+    "peca": "ARV.SEC.16X70 ND0"
+  },
+  {
+    "ref": "322412A08B",
+    "peca": "ARV.SEC.15X58 ND0"
+  },
+  {
+    "ref": "322417N64B",
+    "peca": "ARV.SEC.15X64 ND4"
+  },
+  {
+    "ref": "322418H89B",
+    "peca": "ARV.SEC.16X61 ND6"
+  },
+  {
+    "ref": "323318H50F",
+    "peca": "PL 6A 49X33 ND"
+  },
+  {
+    "ref": "381012A03B",
+    "peca": "COROA ND4*14/5/6"
+  },
+  {
+    "ref": "381012A07B",
+    "peca": "COROA ND0*0/8/9"
+  },
+  {
+    "ref": "381012A08B",
+    "peca": "COROA ND0*001/2"
+  },
+  {
+    "ref": "381017N64B",
+    "peca": "COROA ND4*004/010"
+  },
+  {
+    "ref": "381017N65B",
+    "peca": "COROA 15X62 ND"
+  },
+  {
+    "ref": "381017N69B",
+    "peca": "COROA ND401/11/12"
+  },
+  {
+    "ref": "381018H50B",
+    "peca": "COROA DIF.14X62 N"
+  },
+  {
+    "ref": "381018H59B",
+    "peca": "COROA DIF.16X61 N"
+  },
+  {
+    "ref": "R100577952",
+    "peca": "BON 1217 310ML"
+  },
+  {
+    "ref": "R100577958",
+    "peca": "BOND 1217 20KG"
+  },
+  {
+    "ref": "233A10163R",
+    "peca": "EIXO 6-12,5 (NV)"
+  },
+  {
+    "ref": "R100323257",
+    "peca": "THREE BOND 1133"
+  },
+  {
+    "ref": "322315902R",
+    "peca": "PL 1A BR JT APPRO"
+  },
+  {
+    "ref": "322414824R",
+    "peca": "AS 16X55 FG"
+  },
+  {
+    "ref": "322419678R",
+    "peca": "AS 14X59 RET JT4"
+  },
+  {
+    "ref": "322511742R",
+    "peca": "PL 2A BR JT APPRO"
+  },
+  {
+    "ref": "322B19790R",
+    "peca": "PF 3A BR JT APPRO"
+  },
+  {
+    "ref": "322B37281R",
+    "peca": "PL 3A BR JT APPRO"
+  },
+  {
+    "ref": "322B46331R",
+    "peca": "PF 4A BR JT APPRO"
+  },
+  {
+    "ref": "322B65913R",
+    "peca": "PL 4A BR JT APPRO"
+  },
+  {
+    "ref": "323709635R",
+    "peca": "PF 5A BR JT APPRO"
+  },
+  {
+    "ref": "323712440R",
+    "peca": "PL 5A BR JT APPRO"
+  },
+  {
+    "ref": "323725233R",
+    "peca": "PF 6A 52X29 GF JT"
+  },
+  {
+    "ref": "323729293R",
+    "peca": "PF 6A BR JT APPRO"
+  },
+  {
+    "ref": "323731179R",
+    "peca": "PL 6A 52X29 GF JT"
+  },
+  {
+    "ref": "323737364R",
+    "peca": "PL 6A BR JT APPRO"
+  },
+  {
+    "ref": "7701108850",
+    "peca": "PF 5A 41X35 SEV"
+  },
+  {
+    "ref": "7701123596",
+    "peca": "PF 6A 43X29 SEV"
+  },
+  {
+    "ref": "7701140893",
+    "peca": "PF 4A 35X39 SEV"
+  },
+  {
+    "ref": "7701216140",
+    "peca": "PF 3A 26X41 SEV"
+  },
+  {
+    "ref": "8201722829",
+    "peca": "FIC AS 16X57"
+  },
+  {
+    "ref": "8201722830",
+    "peca": "FIC PL 3A 30X27"
+  },
+  {
+    "ref": "8201722831",
+    "peca": "FIC PL 4A 31X28"
+  },
+  {
+    "ref": "8201722832",
+    "peca": "FIC AS 15X56"
+  },
+  {
+    "ref": "8201722833",
+    "peca": "FIC AS 18X57"
+  },
+  {
+    "ref": "8201722834",
+    "peca": "FIC DIF15X56"
+  },
+  {
+    "ref": "8201722836",
+    "peca": "FIC DIF 18X57"
+  },
+  {
+    "ref": "8201722837",
+    "peca": "FIC PF 5A 42X31"
+  },
+  {
+    "ref": "8201722843",
+    "peca": "FIC AP TIPO I¯"
+  },
+  {
+    "ref": "8201722847",
+    "peca": "FIC PF 5A 41X31"
+  },
+  {
+    "ref": "8201722851",
+    "peca": "FIC AS 14X69"
+  },
+  {
+    "ref": "8201722854",
+    "peca": "FIC AP TIPO C¯"
+  },
+  {
+    "ref": "8201722855",
+    "peca": "FIC COROA 14X69"
+  },
+  {
+    "ref": "8201723461",
+    "peca": "FIC PF 5A 45X31"
+  },
+  {
+    "ref": "8201723492",
+    "peca": "FIC AS 14X63"
+  },
+  {
+    "ref": "8201752221",
+    "peca": "AS 15X58 RET PB"
+  },
+  {
+    "ref": "8201752222",
+    "peca": "AS 15X58 RET PN"
+  },
+  {
+    "ref": "8201752223",
+    "peca": "AS 14X63 RET PB"
+  },
+  {
+    "ref": "8201752224",
+    "peca": "AS 14X63 RET PN"
+  },
+  {
+    "ref": "8201752883",
+    "peca": "PF 6A 52X29 PB JT"
+  },
+  {
+    "ref": "8201752884",
+    "peca": "PF 6A 52X29 PN JT"
+  },
+  {
+    "ref": "8201752885",
+    "peca": "PL 6A 52X29 PB JT"
+  },
+  {
+    "ref": "8201752886",
+    "peca": "PL 6A 52X29 PN JT"
+  },
+  {
+    "ref": "8201761432",
+    "peca": "AS 14X59 RET PB"
+  },
+  {
+    "ref": "8201761433",
+    "peca": "AS 14X59 RETAFORN"
+  },
+  {
+    "ref": "8201761434",
+    "peca": "AS 14X59 RET PN"
+  },
+  {
+    "ref": "8201761435",
+    "peca": "AS 14X59 RET DESP"
+  },
+  {
+    "ref": "8201761436",
+    "peca": "AS 14X59 RETAFOSF"
+  },
+  {
+    "ref": "130214432R",
+    "peca": "PINH AEQ M9 APPRO"
+  },
+  {
+    "ref": "130215330R",
+    "peca": "PINH AEQ M9 APPRO"
+  },
+  {
+    "ref": "130219269R",
+    "peca": "PINH AEQ BR APPRO"
+  },
+  {
+    "ref": "322B93491R",
+    "peca": "CONE CRA BRU MUSA"
+  },
+  {
+    "ref": "243918250R",
+    "peca": "CONET BATT S/LOCK"
+  },
+  {
+    "ref": "243918453R",
+    "peca": "CONET HSG S/LOCK"
+  },
+  {
+    "ref": "243918972R",
+    "peca": "CONET ME S/LOCK"
+  },
+  {
+    "ref": "291A11112R",
+    "peca": "PEB 401 DLT SW131"
+  },
+  {
+    "ref": "291A12462R",
+    "peca": "PEB ASS 410 SW564"
+  },
+  {
+    "ref": "291A13495R",
+    "peca": "PEB ASS 405 SW582"
+  },
+  {
+    "ref": "291A13960R",
+    "peca": "PEB 401 TIC SW120"
+  },
+  {
+    "ref": "291A15162R",
+    "peca": "PEB ASS KZ 401 D"
+  },
+  {
+    "ref": "291A15357R",
+    "peca": "PEB 401 D SW110"
+  },
+  {
+    "ref": "291A16434R",
+    "peca": "PEB 401 TIC SW131"
+  },
+  {
+    "ref": "291A17045R",
+    "peca": "PEB ASS 410 SW565"
+  },
+  {
+    "ref": "291A18122R",
+    "peca": "PEB ASS 406 SW583"
+  },
+  {
+    "ref": "291E08040R",
+    "peca": "CONDENSADOR"
+  },
+  {
+    "ref": "292A06301R",
+    "peca": "DCDC 401 TICO"
+  },
+  {
+    "ref": "292A60483R",
+    "peca": "INVERTER VHC ELCT, PROGRAMMED"
+  },
+  {
+    "ref": "292A60647R",
+    "peca": "VARIADOR 401SW131"
+  },
+  {
+    "ref": "297A16488R",
+    "peca": "CABO CVTS 401"
+  },
+  {
+    "ref": "8201756878",
+    "peca": "VAR RFSH SW583 A0"
+  },
+  {
+    "ref": "8201756928",
+    "peca": "VAR RFSH SW120AVE"
+  },
+  {
+    "ref": "8201756947",
+    "peca": "VAR RFSH SW582AVE"
+  },
+  {
+    "ref": "290E24PM0A",
+    "peca": "BUSRING"
+  },
+  {
+    "ref": "290H24PM1A",
+    "peca": "CARTER MOTOR A"
+  },
+  {
+    "ref": "290H24PM1B",
+    "peca": "CARTER MOTOR B"
+  },
+  {
+    "ref": "290H24PM1C",
+    "peca": "CARTER MOTOR C"
+  },
+  {
+    "ref": "310844PM0B",
+    "peca": "ORING CAMISA AGUA"
+  },
+  {
+    "ref": "110600799R",
+    "peca": "BSE ASS K RUSSZZZ"
+  },
+  {
+    "ref": "110606319R",
+    "peca": "BSE K4M ASSZZZZZZ"
+  },
+  {
+    "ref": "132535596R",
+    "peca": "EIXO BAL.BRUTOZZZ"
+  },
+  {
+    "ref": "132545993R",
+    "peca": "TAMP.EIXO BAL.ZZZ"
+  },
+  {
+    "ref": "132593160R",
+    "peca": "ROLAM.BAL.D4FZZZ"
+  },
+  {
+    "ref": "132629668R",
+    "peca": "BAL ADM D4 BR ZZZ"
+  },
+  {
+    "ref": "132842278R",
+    "peca": "BAL ESC D4 BR ZZZ"
+  },
+  {
+    "ref": "135020123R",
+    "peca": "CART.DIST. H4BZZZ"
+  },
+  {
+    "ref": "135022839R",
+    "peca": "CART. DIST H5FZZZ"
+  },
+  {
+    "ref": "140032267R",
+    "peca": "REP.M9R A-B-IN"
+  },
+  {
+    "ref": "140052505R",
+    "peca": "COL.ADM.F9.BR"
+  },
+  {
+    "ref": "150108069R",
+    "peca": "BBA OL K4M NVZZZ"
+  },
+  {
+    "ref": "150157433R",
+    "peca": "TAMP.BBA OL K7"
+  },
+  {
+    "ref": "150158046R",
+    "peca": "TAMP BR K4 K9 ZZZ"
+  },
+  {
+    "ref": "168123080R",
+    "peca": "SUPOR.BBA.INJEC"
+  },
+  {
+    "ref": "168125829R",
+    "peca": "SUP.BBA.INJ.BRU"
+  },
+  {
+    "ref": "290W18269R",
+    "peca": "FIO DE COBREZZZ"
+  },
+  {
+    "ref": "291A10552R",
+    "peca": "PEB ASS KZ 405ZZZ"
+  },
+  {
+    "ref": "291A10793R",
+    "peca": "PEB ASS KZ 401ZZZ"
+  },
+  {
+    "ref": "291A10983R",
+    "peca": "PEB ASS 406 SWZZZ"
+  },
+  {
+    "ref": "291A14177R",
+    "peca": "PEB ASS KZ 405ZZZ"
+  },
+  {
+    "ref": "291A16637R",
+    "peca": "PEB ASS KZ 405ZZZ"
+  },
+  {
+    "ref": "304011033R",
+    "peca": "CED JR H4M PC ZZZ"
+  },
+  {
+    "ref": "304014649R",
+    "peca": "CED JR S2G PC ZZZ"
+  },
+  {
+    "ref": "304015378R",
+    "peca": "CED K9 GF CF ZZZ"
+  },
+  {
+    "ref": "304016044R",
+    "peca": "CED K9 CF"
+  },
+  {
+    "ref": "304017773R",
+    "peca": "CED JR-H5FT BRZZZ"
+  },
+  {
+    "ref": "304086954R",
+    "peca": "EQUERRE NISSANZZZ"
+  },
+  {
+    "ref": "306202313R",
+    "peca": "REC CONC SHAF ZZZ"
+  },
+  {
+    "ref": "306205482R",
+    "peca": "REC CONC LUK2 ZZZ"
+  },
+  {
+    "ref": "313811463R",
+    "peca": "TUBO RESPIRO ZZZ"
+  },
+  {
+    "ref": "320100790R",
+    "peca": "BVM ASS JR5 179ZZ"
+  },
+  {
+    "ref": "320101170R",
+    "peca": "BVM ASSJR5 517"
+  },
+  {
+    "ref": "320102217R",
+    "peca": "BVM ASS JR5339ZZZ"
+  },
+  {
+    "ref": "320102218R",
+    "peca": "BVM ASSJR5 396"
+  },
+  {
+    "ref": "320102757R",
+    "peca": "BVM ASS JR5 082ZZ"
+  },
+  {
+    "ref": "320103134R",
+    "peca": "BVM ASS JR5172ZZZ"
+  },
+  {
+    "ref": "320103275R",
+    "peca": "BVM ASSJR5 154"
+  },
+  {
+    "ref": "320103789R",
+    "peca": "BVM ASS JT 016ZZZ"
+  },
+  {
+    "ref": "320103869R",
+    "peca": "BVM ASS JR5 073ZZ"
+  },
+  {
+    "ref": "320103893R",
+    "peca": "BVM AS JR5 168"
+  },
+  {
+    "ref": "320104896R",
+    "peca": "BVM JR5 341 FS"
+  },
+  {
+    "ref": "320105142R",
+    "peca": "BVM ASSJR5 156"
+  },
+  {
+    "ref": "320106935R",
+    "peca": "BVM ASS JR5337ZZZ"
+  },
+  {
+    "ref": "320107228R",
+    "peca": "BVM ASSJR5 378"
+  },
+  {
+    "ref": "320107520R",
+    "peca": "BVM ASS JT 004ZZZ"
+  },
+  {
+    "ref": "320107559R",
+    "peca": "BVM ASS JT 002ZZZ"
+  },
+  {
+    "ref": "320108051R",
+    "peca": "BVM ASSJR5 152"
+  },
+  {
+    "ref": "320108614R",
+    "peca": "BVM ASS JR5 331ZZ"
+  },
+  {
+    "ref": "320109575R",
+    "peca": "BOITE JR5340"
+  },
+  {
+    "ref": "321012008R",
+    "peca": "CM TL4/H5F ROZZZ"
+  },
+  {
+    "ref": "321012058R",
+    "peca": "CM TL4/H5F ROGZZZ"
+  },
+  {
+    "ref": "321018540R",
+    "peca": "CM TX26 MAQ NVZZZ"
+  },
+  {
+    "ref": "321079831R",
+    "peca": "GOULOT OLEO JRZZZ"
+  },
+  {
+    "ref": "322010652R",
+    "peca": "AP JR5*179 OYAZZZ"
+  },
+  {
+    "ref": "322015997R",
+    "peca": "ARV.PRIM.KZN ZZZ"
+  },
+  {
+    "ref": "322308779R",
+    "peca": "PL 1A 11X41 PCZZZ"
+  },
+  {
+    "ref": "322411445R",
+    "peca": "AS 18X57 FGZZZ"
+  },
+  {
+    "ref": "322412139R",
+    "peca": "AS 16X57 F/GZZZ"
+  },
+  {
+    "ref": "322449210R",
+    "peca": "ANILH.CRAB 4AZZZ"
+  },
+  {
+    "ref": "322782203R",
+    "peca": "ANI.APOIO P5A ZZZ"
+  },
+  {
+    "ref": "322B34877R",
+    "peca": "PL 3A 28X39 OYZZZ"
+  },
+  {
+    "ref": "322B59155R",
+    "peca": "PL 4A 31X34 OYZZZ"
+  },
+  {
+    "ref": "323709340R",
+    "peca": "PF 5A 47X31 KAZZZ"
+  },
+  {
+    "ref": "323712903R",
+    "peca": "PL 5A 47X31 KAZZZ"
+  },
+  {
+    "ref": "326012571R",
+    "peca": "MIOLO 1/2 GKNZZZ"
+  },
+  {
+    "ref": "326040128R",
+    "peca": "ANEL SINC INF ZZZ"
+  },
+  {
+    "ref": "326041339R",
+    "peca": "ANEL SINC.3/4 ZZZ"
+  },
+  {
+    "ref": "326066470R",
+    "peca": "BALAD 1/2 RSBZZZ"
+  },
+  {
+    "ref": "326070494R",
+    "peca": "ANEL SIN SUP OZZZ"
+  },
+  {
+    "ref": "326084517R",
+    "peca": "GALET SYNC JR ZZZ"
+  },
+  {
+    "ref": "326105133R",
+    "peca": "MIO+BAL 3/4 INZZZ"
+  },
+  {
+    "ref": "326155113R",
+    "peca": "ANEL FRIC.SHAEZZZ"
+  },
+  {
+    "ref": "326306018R",
+    "peca": "MIO+BAL 5A INDZZZ"
+  },
+  {
+    "ref": "328011260R",
+    "peca": "EIXO 1/2 BRUT ZZZ"
+  },
+  {
+    "ref": "328092229R",
+    "peca": "EIXO 3/4 BRUT ZZZ"
+  },
+  {
+    "ref": "328905083R",
+    "peca": "MOD.CDO JR TYPZZZ"
+  },
+  {
+    "ref": "328909240R",
+    "peca": "MOD.CDO B/J INZZZ"
+  },
+  {
+    "ref": "328A07290R",
+    "peca": "CARTUC.1 BILL.ZZZ"
+  },
+  {
+    "ref": "329414062R",
+    "peca": "EIXO 5A BRUTO ZZZ"
+  },
+  {
+    "ref": "329800694R",
+    "peca": "MASSA PEND GPLZZZ"
+  },
+  {
+    "ref": "331A13736R",
+    "peca": "ANIL.CAN.PL 2AZZZ"
+  },
+  {
+    "ref": "344140236R",
+    "peca": "ARR.GAINE.3 CAZZZ"
+  },
+  {
+    "ref": "344145687R",
+    "peca": "ARRET GAINE X6ZZZ"
+  },
+  {
+    "ref": "344149081R",
+    "peca": "ARRET GAINE VOZZZ"
+  },
+  {
+    "ref": "384118H500",
+    "peca": "DIFMON.ND"
+  },
+  {
+    "ref": "384214628R",
+    "peca": "CAIXA DIF.JR.ZZZZ"
+  },
+  {
+    "ref": "7700105261",
+    "peca": "CASQ.ESP.2/3/4ZZZ"
+  },
+  {
+    "ref": "7700107496",
+    "peca": "COR.VOL.F4R"
+  },
+  {
+    "ref": "7700111718",
+    "peca": "CASQ.RET.PLOT"
+  },
+  {
+    "ref": "7700113127",
+    "peca": "SP.INJ.K4BR DMI"
+  },
+  {
+    "ref": "7700113769",
+    "peca": "AS BRUT JR5*ZZZ"
+  },
+  {
+    "ref": "7700114132",
+    "peca": "GARRA 5A ZZZ"
+  },
+  {
+    "ref": "7700114141",
+    "peca": "GARRA 1/2 JH1/ZZZ"
+  },
+  {
+    "ref": "7700114142",
+    "peca": "GARRA 3/4 JHZZZ"
+  },
+  {
+    "ref": "7700114168",
+    "peca": "COL.ESC.BRT.K4"
+  },
+  {
+    "ref": "7700115816",
+    "peca": "PORCA FIX.5A ZZZ"
+  },
+  {
+    "ref": "7700312225",
+    "peca": "VOL. MONT.G9T*"
+  },
+  {
+    "ref": "7700422630",
+    "peca": "CONTACT.MAT.LAZZZ"
+  },
+  {
+    "ref": "7700600523",
+    "peca": "COLET.ESC.BRT"
+  },
+  {
+    "ref": "7700737092",
+    "peca": "MOLA SINCRON. ZZZ"
+  },
+  {
+    "ref": "7700865545",
+    "peca": "FORQUILHA 1/2ZZZ"
+  },
+  {
+    "ref": "7700866290",
+    "peca": "ANEL 22X32 ZZZ"
+  },
+  {
+    "ref": "7700867670",
+    "peca": "PARAF.REG.BAL ZZZ"
+  },
+  {
+    "ref": "7700871803",
+    "peca": "AP JCG CHY"
+  },
+  {
+    "ref": "7701144744",
+    "peca": "CX DIF NU SEV ZZZ"
+  },
+  {
+    "ref": "7701705291",
+    "peca": "EIXO BALANC.BRZZZ"
+  },
+  {
+    "ref": "7701714687",
+    "peca": "SUP.FR.MAR JR5"
+  },
+  {
+    "ref": "7701716625",
+    "peca": "CUVETTE ROL.DIZZZ"
+  },
+  {
+    "ref": "7701716626",
+    "peca": "CONE ROL.DIFERZZZ"
+  },
+  {
+    "ref": "7701717106",
+    "peca": "CONE 25X59XZZZ"
+  },
+  {
+    "ref": "7701717671",
+    "peca": "CUVETTE AS/CEDZZZ"
+  },
+  {
+    "ref": "7701717672",
+    "peca": "CONE AS/CED JZZZ"
+  },
+  {
+    "ref": "7701717676",
+    "peca": "BVM ASSJR5 106"
+  },
+  {
+    "ref": "7701717679",
+    "peca": "BVM ASSJR5 114"
+  },
+  {
+    "ref": "7701717726",
+    "peca": "JR5 015"
+  },
+  {
+    "ref": "7701717727",
+    "peca": "JR5 016"
+  },
+  {
+    "ref": "7701717728",
+    "peca": "BVM JR5 017"
+  },
+  {
+    "ref": "7701717738",
+    "peca": "BVM ASSJR5 128"
+  },
+  {
+    "ref": "7701717741",
+    "peca": "BVM ASS JR5 151ZZ"
+  },
+  {
+    "ref": "7701717750",
+    "peca": "CED ND0*101"
+  },
+  {
+    "ref": "7701717751",
+    "peca": "CM ND0"
+  },
+  {
+    "ref": "7701717754",
+    "peca": "CED ND0 EXP"
+  },
+  {
+    "ref": "7701717772",
+    "peca": "BVM ND0 102 N"
+  },
+  {
+    "ref": "7701717779",
+    "peca": "AS 14X59 PBZZZZZZ"
+  },
+  {
+    "ref": "7701717794",
+    "peca": "AS 15X56 PB"
+  },
+  {
+    "ref": "7701717795",
+    "peca": "AS 16X57 PB"
+  },
+  {
+    "ref": "7701717796",
+    "peca": "AS 15X61 PB"
+  },
+  {
+    "ref": "7701717797",
+    "peca": "AS 17X56 PB"
+  },
+  {
+    "ref": "7701717798",
+    "peca": "AS 16X55 PB"
+  },
+  {
+    "ref": "7701717799",
+    "peca": "AS 14X63 PBZZZ"
+  },
+  {
+    "ref": "7701717801",
+    "peca": "AP JCA PB"
+  },
+  {
+    "ref": "7701717814",
+    "peca": "PL 3A 28X37 PB"
+  },
+  {
+    "ref": "7701717815",
+    "peca": "PL3A 28X39 PB"
+  },
+  {
+    "ref": "7701717816",
+    "peca": "PL 4A 35X34 PB"
+  },
+  {
+    "ref": "7701717818",
+    "peca": "PL 4A 31X34 PB"
+  },
+  {
+    "ref": "7701717832",
+    "peca": "PIN.AEQ.M1.49 PBX"
+  },
+  {
+    "ref": "7701717836",
+    "peca": "AS 14X69 PB1"
+  },
+  {
+    "ref": "7701717844",
+    "peca": "BVM ASS JR5170ZZZ"
+  },
+  {
+    "ref": "7701717846",
+    "peca": "AP JCG PB"
+  },
+  {
+    "ref": "7701717848",
+    "peca": "BVM ASSJR5 168"
+  },
+  {
+    "ref": "7701717853",
+    "peca": "BVM ASS ND008"
+  },
+  {
+    "ref": "7701717854",
+    "peca": "BVM ND0 009"
+  },
+  {
+    "ref": "7701717855",
+    "peca": "BVM ND0 013"
+  },
+  {
+    "ref": "7701717859",
+    "peca": "PF5 ALAR39X32 P"
+  },
+  {
+    "ref": "7701717860",
+    "peca": "PF5 ALAR41X31 P"
+  },
+  {
+    "ref": "7701717863",
+    "peca": "PF5 ALAR39X31 P"
+  },
+  {
+    "ref": "7701717864",
+    "peca": "PL5 ALAR39X32 P"
+  },
+  {
+    "ref": "7701717866",
+    "peca": "BVM ASSJR5 166"
+  },
+  {
+    "ref": "7701717868",
+    "peca": "PL5A 37X33 PB"
+  },
+  {
+    "ref": "7701717869",
+    "peca": "PL5 ALAR39X31 P"
+  },
+  {
+    "ref": "7701767501",
+    "peca": "BVM ASS JR5308ZZZ"
+  },
+  {
+    "ref": "7701769557",
+    "peca": "DIFER 14X69 E3"
+  },
+  {
+    "ref": "7703002126",
+    "peca": "PARAFUSO M8X12ZZZ"
+  },
+  {
+    "ref": "7703002572",
+    "peca": "PARAF.FIX.ANELZZZ"
+  },
+  {
+    "ref": "7703002748",
+    "peca": "PARAF.MOD.CDO ZZZ"
+  },
+  {
+    "ref": "7703002770",
+    "peca": "VIS EMB M8X125"
+  },
+  {
+    "ref": "7703020025",
+    "peca": "PARAF.FIX.LOQUZZZ"
+  },
+  {
+    "ref": "7703027523",
+    "peca": "PERNO M10-65 SZZZ"
+  },
+  {
+    "ref": "7703027524",
+    "peca": "PERNO M10X150-ZZZ"
+  },
+  {
+    "ref": "7703027526",
+    "peca": "PERNO.M8 LIGHTZZZ"
+  },
+  {
+    "ref": "7703062062",
+    "peca": "JUNTA DIA.16ZZZ"
+  },
+  {
+    "ref": "7703067082",
+    "peca": "GOLPIL.EIX 1/2ZZZ"
+  },
+  {
+    "ref": "7703067268",
+    "peca": "GOLP.VOL"
+  },
+  {
+    "ref": "7703067324",
+    "peca": "GOLPIL.EIXO ZZZ"
+  },
+  {
+    "ref": "7705010087",
+    "peca": "GUIA MOT.ARRANZZZ"
+  },
+  {
+    "ref": "7705010261",
+    "peca": "GUIA CENTRAGEMZZZ"
+  },
+  {
+    "ref": "7790112223",
+    "peca": "AS 15X56 EXP"
+  },
+  {
+    "ref": "8200017124",
+    "peca": "COLET.BRUT.G9T"
+  },
+  {
+    "ref": "8200021102",
+    "peca": "COL.ESC.BRT. K"
+  },
+  {
+    "ref": "8200042522",
+    "peca": "PIGNON FOU 4B"
+  },
+  {
+    "ref": "8200055231",
+    "peca": "COL.ES.BRT.K4M"
+  },
+  {
+    "ref": "8200062037",
+    "peca": "EIX.MAT.CORTADZZZ"
+  },
+  {
+    "ref": "8200071153",
+    "peca": "EIX.FOR.5A NU"
+  },
+  {
+    "ref": "8200071161",
+    "peca": "EIX MAT NU JH"
+  },
+  {
+    "ref": "8200071195",
+    "peca": "SUP.BAS.MAT.AS"
+  },
+  {
+    "ref": "8200073109",
+    "peca": "GOLPILHA FIX.MZZZ"
+  },
+  {
+    "ref": "8200073116",
+    "peca": "POR AV.PRI JR"
+  },
+  {
+    "ref": "8200081945",
+    "peca": "TAMP.BBO BR.K9K"
+  },
+  {
+    "ref": "8200091901",
+    "peca": "PLOT FR. MA JR"
+  },
+  {
+    "ref": "8200110072",
+    "peca": "PARAF.FIX.PINHZZZ"
+  },
+  {
+    "ref": "8200113715",
+    "peca": "AP JCA EXP"
+  },
+  {
+    "ref": "8200115586",
+    "peca": "AXE FOR.3 NU"
+  },
+  {
+    "ref": "8200117154",
+    "peca": "DEFLETOR AS JRZZZ"
+  },
+  {
+    "ref": "8200117602",
+    "peca": "JUNTA TAMP.5A ZZZ"
+  },
+  {
+    "ref": "8200128630",
+    "peca": "COLET E BRT F4"
+  },
+  {
+    "ref": "8200137449",
+    "peca": "COL.E.4/1F4R/F"
+  },
+  {
+    "ref": "8200138083",
+    "peca": "COL.ESC.BT F4"
+  },
+  {
+    "ref": "8200141454",
+    "peca": "CED.BRU.N"
+  },
+  {
+    "ref": "8200142677",
+    "peca": "ROLAM.AP/CED JZZZ"
+  },
+  {
+    "ref": "8200157867",
+    "peca": "AXE MAT.NU"
+  },
+  {
+    "ref": "8200166794",
+    "peca": "ROL.AGUL.PINH6"
+  },
+  {
+    "ref": "8200176798",
+    "peca": "JUNT BUJAO OL"
+  },
+  {
+    "ref": "8200196389",
+    "peca": "PINH.COM.BBA"
+  },
+  {
+    "ref": "8200199491",
+    "peca": "DEDO DE TRAVAMZZZ"
+  },
+  {
+    "ref": "8200209496",
+    "peca": "CONTACT.MAT.JRZZZ"
+  },
+  {
+    "ref": "8200216418",
+    "peca": "ANILH.CAL.AS.ZZZ"
+  },
+  {
+    "ref": "8200216423",
+    "peca": "ANILH.CAL.AS.2ZZZ"
+  },
+  {
+    "ref": "8200216425",
+    "peca": "ANILH.CAL.AS.2ZZZ"
+  },
+  {
+    "ref": "8200216429",
+    "peca": "ANILH.CAL.AS.ZZZ"
+  },
+  {
+    "ref": "8200216430",
+    "peca": "ANILH.CAL.AS.ZZZ"
+  },
+  {
+    "ref": "8200216432",
+    "peca": "ANILH.CAL.AS.ZZZ"
+  },
+  {
+    "ref": "8200216435",
+    "peca": "ANILH.CAL.AS.ZZZ"
+  },
+  {
+    "ref": "8200216445",
+    "peca": "ANILH.CAL.AS.ZZZ"
+  },
+  {
+    "ref": "8200241886",
+    "peca": "AS 16X57JC"
+  },
+  {
+    "ref": "8200251620",
+    "peca": "GUIA CENTR.MOTZZZ"
+  },
+  {
+    "ref": "8200265549",
+    "peca": "VOLANT.BRT G9T"
+  },
+  {
+    "ref": "8200272765",
+    "peca": "VOLANT G9U750"
+  },
+  {
+    "ref": "8200276626",
+    "peca": "BASC. MA JR"
+  },
+  {
+    "ref": "8200297214",
+    "peca": "TAMPA DE 5 JRQZZZ"
+  },
+  {
+    "ref": "8200297640",
+    "peca": "MOLA COMPR T"
+  },
+  {
+    "ref": "8200313127",
+    "peca": "EIX.+PIMAR ASSZZZ"
+  },
+  {
+    "ref": "8200339580",
+    "peca": "PINH.AEQ.BR.M"
+  },
+  {
+    "ref": "8200341902",
+    "peca": "CE JH/S2 S/T"
+  },
+  {
+    "ref": "8200361232",
+    "peca": "CM BRUTND0"
+  },
+  {
+    "ref": "8200367127",
+    "peca": "CE JH/S2 C/T"
+  },
+  {
+    "ref": "8200367220",
+    "peca": "CED JR S2G PS ZZZ"
+  },
+  {
+    "ref": "8200367231",
+    "peca": "CED JR5 S2G BRZZZ"
+  },
+  {
+    "ref": "8200368712",
+    "peca": "SUP.BASC.JRQ EZZZ"
+  },
+  {
+    "ref": "8200382120",
+    "peca": "MEIA-LUA AEQ M"
+  },
+  {
+    "ref": "8200382123",
+    "peca": "CAPA C/RANH. AE"
+  },
+  {
+    "ref": "8200382124",
+    "peca": "CAPA PEQ. AEQ"
+  },
+  {
+    "ref": "8200385231",
+    "peca": "PIN.AEQ.M.49D"
+  },
+  {
+    "ref": "8200385499",
+    "peca": "SEMELLE AEQ BR"
+  },
+  {
+    "ref": "8200385828",
+    "peca": "EIX.+PIM. ASS ZZZ"
+  },
+  {
+    "ref": "8200386130",
+    "peca": "CHAP AEQ GR BR"
+  },
+  {
+    "ref": "8200389253",
+    "peca": "CHAP AEQ BR P"
+  },
+  {
+    "ref": "8200390265",
+    "peca": "CARTER AEQ MONT"
+  },
+  {
+    "ref": "8200403198",
+    "peca": "VOL. G9U EU04"
+  },
+  {
+    "ref": "8200437116",
+    "peca": "VOLANT BRT G9U"
+  },
+  {
+    "ref": "8200438506",
+    "peca": "LEVIER JR KYOWZZZ"
+  },
+  {
+    "ref": "8200448635",
+    "peca": "ANEL ELEVAC.JRZZZ"
+  },
+  {
+    "ref": "8200474648",
+    "peca": "VOLANT BRT M9R"
+  },
+  {
+    "ref": "8200488527",
+    "peca": "AEQ.PRIM.ASS.M"
+  },
+  {
+    "ref": "8200488596",
+    "peca": "AEQ.SEC.ASS.M"
+  },
+  {
+    "ref": "8200497805",
+    "peca": "AEQ BRT"
+  },
+  {
+    "ref": "8200502700",
+    "peca": "ARR. GAIN.JR/ ZZZ"
+  },
+  {
+    "ref": "8200509932",
+    "peca": "VOLATG9U BRT E"
+  },
+  {
+    "ref": "8200519091",
+    "peca": "SUPOR.BASC.MATZZZ"
+  },
+  {
+    "ref": "8200532696",
+    "peca": "ANILH.ANTI-.JRZZZ"
+  },
+  {
+    "ref": "8200533264",
+    "peca": "FORQUIL.3-4 JRZZZ"
+  },
+  {
+    "ref": "8200541565",
+    "peca": "PL 3A 28X37 GFZZZ"
+  },
+  {
+    "ref": "8200541566",
+    "peca": "PL 3A 28X39ZZZ"
+  },
+  {
+    "ref": "8200555310",
+    "peca": "GUIA CENT. CX/ZZZ"
+  },
+  {
+    "ref": "8200559512",
+    "peca": "CM.BR.ND0 PR"
+  },
+  {
+    "ref": "8200559910",
+    "peca": "AS 14X69 D1"
+  },
+  {
+    "ref": "8200576507",
+    "peca": "ANEL SIN.5A JRZZZ"
+  },
+  {
+    "ref": "8200591676",
+    "peca": "PL 4A 31X34ZZZ"
+  },
+  {
+    "ref": "8200607707",
+    "peca": "PIMAR JR5 BASE"
+  },
+  {
+    "ref": "8200607973",
+    "peca": "PF 5A 39X32ZZZ"
+  },
+  {
+    "ref": "8200607975",
+    "peca": "PF 5A 41X31ZZZ"
+  },
+  {
+    "ref": "8200607976",
+    "peca": "PF 5A 42X31 CAZZZ"
+  },
+  {
+    "ref": "8200608034",
+    "peca": "PF 5A 37X33ZZZ"
+  },
+  {
+    "ref": "8200608037",
+    "peca": "PF 5A 37X33 OYZZZ"
+  },
+  {
+    "ref": "8200610186",
+    "peca": "CM.TL4.MAQ"
+  },
+  {
+    "ref": "8200611285",
+    "peca": "PL 5A 37X33ZZZ"
+  },
+  {
+    "ref": "8200611290",
+    "peca": "PL 5A 39X32ZZZ"
+  },
+  {
+    "ref": "8200611292",
+    "peca": "PL 5A 41X31ZZZ"
+  },
+  {
+    "ref": "8200611293",
+    "peca": "PL 5A 42X31ZZZ"
+  },
+  {
+    "ref": "8200611304",
+    "peca": "PL 5A 37X33 OYZZZ"
+  },
+  {
+    "ref": "8200621495",
+    "peca": "PL 4A 35X34ZZZ"
+  },
+  {
+    "ref": "8200626808",
+    "peca": "FORQ. 5A JRQ ZZZ"
+  },
+  {
+    "ref": "8200629870",
+    "peca": "AS 14X69 D2ZZZ"
+  },
+  {
+    "ref": "8200641280",
+    "peca": "ANILH.CRAB.1A ZZZ"
+  },
+  {
+    "ref": "8200641282",
+    "peca": "ANILH.CRAB.2A ZZZ"
+  },
+  {
+    "ref": "8200641455",
+    "peca": "VOLANT M9R AS"
+  },
+  {
+    "ref": "8200650437",
+    "peca": "DIFER 16X55 CLZZZ"
+  },
+  {
+    "ref": "8200651792",
+    "peca": "PORCA REG BAL ZZZ"
+  },
+  {
+    "ref": "8200653975",
+    "peca": "AS 15X61 FOS NG"
+  },
+  {
+    "ref": "8200654078",
+    "peca": "AS 16X55 FOZZZ"
+  },
+  {
+    "ref": "8200654082",
+    "peca": "AS 16X57 FO"
+  },
+  {
+    "ref": "8200654086",
+    "peca": "AS 15X61 GRZZZ"
+  },
+  {
+    "ref": "8200654092",
+    "peca": "AS 14X63 GREZZZ"
+  },
+  {
+    "ref": "8200654096",
+    "peca": "AS 15X58 GRZZZ"
+  },
+  {
+    "ref": "8200674121",
+    "peca": "EIX.TAQUI.JRQ ZZZ"
+  },
+  {
+    "ref": "8200674131",
+    "peca": "PINH.TAQ.ZZZ"
+  },
+  {
+    "ref": "8200674136",
+    "peca": "PINH.TAQ.ZZZ"
+  },
+  {
+    "ref": "8200681332",
+    "peca": "AS 15X56 CLZZZ"
+  },
+  {
+    "ref": "8200681851",
+    "peca": "EIX.FOR.3/4 BRZZZ"
+  },
+  {
+    "ref": "8200685435",
+    "peca": "CED TL4/H4JTE"
+  },
+  {
+    "ref": "8200691335",
+    "peca": "AS 17X56 FOS"
+  },
+  {
+    "ref": "8200696865",
+    "peca": "RAC.RENIFL.2 VZZZ"
+  },
+  {
+    "ref": "8200699784",
+    "peca": "PARAF.TAQ.ZZZ"
+  },
+  {
+    "ref": "8200699786",
+    "peca": "PARAF.TAQ.ZZZ"
+  },
+  {
+    "ref": "8200720993",
+    "peca": "DIFER 14X59 CLZZZ"
+  },
+  {
+    "ref": "8200739554",
+    "peca": "TACO OBTUR. ZZZ"
+  },
+  {
+    "ref": "8200755828",
+    "peca": "CHAV.SINC.1/2 ZZZ"
+  },
+  {
+    "ref": "8200761782",
+    "peca": "COR.15X56 PBZZZ"
+  },
+  {
+    "ref": "8200771472",
+    "peca": "CONTAC.MAT.X90ZZZ"
+  },
+  {
+    "ref": "8200786523",
+    "peca": "CRABOT 3/4 A ZZZ"
+  },
+  {
+    "ref": "8200786557",
+    "peca": "CED.JR PF S/T ZZZ"
+  },
+  {
+    "ref": "8200786558",
+    "peca": "CED JR PF C/T ZZZ"
+  },
+  {
+    "ref": "8200798200",
+    "peca": "EIX.FOR.5A BRUZZZ"
+  },
+  {
+    "ref": "8200799552",
+    "peca": "EIX.1/2 JRQ"
+  },
+  {
+    "ref": "8200830421",
+    "peca": "PARAF ARR.GAINZZZ"
+  },
+  {
+    "ref": "8200840667",
+    "peca": "COROA BRT SAFEZZZ"
+  },
+  {
+    "ref": "8200840668",
+    "peca": "COROA BRT SAFEZZZ"
+  },
+  {
+    "ref": "8200840670",
+    "peca": "COROA 14X63 EXZZZ"
+  },
+  {
+    "ref": "8200840672",
+    "peca": "COROA 15X58 EXZZZ"
+  },
+  {
+    "ref": "8200840696",
+    "peca": "COROA 15X56 EXZZZ"
+  },
+  {
+    "ref": "8200840712",
+    "peca": "COROA 16X57 EXZZZ"
+  },
+  {
+    "ref": "8200840717",
+    "peca": "COROA 16X55 EXZZZ"
+  },
+  {
+    "ref": "8200840719",
+    "peca": "COROA 14X69 EXPZZ"
+  },
+  {
+    "ref": "8200909888",
+    "peca": "PL 1A 11X41 GRZZZ"
+  },
+  {
+    "ref": "8200909894",
+    "peca": "PL 1A 11X41 GRZZZ"
+  },
+  {
+    "ref": "8200913351",
+    "peca": "PL 2A 21X43 GRZZZ"
+  },
+  {
+    "ref": "8200913357",
+    "peca": "PL 2A 21X43 OYZZZ"
+  },
+  {
+    "ref": "8200915851",
+    "peca": "BVM ASS JR5193ZZZ"
+  },
+  {
+    "ref": "8200933116",
+    "peca": "PINH.TAQ(24X19)ZZ"
+  },
+  {
+    "ref": "8200933119",
+    "peca": "PAR.TAQ(24X19)ZZZ"
+  },
+  {
+    "ref": "8200948923",
+    "peca": "AS 14X69 D2 EXZZZ"
+  },
+  {
+    "ref": "8200972576",
+    "peca": "ARV.PRIM.JR5 AZZZ"
+  },
+  {
+    "ref": "8200972579",
+    "peca": "AP JR5 G'"
+  },
+  {
+    "ref": "8200988316",
+    "peca": "ARV.PRIM.G' PB"
+  },
+  {
+    "ref": "8201013302",
+    "peca": "LOQ.MAT.JRQ FUZZZ"
+  },
+  {
+    "ref": "8201014639",
+    "peca": "AP LIGHT C'"
+  },
+  {
+    "ref": "8201014645",
+    "peca": "PL 5A 45X31ZZZ"
+  },
+  {
+    "ref": "8201014646",
+    "peca": "PF 5A 45X31ZZZ"
+  },
+  {
+    "ref": "8201060394",
+    "peca": "BVM ASS JR5185ZZZ"
+  },
+  {
+    "ref": "8201061647",
+    "peca": "CED JR5*169/170ZZ"
+  },
+  {
+    "ref": "8201071001",
+    "peca": "PL 4A 31X29ZZZ"
+  },
+  {
+    "ref": "8201071020",
+    "peca": "COROA 17X56 EXZZZ"
+  },
+  {
+    "ref": "8201076754",
+    "peca": "COL MAQ D4F"
+  },
+  {
+    "ref": "8201092555",
+    "peca": "AP.LIGHT PB"
+  },
+  {
+    "ref": "8201092558",
+    "peca": "P.LOU.5A 45X31ZZZ"
+  },
+  {
+    "ref": "8201092559",
+    "peca": "COR.17X56 PB HY"
+  },
+  {
+    "ref": "8201093663",
+    "peca": "COR.16X55 PB HY"
+  },
+  {
+    "ref": "8201093665",
+    "peca": "COR.16X57 PB HY"
+  },
+  {
+    "ref": "8201093666",
+    "peca": "COR.15X56 PB HY"
+  },
+  {
+    "ref": "8201093669",
+    "peca": "COR.15X58 PB HY"
+  },
+  {
+    "ref": "8201105899",
+    "peca": "CM ND0 EXP"
+  },
+  {
+    "ref": "8201129129",
+    "peca": "ANEL INF DC CAZZZ"
+  },
+  {
+    "ref": "8201129130",
+    "peca": "ANEL SUP DC CAZZZ"
+  },
+  {
+    "ref": "8201134665",
+    "peca": "BVM ASS JR5327ZZZ"
+  },
+  {
+    "ref": "8201165148",
+    "peca": "PL 1A 11X37 PB"
+  },
+  {
+    "ref": "8201165152",
+    "peca": "PL1 11X41PC PB"
+  },
+  {
+    "ref": "8201165160",
+    "peca": "PL 2A 22X41 PB"
+  },
+  {
+    "ref": "8201165162",
+    "peca": "PL 2A 21X43 PB"
+  },
+  {
+    "ref": "8201180697",
+    "peca": "BVM ASS JR5346ZZZ"
+  },
+  {
+    "ref": "8201180727",
+    "peca": "BVM ASS JR5348ZZZ"
+  },
+  {
+    "ref": "8201180996",
+    "peca": "BVM ASS JR5 350ZZ"
+  },
+  {
+    "ref": "8201183817",
+    "peca": "PL 1A 11X41 CLZZZ"
+  },
+  {
+    "ref": "8201208858",
+    "peca": "BVM ASS JR5194ZZZ"
+  },
+  {
+    "ref": "8201213144",
+    "peca": "PL 4A KAIZEN PB"
+  },
+  {
+    "ref": "8201216109",
+    "peca": "CONJ.CHAPEUS HZZZ"
+  },
+  {
+    "ref": "8201226476",
+    "peca": "CEDJR BR NDT"
+  },
+  {
+    "ref": "8201246685",
+    "peca": "PL 1A 11X41 PCZZZ"
+  },
+  {
+    "ref": "8201262856",
+    "peca": "EIXO 3/4 ASS JZZZ"
+  },
+  {
+    "ref": "8201262902",
+    "peca": "EIX 5A ASS N/G"
+  },
+  {
+    "ref": "8201269863",
+    "peca": "PL 3A 30X37 KZZZZ"
+  },
+  {
+    "ref": "8201269869",
+    "peca": "PL 4A 31X28 CLZZZ"
+  },
+  {
+    "ref": "8201280698",
+    "peca": "PL 2A 23X45 KZZZZ"
+  },
+  {
+    "ref": "8201282017",
+    "peca": "EIXO ROLA.BAL ZZZ"
+  },
+  {
+    "ref": "8201282175",
+    "peca": "EIXO 1/2 ASS ZZZ"
+  },
+  {
+    "ref": "8201335706",
+    "peca": "AS 14X59 CLZZZ"
+  },
+  {
+    "ref": "8201366790",
+    "peca": "COROA 15X58 GRZZZ"
+  },
+  {
+    "ref": "8201366853",
+    "peca": "DIFER.15X56 GRZZZ"
+  },
+  {
+    "ref": "8201366854",
+    "peca": "DIFER.15X58 GRZZZ"
+  },
+  {
+    "ref": "8201366855",
+    "peca": "DIFER.15X61 GRZZZ"
+  },
+  {
+    "ref": "8201366856",
+    "peca": "DIFER.16X57 GRZZZ"
+  },
+  {
+    "ref": "8201366858",
+    "peca": "DIFER.16X55 GRZZZ"
+  },
+  {
+    "ref": "8201366859",
+    "peca": "DIFER.17X56 GRZZZ"
+  },
+  {
+    "ref": "8201366860",
+    "peca": "DIFER.14X63 GRZZZ"
+  },
+  {
+    "ref": "8201366866",
+    "peca": "DIFER.14X59 GRZZZ"
+  },
+  {
+    "ref": "8201366868",
+    "peca": "DIFER.14X59 GFZZZ"
+  },
+  {
+    "ref": "8201366871",
+    "peca": "DIFER 14X69 GFZZZ"
+  },
+  {
+    "ref": "8201366872",
+    "peca": "DIFER.18X57 GRZZZ"
+  },
+  {
+    "ref": "8201367253",
+    "peca": "CAIX.DIF JR NUZZZ"
+  },
+  {
+    "ref": "8201368794",
+    "peca": "FIC PL1A 11X41ZZZ"
+  },
+  {
+    "ref": "8201374532",
+    "peca": "COR.18X57 PB HY"
+  },
+  {
+    "ref": "8201374535",
+    "peca": "COR.14X59 PB HY"
+  },
+  {
+    "ref": "8201374565",
+    "peca": "COROA 14X59 GFZZZ"
+  },
+  {
+    "ref": "8201431665",
+    "peca": "DIFER 14X69 GFZZZ"
+  },
+  {
+    "ref": "8201478112",
+    "peca": "FIC CXA DIF NUZZZ"
+  },
+  {
+    "ref": "8201495420",
+    "peca": "DIFER 16X57 GRZZZ"
+  },
+  {
+    "ref": "8201500477",
+    "peca": "AS 18X57 PB"
+  },
+  {
+    "ref": "8201500494",
+    "peca": "DIFER.16X57 GRZZZ"
+  },
+  {
+    "ref": "8201530608",
+    "peca": "COROA 14X63 PNZZZ"
+  },
+  {
+    "ref": "8201530611",
+    "peca": "COROA 15X56 PNZZZ"
+  },
+  {
+    "ref": "8201530612",
+    "peca": "COROA 15X58 PNZZZ"
+  },
+  {
+    "ref": "8201530613",
+    "peca": "COROA 14X69 PNZZZ"
+  },
+  {
+    "ref": "8201531459",
+    "peca": "PF 5A 47X31 KZZZZ"
+  },
+  {
+    "ref": "8201531779",
+    "peca": "PL 4A 35X34 PNZZZ"
+  },
+  {
+    "ref": "8201531790",
+    "peca": "AS 14X59 PN"
+  },
+  {
+    "ref": "8201531791",
+    "peca": "AS 15X56 PN"
+  },
+  {
+    "ref": "8201531938",
+    "peca": "AS 16X57 PN"
+  },
+  {
+    "ref": "8201531939",
+    "peca": "AS 15X61 PN"
+  },
+  {
+    "ref": "8201531940",
+    "peca": "AS 17X56 PN"
+  },
+  {
+    "ref": "8201531941",
+    "peca": "AS 16X55 PN"
+  },
+  {
+    "ref": "8201531942",
+    "peca": "AS 14X63 PN"
+  },
+  {
+    "ref": "8201531949",
+    "peca": "AS 14X69 D1 PN"
+  },
+  {
+    "ref": "8201531951",
+    "peca": "AS 18X57 PN"
+  },
+  {
+    "ref": "8201532102",
+    "peca": "AP JCG PN"
+  },
+  {
+    "ref": "8201532104",
+    "peca": "ARV.PRIM.A'PN"
+  },
+  {
+    "ref": "8201532105",
+    "peca": "ARV.PRIM.G'PN"
+  },
+  {
+    "ref": "8201532106",
+    "peca": "AP JCA PN"
+  },
+  {
+    "ref": "8201532108",
+    "peca": "A.P.LIGHT PN"
+  },
+  {
+    "ref": "8201579499",
+    "peca": "COR14X63"
+  },
+  {
+    "ref": "8201628999",
+    "peca": "CM ASS JR PSTDZZZ"
+  },
+  {
+    "ref": "8201629002",
+    "peca": "CM ASS JR PCOUZZZ"
+  },
+  {
+    "ref": "8201630791",
+    "peca": "KIT EIXO 1/2 ZZZ"
+  },
+  {
+    "ref": "8201653765",
+    "peca": "CED JR/H5 E"
+  },
+  {
+    "ref": "8201736192",
+    "peca": "CED HR16 JT"
+  },
+  {
+    "ref": "8201736199",
+    "peca": "AP 11X45-17X41"
+  },
+  {
+    "ref": "8201736201",
+    "peca": "PL 1A 11X45 PH"
+  },
+  {
+    "ref": "8201736203",
+    "peca": "AS MAT 15X58"
+  },
+  {
+    "ref": "8201736204",
+    "peca": "AS MAR 14X69"
+  },
+  {
+    "ref": "8201736205",
+    "peca": "AS MAR 14X63"
+  },
+  {
+    "ref": "8201736206",
+    "peca": "AS MAR 14X59"
+  },
+  {
+    "ref": "8201736207",
+    "peca": "AS 14X69 JT"
+  },
+  {
+    "ref": "8201736208",
+    "peca": "AS 14X59 JT"
+  },
+  {
+    "ref": "8201736209",
+    "peca": "AS 15X58 JT"
+  },
+  {
+    "ref": "8201736210",
+    "peca": "AS 14X63 JT"
+  },
+  {
+    "ref": "8201736211",
+    "peca": "PL 2A 17X41 JT"
+  },
+  {
+    "ref": "8201736213",
+    "peca": "PL MAT 45X44"
+  },
+  {
+    "ref": "8201736219",
+    "peca": "PF 3A 26X41"
+  },
+  {
+    "ref": "8201736221",
+    "peca": "PL 3A 26X41"
+  },
+  {
+    "ref": "8201736222",
+    "peca": "PF 4A 35X39"
+  },
+  {
+    "ref": "8201736225",
+    "peca": "PL 4A 35X39"
+  },
+  {
+    "ref": "8201736231",
+    "peca": "PF 5A 41X35"
+  },
+  {
+    "ref": "8201736232",
+    "peca": "PF 6A 43X29"
+  },
+  {
+    "ref": "8201736233",
+    "peca": "PF 6A 50X26"
+  },
+  {
+    "ref": "8201736235",
+    "peca": "PL 5A 41X35"
+  },
+  {
+    "ref": "8201736236",
+    "peca": "PL 6A 50X28"
+  },
+  {
+    "ref": "8201736237",
+    "peca": "PL 6A 43X29"
+  },
+  {
+    "ref": "8201756378",
+    "peca": "AS MAT 15X58AFZZZ"
+  },
+  {
+    "ref": "8201756379",
+    "peca": "AS MAT 14X59AFZZZ"
+  },
+  {
+    "ref": "8201756380",
+    "peca": "AS MAT 14X63AFZZZ"
+  },
+  {
+    "ref": "8201756381",
+    "peca": "AS MAT 14X69AFZZZ"
+  },
+  {
+    "ref": "868680874R",
+    "peca": "ANILHA BAL.D4FZZZ"
+  },
+  {
+    "ref": "290E20450R",
+    "peca": "(BUSRING) RING INTERCONNECTION PHASE"
+  },
+  {
+    "ref": "290L24649R",
+    "peca": "ROTOR, TRACTION MOTOR"
+  },
+  {
+    "ref": "231C18704R",
+    "peca": "CARTER PEB MAQ"
+  },
+  {
+    "ref": "290E27667R",
+    "peca": "BUSBAR"
+  },
+  {
+    "ref": "292A01736R",
+    "peca": "DCDC INF"
+  },
+  {
+    "ref": "304007819R",
+    "peca": "TX-CED DB45 ASSEMBLE"
+  },
+  {
+    "ref": "290L26464R",
+    "peca": "ROTOR SHAFT"
+  }
+]

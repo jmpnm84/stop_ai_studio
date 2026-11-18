@@ -54,12 +54,34 @@ export function useAppUpdate(onRefsUpdated?: () => Promise<void>) {
           await registrationRef.current.update().catch(() => {});
         }
 
-        // 2. Check server version fingerprint (works even without SW)
-        const res = await fetch('/api/version', { cache: 'no-store' });
-        if (!res.ok) {
-          return { hasUpdate: swNeedRefresh, reason: swNeedRefresh ? 'sw' : 'none' };
+        // 2. Check server version fingerprint, falling back to static /version.json on Vercel
+        let info: VersionResponse | null = null;
+        try {
+          const apiRes = await fetch('/api/version', { cache: 'no-store' });
+          const contentType = apiRes.headers.get('content-type') || '';
+          if (apiRes.ok && contentType.includes('application/json')) {
+            info = (await apiRes.json()) as VersionResponse;
+          }
+        } catch {
+          info = null;
         }
-        const info = (await res.json()) as VersionResponse;
+
+        if (!info) {
+          const staticRes = await fetch(`/version.json?t=${Date.now()}`, {
+            cache: 'no-store',
+          });
+          const staticType = staticRes.headers.get('content-type') || '';
+          if (staticRes.ok && staticType.includes('application/json')) {
+            info = (await staticRes.json()) as VersionResponse;
+          }
+        }
+
+        if (!info) {
+          return {
+            hasUpdate: swNeedRefresh,
+            reason: swNeedRefresh ? 'sw' : 'none',
+          };
+        }
         setCurrentVersion(info.version);
         setLastCheckedAt(new Date());
         latestServerHashRef.current = info.buildHash;

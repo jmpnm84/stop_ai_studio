@@ -3,6 +3,7 @@ import type { ReferenceItem } from '../types.ts';
 const DB_NAME = 'TrigoStopDB';
 const STORE_NAME = 'referencias';
 const DB_VERSION = 1;
+const SEEDED_FLAG_KEY = 'trigo_stop_db_seeded_v1';
 
 function openDb(): Promise<IDBDatabase> {
   return new Promise((resolve, reject) => {
@@ -18,7 +19,8 @@ function openDb(): Promise<IDBDatabase> {
       }
     };
     request.onsuccess = () => resolve(request.result);
-    request.onerror = () => reject(request.error ?? new Error('Erro ao abrir IndexedDB'));
+    request.onerror = () =>
+      reject(request.error ?? new Error('Erro ao abrir IndexedDB'));
   });
 }
 
@@ -29,7 +31,8 @@ export async function getAllCachedRefs(): Promise<ReferenceItem[]> {
       const tx = db.transaction(STORE_NAME, 'readonly');
       const store = tx.objectStore(STORE_NAME);
       const req = store.getAll();
-      req.onsuccess = () => resolve(Array.isArray(req.result) ? req.result : []);
+      req.onsuccess = () =>
+        resolve(Array.isArray(req.result) ? req.result : []);
       req.onerror = () => reject(req.error);
     });
   } catch {
@@ -46,13 +49,49 @@ export async function replaceCachedRefs(items: ReferenceItem[]): Promise<void> {
       store.clear();
       for (const item of items) {
         if (item.ref) {
-          store.put({ ref: String(item.ref), peca: String(item.peca || '') });
+          store.put({
+            ref: String(item.ref),
+            peca: String(item.peca || ''),
+          });
         }
       }
-      tx.oncomplete = () => resolve();
+      tx.oncomplete = () => {
+        try {
+          localStorage.setItem(SEEDED_FLAG_KEY, '1');
+        } catch {
+          // ignore storage quota
+        }
+        resolve();
+      };
       tx.onerror = () => reject(tx.error);
     });
   } catch {
     // Cache failure should not block primary UI flow
   }
+}
+
+export async function loadOrSeedStaticRefs(
+  seedItems: ReferenceItem[]
+): Promise<ReferenceItem[]> {
+  const cached = await getAllCachedRefs();
+  let alreadySeeded = false;
+  try {
+    alreadySeeded = localStorage.getItem(SEEDED_FLAG_KEY) === '1';
+  } catch {
+    alreadySeeded = false;
+  }
+
+  if (cached.length > 0 || alreadySeeded) {
+    return cached;
+  }
+
+  const normalized = seedItems
+    .map((item) => ({
+      ref: String(item?.ref ?? '').trim(),
+      peca: String(item?.peca ?? '').trim(),
+    }))
+    .filter((item) => item.ref.length > 0);
+
+  await replaceCachedRefs(normalized);
+  return normalized;
 }
