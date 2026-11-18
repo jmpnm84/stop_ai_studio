@@ -1,0 +1,6 @@
+{
+  "name": "Trigo - STOP",
+  "description": "Emissão de etiquetas STOP (Não Usar) e gestão dinâmica da base de dados de referências e peças.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

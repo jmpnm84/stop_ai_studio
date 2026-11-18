@@ -1,0 +1,480 @@
+import { useCallback, useEffect, useState } from 'react';
+import {
+  ArrowDownToLine,
+  Columns2,
+  Database,
+  Eraser,
+  Printer,
+  RefreshCw,
+  WifiOff,
+  X,
+} from 'lucide-react';
+import { DatabaseModal } from './components/DatabaseModal.tsx';
+import { PWAInstallButton } from './components/PWAInstallButton.tsx';
+import { StopLabelCard } from './components/StopLabelCard.tsx';
+import { useAppUpdate } from './hooks/useAppUpdate.ts';
+import {
+  formatTodayPt,
+  type ReferenceItem,
+  type StopLabelData,
+} from './types.ts';
+import { getAllCachedRefs, replaceCachedRefs } from './utils/indexedDb.ts';
+
+interface ToastMessage {
+  id: number;
+  text: string;
+  tone: 'success' | 'error' | 'info';
+}
+
+function createInitialLabel(): StopLabelData {
+  return {
+    ref: '',
+    pecas: '',
+    quantidade: '',
+    data: formatTodayPt(),
+    responsavel: '',
+    motivo: '',
+    observacoes: '',
+  };
+}
+
+export default function App() {
+  const [labelData, setLabelData] = useState<StopLabelData>(createInitialLabel);
+  const [motivoFontSize, setMotivoFontSize] = useState<number>(24);
+  const [previewDual, setPreviewDual] = useState<boolean>(false);
+
+  const [references, setReferences] = useState<ReferenceItem[]>([]);
+  const [loadingRefs, setLoadingRefs] = useState<boolean>(true);
+  const [dbOpen, setDbOpen] = useState<boolean>(false);
+  const [isOnline, setIsOnline] = useState<boolean>(
+    typeof navigator !== 'undefined' ? navigator.onLine : true
+  );
+
+  const [toast, setToast] = useState<ToastMessage | null>(null);
+
+  const showToast = useCallback(
+    (text: string, tone: ToastMessage['tone'] = 'info') => {
+      const id = Date.now();
+      setToast({ id, text, tone });
+      window.setTimeout(() => {
+        setToast((current) => (current?.id === id ? null : current));
+      }, 4500);
+    },
+    []
+  );
+
+  const loadReferences = useCallback(async () => {
+    try {
+      const res = await fetch('/api/references', { cache: 'no-store' });
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      const payload = await res.json();
+      const items: ReferenceItem[] = Array.isArray(payload.items)
+        ? payload.items
+        : [];
+      setReferences(items);
+      await replaceCachedRefs(items);
+    } catch {
+      const cached = await getAllCachedRefs();
+      setReferences(cached);
+      if (cached.length > 0) {
+        showToast(
+          'Modo offline: a utilizar referências guardadas localmente.',
+          'info'
+        );
+      } else {
+        showToast(
+          'Não foi possível carregar a base de dados de referências.',
+          'error'
+        );
+      }
+    } finally {
+      setLoadingRefs(false);
+    }
+  }, [showToast]);
+
+  useEffect(() => {
+    void loadReferences();
+  }, [loadReferences]);
+
+  useEffect(() => {
+    const goOnline = () => setIsOnline(true);
+    const goOffline = () => setIsOnline(false);
+    window.addEventListener('online', goOnline);
+    window.addEventListener('offline', goOffline);
+    return () => {
+      window.removeEventListener('online', goOnline);
+      window.removeEventListener('offline', goOffline);
+    };
+  }, []);
+
+  const {
+    checking: checkingUpdate,
+    installing: installingUpdate,
+    updateAvailable,
+    currentVersion,
+    checkForUpdates,
+    installUpdate,
+    dismissUpdate,
+  } = useAppUpdate(loadReferences);
+
+  const handleUpdateButtonClick = async () => {
+    if (updateAvailable) {
+      await installUpdate();
+      return;
+    }
+
+    const result = await checkForUpdates(false);
+    if (result.hasUpdate) {
+      showToast(
+        'Nova atualização encontrada! Clique em "Instalar Atualização" para aplicar.',
+        'info'
+      );
+    } else if (result.reason === 'offline') {
+      showToast(
+        'Sem ligação à rede para verificar atualizações.',
+        'error'
+      );
+    } else {
+      showToast(
+        `A aplicação já está na versão mais recente (v${result.version ?? currentVersion}).`,
+        'success'
+      );
+    }
+  };
+
+  const handleLabelChange = useCallback((patch: Partial<StopLabelData>) => {
+    setLabelData((prev) => ({ ...prev, ...patch }));
+  }, []);
+
+  const handleClearForm = () => {
+    setLabelData(createInitialLabel());
+    setMotivoFontSize(24);
+  };
+
+  const handleAddReference = async (
+    item: ReferenceItem
+  ): Promise<{ ok: boolean; error?: string }> => {
+    try {
+      const res = await fetch('/api/references', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(item),
+      });
+      const payload = await res.json();
+      if (!res.ok) {
+        return { ok: false, error: payload?.error || 'Erro ao adicionar.' };
+      }
+      const next = [payload.item as ReferenceItem, ...references];
+      setReferences(next);
+      await replaceCachedRefs(next);
+      showToast(`Referência ${item.ref} adicionada.`, 'success');
+      return { ok: true };
+    } catch {
+      return { ok: false, error: 'Erro de ligação ao servidor.' };
+    }
+  };
+
+  const handleUpdateReference = async (
+    originalRef: string,
+    updated: ReferenceItem
+  ): Promise<{ ok: boolean; error?: string }> => {
+    try {
+      const res = await fetch(
+        `/api/references/${encodeURIComponent(originalRef)}`,
+        {
+          method: 'PUT',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(updated),
+        }
+      );
+      const payload = await res.json();
+      if (!res.ok) {
+        return { ok: false, error: payload?.error || 'Erro ao atualizar.' };
+      }
+      const next = references.map((entry) =>
+        entry.ref.toLowerCase() === originalRef.toLowerCase()
+          ? (payload.item as ReferenceItem)
+          : entry
+      );
+      setReferences(next);
+      await replaceCachedRefs(next);
+      showToast(`Referência ${updated.ref} atualizada.`, 'success');
+      return { ok: true };
+    } catch {
+      return { ok: false, error: 'Erro de ligação ao servidor.' };
+    }
+  };
+
+  const handleDeleteReference = async (
+    ref: string
+  ): Promise<{ ok: boolean; error?: string }> => {
+    try {
+      const res = await fetch(`/api/references/${encodeURIComponent(ref)}`, {
+        method: 'DELETE',
+      });
+      const payload = await res.json();
+      if (!res.ok) {
+        showToast(payload?.error || 'Erro ao remover referência.', 'error');
+        return { ok: false, error: payload?.error };
+      }
+      const next = references.filter(
+        (entry) => entry.ref.toLowerCase() !== ref.toLowerCase()
+      );
+      setReferences(next);
+      await replaceCachedRefs(next);
+      showToast(`Referência ${ref} removida.`, 'info');
+      return { ok: true };
+    } catch {
+      showToast('Erro de ligação ao servidor.', 'error');
+      return { ok: false, error: 'Erro de ligação.' };
+    }
+  };
+
+  const handleApplyToLabel = (item: ReferenceItem) => {
+    setLabelData((prev) => ({
+      ...prev,
+      ref: item.ref,
+      pecas: item.peca,
+    }));
+    setDbOpen(false);
+    showToast(`Referência ${item.ref} aplicada à etiqueta.`, 'success');
+  };
+
+  return (
+    <div className="min-h-screen flex flex-col bg-[#f3f4f6] text-slate-900 print:bg-white">
+      {/* Top Bar (3-zone contract, hidden on print) */}
+      <header className="no-print bg-white border-b border-slate-200 px-6 py-3.5">
+        <div className="max-w-6xl mx-auto flex items-center justify-between gap-8">
+          <a
+            href="#etiqueta"
+            onClick={(e) => {
+              e.preventDefault();
+              setDbOpen(false);
+            }}
+            className="font-display text-lg font-extrabold tracking-tight text-[#034263] whitespace-nowrap shrink-0"
+          >
+            Trigo STOP
+          </a>
+
+          <nav className="hidden sm:flex items-center gap-6 text-sm font-medium text-slate-600">
+            <button
+              type="button"
+              onClick={() => setDbOpen(false)}
+              className={`py-1 transition-colors whitespace-nowrap shrink-0 cursor-pointer ${
+                !dbOpen
+                  ? 'text-slate-950 font-semibold border-b-2 border-[#ffdc00]'
+                  : 'hover:text-slate-950'
+              }`}
+            >
+              Etiqueta STOP
+            </button>
+            <button
+              type="button"
+              onClick={() => setDbOpen(true)}
+              className={`py-1 transition-colors whitespace-nowrap shrink-0 cursor-pointer ${
+                dbOpen
+                  ? 'text-slate-950 font-semibold border-b-2 border-[#ffdc00]'
+                  : 'hover:text-slate-950'
+              }`}
+            >
+              Base de Dados
+            </button>
+          </nav>
+
+          <div className="flex items-center gap-3 shrink-0">
+            <button
+              type="button"
+              onClick={() => window.print()}
+              className="inline-flex items-center gap-2 px-4 py-2 text-xs font-semibold text-white bg-[#034263] hover:bg-[#02334d] rounded-lg transition-colors cursor-pointer whitespace-nowrap shrink-0"
+            >
+              <Printer className="w-4 h-4" />
+              <span>Imprimir</span>
+            </button>
+          </div>
+        </div>
+      </header>
+
+      {/* Main Workspace */}
+      <main className="flex-1 flex flex-col items-center px-3 py-5 print:p-0">
+        {/* Action Toolbar above the A5 Label (hidden on print) */}
+        <div className="no-print w-full max-w-[14cm] lg:max-w-3xl mb-4 flex flex-wrap items-center justify-between gap-2.5">
+          <div className="flex flex-wrap items-center gap-2 flex-1">
+            <button
+              type="button"
+              onClick={handleClearForm}
+              className="inline-flex items-center justify-center gap-1.5 px-4 py-2.5 text-[13px] font-bold text-white bg-[#d61c1c] hover:bg-[#b91616] rounded-md shadow-xs transition-colors cursor-pointer whitespace-nowrap shrink-0 flex-1 sm:flex-initial"
+            >
+              <Eraser className="w-4 h-4" />
+              <span>Limpar</span>
+            </button>
+
+            <button
+              type="button"
+              onClick={() => setDbOpen(true)}
+              className="inline-flex items-center justify-center gap-2 px-4 py-2.5 text-[13px] font-bold text-slate-900 bg-white border border-slate-300 hover:bg-slate-50 rounded-md shadow-xs transition-colors cursor-pointer whitespace-nowrap shrink-0 flex-1 sm:flex-initial"
+            >
+              <Database className="w-4 h-4 text-[#034263]" />
+              <span>Base de Dados</span>
+              <span className="font-mono-tabular text-xs font-medium text-slate-500">
+                ({references.length.toLocaleString('pt-PT')})
+              </span>
+            </button>
+
+            <button
+              type="button"
+              onClick={handleUpdateButtonClick}
+              disabled={checkingUpdate || installingUpdate}
+              className={`inline-flex items-center justify-center gap-1.5 px-4 py-2.5 text-[13px] font-bold rounded-md shadow-xs transition-colors cursor-pointer whitespace-nowrap shrink-0 flex-1 sm:flex-initial disabled:opacity-60 ${
+                updateAvailable
+                  ? 'bg-[#ffdc00] text-black border border-amber-500 hover:bg-[#f2d000]'
+                  : 'bg-[#034263] text-white hover:bg-[#02334d]'
+              }`}
+              title={
+                updateAvailable
+                  ? 'Instalar a nova atualização disponível'
+                  : 'Verificar se existem atualizações disponíveis'
+              }
+            >
+              {updateAvailable ? (
+                <>
+                  <ArrowDownToLine className="w-4 h-4" />
+                  <span>
+                    {installingUpdate
+                      ? 'A instalar...'
+                      : 'Instalar Atualização'}
+                  </span>
+                </>
+              ) : (
+                <>
+                  <RefreshCw
+                    className={`w-4 h-4 ${checkingUpdate ? 'animate-spin' : ''}`}
+                  />
+                  <span>
+                    {checkingUpdate ? 'A verificar...' : 'Atualizar'}
+                  </span>
+                </>
+              )}
+            </button>
+
+            <PWAInstallButton />
+          </div>
+
+          <button
+            type="button"
+            onClick={() => setPreviewDual((prev) => !prev)}
+            className={`hidden xl:inline-flex items-center gap-1.5 px-3 py-2.5 text-xs font-semibold rounded-md border transition-colors cursor-pointer whitespace-nowrap shrink-0 ${
+              previewDual
+                ? 'bg-slate-900 text-white border-slate-900'
+                : 'bg-white text-slate-700 border-slate-300 hover:bg-slate-50'
+            }`}
+            title="Alternar pré-visualização das 2 etiquetas A5 por página"
+          >
+            <Columns2 className="w-4 h-4" />
+            <span>{previewDual ? 'Vista Simples' : 'Pré-visualizar A4 (2x)'}</span>
+          </button>
+        </div>
+
+        {/* Startup / Update Available Banner */}
+        {updateAvailable && (
+          <div
+            role="alert"
+            className="no-print mb-4 px-4 py-3 rounded-lg border border-amber-400 bg-amber-50 text-slate-900 flex flex-wrap items-center justify-between gap-3 shadow-sm max-w-[14cm] lg:max-w-3xl w-full"
+          >
+            <div className="flex items-center gap-2.5 text-sm">
+              <ArrowDownToLine className="w-4 h-4 text-amber-700 shrink-0" />
+              <span className="font-medium">
+                Nova atualização disponível para a aplicação. Deseja instalar agora?
+              </span>
+            </div>
+            <div className="flex items-center gap-2 shrink-0">
+              <button
+                type="button"
+                onClick={installUpdate}
+                disabled={installingUpdate}
+                className="px-3.5 py-1.5 text-xs font-bold bg-[#034263] text-white hover:bg-[#02334d] rounded-md transition-colors cursor-pointer disabled:opacity-60 whitespace-nowrap"
+              >
+                {installingUpdate ? 'A instalar...' : 'Instalar agora'}
+              </button>
+              <button
+                type="button"
+                onClick={dismissUpdate}
+                className="px-2.5 py-1.5 text-xs font-medium text-slate-600 hover:text-slate-900 hover:bg-amber-100 rounded-md transition-colors cursor-pointer whitespace-nowrap"
+              >
+                Mais tarde
+              </button>
+            </div>
+          </div>
+        )}
+
+        {/* Offline Banner */}
+        {!isOnline && (
+          <div className="no-print mb-4 px-4 py-2 rounded-lg border border-slate-300 bg-white text-slate-700 text-xs font-medium flex items-center gap-2 max-w-[14cm] lg:max-w-3xl w-full">
+            <WifiOff className="w-4 h-4 text-amber-600 shrink-0" />
+            <span>
+              Sem ligação à internet — a trabalhar em modo offline com os dados guardados localmente.
+            </span>
+          </div>
+        )}
+
+        {/* Toast Notification */}
+        {toast && (
+          <div
+            role="status"
+            className={`no-print mb-4 px-4 py-2.5 rounded-lg border text-sm font-medium flex items-center gap-3 shadow-sm max-w-[14cm] w-full justify-between ${
+              toast.tone === 'error'
+                ? 'bg-red-50 border-red-200 text-red-800'
+                : toast.tone === 'success'
+                  ? 'bg-emerald-50 border-emerald-200 text-emerald-900'
+                  : 'bg-white border-slate-200 text-slate-800'
+            }`}
+          >
+            <span>{toast.text}</span>
+            <button
+              type="button"
+              onClick={() => setToast(null)}
+              aria-label="Fechar notificação"
+              className="text-current opacity-60 hover:opacity-100 cursor-pointer"
+            >
+              <X className="w-4 h-4" />
+            </button>
+          </div>
+        )}
+
+        {/* Print Page: Bloco 1 (interactive) + Bloco 2 (print mirror / optional desktop preview) */}
+        <div className="print-page flex gap-[10mm] justify-center items-start w-full">
+          <StopLabelCard
+            id="bloco1"
+            data={labelData}
+            motivoFontSize={motivoFontSize}
+            references={references}
+            interactive
+            onChange={handleLabelChange}
+            onMotivoFontSizeChange={setMotivoFontSize}
+          />
+
+          <div className={previewDual ? 'block' : 'hidden print:block'}>
+            <StopLabelCard
+              id="bloco2"
+              data={labelData}
+              motivoFontSize={motivoFontSize}
+              references={references}
+              interactive={false}
+            />
+          </div>
+        </div>
+      </main>
+
+      {/* Database Management Modal */}
+      <DatabaseModal
+        open={dbOpen}
+        references={references}
+        loading={loadingRefs}
+        onClose={() => setDbOpen(false)}
+        onAdd={handleAddReference}
+        onUpdate={handleUpdateReference}
+        onDelete={handleDeleteReference}
+        onApplyToLabel={handleApplyToLabel}
+      />
+    </div>
+  );
+}
