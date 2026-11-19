@@ -2,15 +2,14 @@ import { useCallback, useEffect, useState } from 'react';
 import {
   ArrowDownToLine,
   Columns2,
-  Database,
   Eraser,
   Printer,
-  RefreshCw,
+  Settings,
   WifiOff,
   X,
 } from 'lucide-react';
 import { DatabaseModal } from './components/DatabaseModal.tsx';
-import { PWAInstallButton } from './components/PWAInstallButton.tsx';
+import { SettingsModal } from './components/SettingsModal.tsx';
 import { StopLabelCard } from './components/StopLabelCard.tsx';
 import seedReferencesData from './data/referencias.json';
 import { useAppUpdate } from './hooks/useAppUpdate.ts';
@@ -55,6 +54,7 @@ export default function App() {
   const [loadingRefs, setLoadingRefs] = useState<boolean>(true);
   const [backendAvailable, setBackendAvailable] = useState<boolean>(false);
   const [dbOpen, setDbOpen] = useState<boolean>(false);
+  const [settingsOpen, setSettingsOpen] = useState<boolean>(false);
   const [isOnline, setIsOnline] = useState<boolean>(
     typeof navigator !== 'undefined' ? navigator.onLine : true
   );
@@ -309,104 +309,29 @@ export default function App() {
   return (
     <div className="min-h-screen flex flex-col bg-[#f3f4f6] text-slate-900 print:bg-white">
       {/* Top Bar (hidden on print) */}
-      <header className="no-print bg-white border-b border-slate-200 px-4 sm:px-6 py-3">
-        <div className="max-w-7xl mx-auto flex flex-wrap items-center justify-between gap-3 sm:gap-6">
-          <a
-            href="#etiqueta"
-            onClick={(e) => {
-              e.preventDefault();
-              setDbOpen(false);
-            }}
-            className="font-display text-lg font-extrabold tracking-tight text-[#034263] whitespace-nowrap shrink-0"
+      <header className="no-print bg-white border-b border-slate-200 px-3 py-3">
+        <div className="w-full max-w-[14cm] mx-auto grid grid-cols-2 gap-3">
+          <button
+            type="button"
+            onClick={handleClearForm}
+            className="w-full inline-flex items-center justify-center gap-2 px-4 py-2.5 text-sm font-bold text-white bg-[#d61c1c] hover:bg-[#b91616] rounded-lg transition-colors cursor-pointer whitespace-nowrap"
           >
-            Trigo STOP
-          </a>
+            <Eraser className="w-4 h-4 shrink-0" />
+            <span>Limpar</span>
+          </button>
 
-          <div className="flex flex-wrap items-center justify-center gap-2 order-3 lg:order-2 w-full lg:w-auto">
-            <button
-              type="button"
-              onClick={handleClearForm}
-              className="inline-flex items-center justify-center gap-1.5 px-3.5 py-2 text-xs font-bold text-white bg-[#d61c1c] hover:bg-[#b91616] rounded-md transition-colors cursor-pointer whitespace-nowrap shrink-0"
-            >
-              <Eraser className="w-3.5 h-3.5" />
-              <span>Limpar</span>
-            </button>
-
-            <button
-              type="button"
-              onClick={() => setDbOpen(true)}
-              className="inline-flex items-center justify-center gap-1.5 px-3.5 py-2 text-xs font-bold text-slate-900 bg-white border border-slate-300 hover:bg-slate-50 rounded-md transition-colors cursor-pointer whitespace-nowrap shrink-0"
-            >
-              <Database className="w-3.5 h-3.5 text-[#034263]" />
-              <span>Base de Dados</span>
-              <span className="font-mono-tabular text-xs font-medium text-slate-500">
-                ({references.length.toLocaleString('pt-PT')})
-              </span>
-            </button>
-
-            <button
-              type="button"
-              onClick={handleUpdateButtonClick}
-              disabled={checkingUpdate || installingUpdate}
-              className={`inline-flex items-center justify-center gap-1.5 px-3.5 py-2 text-xs font-bold rounded-md transition-colors cursor-pointer whitespace-nowrap shrink-0 disabled:opacity-60 ${
-                updateAvailable
-                  ? 'bg-[#ffdc00] text-black border border-amber-500 hover:bg-[#f2d000]'
-                  : 'bg-[#034263] text-white hover:bg-[#02334d]'
-              }`}
-              title={
-                updateAvailable
-                  ? 'Instalar a nova atualização disponível'
-                  : 'Verificar se existem atualizações disponíveis'
-              }
-            >
-              {updateAvailable ? (
-                <>
-                  <ArrowDownToLine className="w-3.5 h-3.5" />
-                  <span>
-                    {installingUpdate
-                      ? 'A instalar...'
-                      : 'Instalar Atualização'}
-                  </span>
-                </>
-              ) : (
-                <>
-                  <RefreshCw
-                    className={`w-3.5 h-3.5 ${checkingUpdate ? 'animate-spin' : ''}`}
-                  />
-                  <span>
-                    {checkingUpdate ? 'A verificar...' : 'Atualizar'}
-                  </span>
-                </>
-              )}
-            </button>
-
-            <button
-              type="button"
-              onClick={() => setPreviewDual((prev) => !prev)}
-              className={`hidden xl:inline-flex items-center gap-1.5 px-3 py-2 text-xs font-semibold rounded-md border transition-colors cursor-pointer whitespace-nowrap shrink-0 ${
-                previewDual
-                  ? 'bg-slate-900 text-white border-slate-900'
-                  : 'bg-white text-slate-700 border-slate-300 hover:bg-slate-50'
-              }`}
-              title="Alternar pré-visualização das 2 etiquetas A5 por página"
-            >
-              <Columns2 className="w-3.5 h-3.5" />
-              <span>{previewDual ? 'Vista Simples' : 'Pré-visualizar A4 (2x)'}</span>
-            </button>
-
-            <PWAInstallButton />
-          </div>
-
-          <div className="flex items-center gap-3 order-2 lg:order-3 shrink-0">
-            <button
-              type="button"
-              onClick={() => window.print()}
-              className="inline-flex items-center gap-2 px-4 py-2 text-xs font-semibold text-white bg-[#034263] hover:bg-[#02334d] rounded-lg transition-colors cursor-pointer whitespace-nowrap shrink-0"
-            >
-              <Printer className="w-4 h-4" />
-              <span>Imprimir</span>
-            </button>
-          </div>
+          <button
+            type="button"
+            onClick={() => setSettingsOpen(true)}
+            className={`w-full inline-flex items-center justify-center gap-2 px-4 py-2.5 text-sm font-bold rounded-lg border transition-colors cursor-pointer whitespace-nowrap ${
+              updateAvailable
+                ? 'bg-[#ffdc00] text-black border-amber-500 hover:bg-[#f2d000]'
+                : 'bg-white text-slate-800 border-slate-300 hover:bg-slate-50'
+            }`}
+          >
+            <Settings className="w-4 h-4 shrink-0" />
+            <span>Definições</span>
+          </button>
         </div>
       </header>
 
@@ -501,7 +426,48 @@ export default function App() {
             />
           </div>
         </div>
+
+        {/* Bottom Actions below STOP Card (hidden on print) */}
+        <div className="no-print mt-5 w-full max-w-[14cm] mx-auto grid grid-cols-2 gap-3">
+          <button
+            type="button"
+            onClick={() => setPreviewDual((prev) => !prev)}
+            className={`w-full inline-flex items-center justify-center gap-2 px-4 py-2.5 text-sm font-bold rounded-lg border transition-colors cursor-pointer whitespace-nowrap ${
+              previewDual
+                ? 'bg-slate-900 text-white border-slate-900'
+                : 'bg-white text-slate-800 border-slate-300 hover:bg-slate-50'
+            }`}
+            title="Alternar pré-visualização das 2 etiquetas A5 por página"
+          >
+            <Columns2 className="w-4 h-4 shrink-0" />
+            <span className="truncate">
+              {previewDual ? 'Vista Simples' : 'Pré-visualizar A4 (2x)'}
+            </span>
+          </button>
+
+          <button
+            type="button"
+            onClick={() => window.print()}
+            className="w-full inline-flex items-center justify-center gap-2 px-4 py-2.5 text-sm font-bold text-white bg-[#034263] hover:bg-[#02334d] rounded-lg shadow-xs transition-colors cursor-pointer whitespace-nowrap"
+          >
+            <Printer className="w-4 h-4 shrink-0" />
+            <span>Imprimir</span>
+          </button>
+        </div>
       </main>
+
+      {/* Settings Modal */}
+      <SettingsModal
+        open={settingsOpen}
+        referencesCount={references.length}
+        currentVersion={currentVersion}
+        updateAvailable={updateAvailable}
+        checkingUpdate={checkingUpdate}
+        installingUpdate={installingUpdate}
+        onClose={() => setSettingsOpen(false)}
+        onOpenDatabase={() => setDbOpen(true)}
+        onCheckOrInstallUpdate={handleUpdateButtonClick}
+      />
 
       {/* Database Management Modal */}
       <DatabaseModal
