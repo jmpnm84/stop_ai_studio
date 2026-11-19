@@ -1,12 +1,14 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import {
   ArrowDownToLine,
+  CheckCircle2,
   ChevronRight,
   Database,
+  Download,
   RefreshCw,
+  Smartphone,
   X,
 } from 'lucide-react';
-import { PWAInstallButton } from './PWAInstallButton.tsx';
 import { usePWAInstall } from '../hooks/usePWAInstall.ts';
 
 interface SettingsModalProps {
@@ -32,10 +34,15 @@ export const SettingsModal: React.FC<SettingsModalProps> = ({
   onOpenDatabase,
   onCheckOrInstallUpdate,
 }) => {
-  const { isInstallable, isInstalled, isIOS } = usePWAInstall();
+  const { isInstallable, isInstalled, isIOS, install } = usePWAInstall();
+  const [showInstallGuide, setShowInstallGuide] = useState(false);
+  const [installingApp, setInstallingApp] = useState(false);
 
   useEffect(() => {
-    if (!open) return;
+    if (!open) {
+      setShowInstallGuide(false);
+      return;
+    }
     const handleKeyDown = (e: KeyboardEvent) => {
       if (e.key === 'Escape') {
         onClose();
@@ -47,7 +54,21 @@ export const SettingsModal: React.FC<SettingsModalProps> = ({
 
   if (!open) return null;
 
-  const showInstallSection = !isInstalled && (isInstallable || isIOS);
+  const handleInstallAppClick = async () => {
+    if (isInstallable) {
+      setInstallingApp(true);
+      try {
+        const accepted = await install();
+        if (!accepted) {
+          setShowInstallGuide(true);
+        }
+      } finally {
+        setInstallingApp(false);
+      }
+    } else {
+      setShowInstallGuide((prev) => !prev);
+    }
+  };
 
   return (
     <div
@@ -160,20 +181,70 @@ export const SettingsModal: React.FC<SettingsModalProps> = ({
             </button>
           </div>
 
-          {/* Instalar PWA (when supported) */}
-          {showInstallSection && (
-            <div className="px-6 py-4 flex items-center justify-between gap-4">
-              <div className="min-w-0">
-                <div className="text-sm font-semibold text-slate-900">
-                  Instalar no dispositivo
+          {/* Instalar Aplicação */}
+          <div className="px-6 py-4">
+            <div className="flex items-center justify-between gap-4">
+              <div className="flex items-start gap-3 min-w-0">
+                <div className="mt-0.5 text-[#034263] shrink-0">
+                  <Smartphone className="w-5 h-5" />
                 </div>
-                <div className="text-xs text-slate-500 mt-0.5">
-                  Aceder diretamente a partir do ecrã inicial.
+                <div className="min-w-0">
+                  <div className="text-sm font-semibold text-slate-900">
+                    Instalar Aplicação
+                  </div>
+                  <div className="text-xs text-slate-500 mt-0.5">
+                    {isInstalled
+                      ? 'A aplicação já está instalada neste dispositivo.'
+                      : 'Adicionar ao ecrã inicial para acesso rápido e offline.'}
+                  </div>
                 </div>
               </div>
-              <PWAInstallButton />
+
+              {isInstalled ? (
+                <span className="inline-flex items-center gap-1.5 text-xs font-semibold text-emerald-700 whitespace-nowrap shrink-0">
+                  <CheckCircle2 className="w-4 h-4" />
+                  <span>Instalada</span>
+                </span>
+              ) : (
+                <button
+                  type="button"
+                  onClick={handleInstallAppClick}
+                  disabled={installingApp}
+                  className="inline-flex items-center justify-center gap-1.5 px-3.5 py-2 text-xs font-bold text-slate-900 bg-white border border-slate-300 hover:bg-slate-50 rounded-md transition-colors cursor-pointer whitespace-nowrap shrink-0 disabled:opacity-60"
+                >
+                  <Download className="w-3.5 h-3.5 text-[#034263]" />
+                  <span>{installingApp ? 'A instalar...' : 'Instalar App'}</span>
+                </button>
+              )}
             </div>
-          )}
+
+            {showInstallGuide && !isInstalled && (
+              <div className="mt-3 p-3 rounded-lg bg-slate-50 border border-slate-200 text-xs text-slate-700 leading-relaxed space-y-1.5">
+                {isIOS ? (
+                  <>
+                    <p className="font-semibold text-slate-900">
+                      Como instalar no iPhone / iPad (Safari):
+                    </p>
+                    <p>
+                      1. Toque no botão <strong>Partilhar</strong> na barra inferior do Safari.
+                    </p>
+                    <p>
+                      2. Selecione <strong>Adicionar ao ecrã principal</strong> e confirme em <strong>Adicionar</strong>.
+                    </p>
+                  </>
+                ) : (
+                  <>
+                    <p className="font-semibold text-slate-900">
+                      Como instalar neste navegador:
+                    </p>
+                    <p>
+                      Abra o menu do navegador (<strong>⋮</strong> ou ícone de instalação na barra de endereço) e selecione <strong>Instalar aplicação</strong> ou <strong>Adicionar ao ecrã inicial</strong>.
+                    </p>
+                  </>
+                )}
+              </div>
+            )}
+          </div>
         </div>
       </div>
     </div>
