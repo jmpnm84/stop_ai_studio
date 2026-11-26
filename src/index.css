@@ -91,6 +91,7 @@
 
   .print-page {
     display: flex !important;
+    flex-direction: row !important;
     gap: 10mm !important;
     justify-content: center !important;
     align-items: center !important;

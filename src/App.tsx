@@ -48,6 +48,10 @@ function createInitialLabel(): StopLabelData {
 export default function App() {
   const [labelData, setLabelData] = useState<StopLabelData>(createInitialLabel);
   const [motivoFontSize, setMotivoFontSize] = useState<number>(24);
+  const [labelData2, setLabelData2] = useState<StopLabelData>(createInitialLabel);
+  const [motivoFontSize2, setMotivoFontSize2] = useState<number>(24);
+  const [differentCards, setDifferentCards] = useState<boolean>(false);
+  const [activeCard, setActiveCard] = useState<1 | 2>(1);
   const [previewDual, setPreviewDual] = useState<boolean>(false);
 
   const [references, setReferences] = useState<ReferenceItem[]>([]);
@@ -149,9 +153,15 @@ export default function App() {
     setLabelData((prev) => ({ ...prev, ...patch }));
   }, []);
 
+  const handleLabel2Change = useCallback((patch: Partial<StopLabelData>) => {
+    setLabelData2((prev) => ({ ...prev, ...patch }));
+  }, []);
+
   const handleClearForm = () => {
     setLabelData(createInitialLabel());
     setMotivoFontSize(24);
+    setLabelData2(createInitialLabel());
+    setMotivoFontSize2(24);
   };
 
   const handleAddReference = async (
@@ -297,13 +307,29 @@ export default function App() {
   };
 
   const handleApplyToLabel = (item: ReferenceItem) => {
+    if (differentCards && activeCard === 2) {
+      setLabelData2((prev) => ({
+        ...prev,
+        ref: item.ref,
+        pecas: item.peca,
+      }));
+      setDbOpen(false);
+      showToast(`Referência ${item.ref} aplicada ao Cartão 2.`, 'success');
+      return;
+    }
+
     setLabelData((prev) => ({
       ...prev,
       ref: item.ref,
       pecas: item.peca,
     }));
     setDbOpen(false);
-    showToast(`Referência ${item.ref} aplicada à etiqueta.`, 'success');
+    showToast(
+      differentCards
+        ? `Referência ${item.ref} aplicada ao Cartão 1.`
+        : `Referência ${item.ref} aplicada à etiqueta.`,
+      'success'
+    );
   };
 
   return (
@@ -404,25 +430,101 @@ export default function App() {
           </div>
         )}
 
-        {/* Print Page: Bloco 1 (interactive) + Bloco 2 (print mirror / optional desktop preview) */}
-        <div className="print-page flex gap-[10mm] justify-center items-start w-full">
-          <StopLabelCard
-            id="bloco1"
-            data={labelData}
-            motivoFontSize={motivoFontSize}
-            references={references}
-            interactive
-            onChange={handleLabelChange}
-            onMotivoFontSizeChange={setMotivoFontSize}
-          />
+        {/* Mode Tick Box: 2 Different Cards vs 2 Identical Cards */}
+        <div className="no-print mb-4 w-full max-w-[14cm] mx-auto">
+          <label
+            htmlFor="different-cards-toggle"
+            className="flex items-center justify-between gap-3 px-4 py-2.5 bg-white border border-slate-200 rounded-lg cursor-pointer select-none hover:bg-slate-50 transition-colors"
+          >
+            <span className="inline-flex items-center gap-2.5">
+              <input
+                id="different-cards-toggle"
+                type="checkbox"
+                checked={differentCards}
+                onChange={(e) => {
+                  const checked = e.target.checked;
+                  setDifferentCards(checked);
+                  if (!checked) {
+                    setActiveCard(1);
+                  }
+                }}
+                className="w-4 h-4 rounded border-slate-300 accent-[#034263] cursor-pointer"
+              />
+              <span className="text-sm font-semibold text-slate-900">
+                Fazer 2 cartões diferentes
+              </span>
+            </span>
+            <span className="text-xs text-slate-500 whitespace-nowrap">
+              {differentCards ? 'Cartões independentes' : 'Imprime 2 iguais'}
+            </span>
+          </label>
+        </div>
 
-          <div className={previewDual ? 'block' : 'hidden print:block'}>
+        {/* Print Page: Bloco 1 + Bloco 2 (identical mirror when unticked, independent editable when ticked) */}
+        <div className="print-page flex flex-col xl:flex-row print:flex-row gap-6 xl:gap-[10mm] print:gap-[10mm] justify-center items-center xl:items-start print:items-center w-full">
+          <div
+            className="flex flex-col items-center max-w-full"
+            onFocusCapture={() => setActiveCard(1)}
+            onClick={() => setActiveCard(1)}
+          >
+            {differentCards && (
+              <div className="no-print mb-2 w-full flex items-center justify-between px-1">
+                <span className="text-xs font-bold text-slate-700">
+                  Cartão 1
+                </span>
+                {activeCard === 1 && (
+                  <span className="text-xs font-medium text-[#034263]">
+                    Selecionado
+                  </span>
+                )}
+              </div>
+            )}
             <StopLabelCard
-              id="bloco2"
+              id="bloco1"
               data={labelData}
               motivoFontSize={motivoFontSize}
               references={references}
-              interactive={false}
+              interactive
+              onChange={handleLabelChange}
+              onMotivoFontSizeChange={setMotivoFontSize}
+            />
+          </div>
+
+          <div
+            className={`max-w-full ${
+              differentCards || previewDual
+                ? 'flex flex-col items-center'
+                : 'hidden print:flex print:flex-col print:items-center'
+            }`}
+            onFocusCapture={() => {
+              if (differentCards) setActiveCard(2);
+            }}
+            onClick={() => {
+              if (differentCards) setActiveCard(2);
+            }}
+          >
+            {differentCards && (
+              <div className="no-print mb-2 w-full flex items-center justify-between px-1">
+                <span className="text-xs font-bold text-slate-700">
+                  Cartão 2
+                </span>
+                {activeCard === 2 && (
+                  <span className="text-xs font-medium text-[#034263]">
+                    Selecionado
+                  </span>
+                )}
+              </div>
+            )}
+            <StopLabelCard
+              id="bloco2"
+              data={differentCards ? labelData2 : labelData}
+              motivoFontSize={differentCards ? motivoFontSize2 : motivoFontSize}
+              references={references}
+              interactive={differentCards}
+              onChange={differentCards ? handleLabel2Change : undefined}
+              onMotivoFontSizeChange={
+                differentCards ? setMotivoFontSize2 : undefined
+              }
             />
           </div>
         </div>
@@ -431,17 +533,28 @@ export default function App() {
         <div className="no-print mt-5 w-full max-w-[14cm] mx-auto grid grid-cols-2 gap-3">
           <button
             type="button"
+            disabled={differentCards}
             onClick={() => setPreviewDual((prev) => !prev)}
-            className={`w-full inline-flex items-center justify-center gap-2 px-4 py-2.5 text-sm font-bold rounded-lg border transition-colors cursor-pointer whitespace-nowrap ${
-              previewDual
-                ? 'bg-slate-900 text-white border-slate-900'
-                : 'bg-white text-slate-800 border-slate-300 hover:bg-slate-50'
+            className={`w-full inline-flex items-center justify-center gap-2 px-4 py-2.5 text-sm font-bold rounded-lg border transition-colors whitespace-nowrap ${
+              differentCards
+                ? 'bg-slate-100 text-slate-400 border-slate-200 cursor-not-allowed'
+                : previewDual
+                  ? 'bg-slate-900 text-white border-slate-900 cursor-pointer'
+                  : 'bg-white text-slate-800 border-slate-300 hover:bg-slate-50 cursor-pointer'
             }`}
-            title="Alternar pré-visualização das 2 etiquetas A5 por página"
+            title={
+              differentCards
+                ? 'Os 2 cartões diferentes já estão visíveis'
+                : 'Alternar pré-visualização das 2 etiquetas A5 por página'
+            }
           >
             <Columns2 className="w-4 h-4 shrink-0" />
             <span className="truncate">
-              {previewDual ? 'Vista Simples' : 'Pré-visualizar A4 (2x)'}
+              {differentCards
+                ? '2 Cartões Visíveis'
+                : previewDual
+                  ? 'Vista Simples'
+                  : 'Pré-visualizar A4 (2x)'}
             </span>
           </button>
 

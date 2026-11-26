@@ -94,6 +94,25 @@ async function startServer(): Promise<void> {
 
   app.use(express.json({ limit: '10mb' }));
 
+  app.get('/apresentacao-trigo-stop.pdf', (req, res, next) => {
+    const pdfPath = path.resolve(
+      __dirname,
+      'public',
+      'apresentacao-trigo-stop.pdf'
+    );
+    if (!fs.existsSync(pdfPath)) {
+      next();
+      return;
+    }
+    res.setHeader('Content-Type', 'application/pdf');
+    const disposition =
+      req.query.view === '1'
+        ? 'inline; filename="Apresentacao-Trigo-STOP.pdf"'
+        : 'attachment; filename="Apresentacao-Trigo-STOP.pdf"';
+    res.setHeader('Content-Disposition', disposition);
+    res.sendFile(pdfPath);
+  });
+
   app.get('/api/version', (_req, res) => {
     const { version, buildHash } = getBuildFingerprint();
     let refsMtime = 0;
