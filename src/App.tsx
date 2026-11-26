@@ -1,5 +1,6 @@
 import { useCallback, useEffect, useState } from 'react';
 import {
+  AlertTriangle,
   ArrowDownToLine,
   Columns2,
   Eraser,
@@ -431,10 +432,18 @@ export default function App() {
         )}
 
         {/* Mode Tick Box: 2 Different Cards vs 2 Identical Cards */}
-        <div className="no-print mb-4 w-full max-w-[14cm] mx-auto">
+        <div
+          className={`no-print mb-4 w-full max-w-[14cm] mx-auto rounded-lg border transition-colors ${
+            differentCards
+              ? 'bg-amber-50 border-amber-400'
+              : 'bg-white border-slate-200'
+          }`}
+        >
           <label
             htmlFor="different-cards-toggle"
-            className="flex items-center justify-between gap-3 px-4 py-2.5 bg-white border border-slate-200 rounded-lg cursor-pointer select-none hover:bg-slate-50 transition-colors"
+            className={`flex items-center justify-between gap-3 px-4 py-2.5 rounded-lg cursor-pointer select-none transition-colors ${
+              differentCards ? 'hover:bg-amber-100/60' : 'hover:bg-slate-50'
+            }`}
           >
             <span className="inline-flex items-center gap-2.5">
               <input
@@ -450,14 +459,40 @@ export default function App() {
                 }}
                 className="w-4 h-4 rounded border-slate-300 accent-[#034263] cursor-pointer"
               />
+              {differentCards && (
+                <AlertTriangle
+                  className="w-5 h-5 text-black fill-[#ffdc00] shrink-0"
+                  aria-hidden="true"
+                />
+              )}
               <span className="text-sm font-semibold text-slate-900">
                 Fazer 2 cartões diferentes
               </span>
             </span>
-            <span className="text-xs text-slate-500 whitespace-nowrap">
+            <span
+              className={`text-xs whitespace-nowrap ${
+                differentCards
+                  ? 'font-bold text-amber-900'
+                  : 'text-slate-500'
+              }`}
+            >
               {differentCards ? 'Cartões independentes' : 'Imprime 2 iguais'}
             </span>
           </label>
+          {differentCards && (
+            <div
+              role="alert"
+              className="border-t border-amber-300/80 px-4 py-2 flex items-center gap-2 text-xs font-medium text-amber-950"
+            >
+              <AlertTriangle
+                className="w-4 h-4 text-black fill-[#ffdc00] shrink-0"
+                aria-hidden="true"
+              />
+              <span>
+                Atenção: está a criar 2 cartões diferentes. Verifique ambos os cartões antes de imprimir.
+              </span>
+            </div>
+          )}
         </div>
 
         {/* Print Page: Bloco 1 + Bloco 2 (identical mirror when unticked, independent editable when ticked) */}

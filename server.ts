@@ -228,7 +228,21 @@ async function startServer(): Promise<void> {
       server: {
         middlewareMode: true,
         hmr: false,
+        ws: false,
       },
+      plugins: [
+        {
+          name: 'disable-vite-client-ws',
+          transform(code, id) {
+            if (id.replace(/\\/g, '/').endsWith('vite/dist/client/client.mjs')) {
+              return code.replace(
+                'transport.connect(createHMRHandler(handleMessage));',
+                '/* WebSocket disabled in middleware mode */'
+              );
+            }
+          },
+        },
+      ],
       appType: 'spa',
     });
     app.use(vite.middlewares);
